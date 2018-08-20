@@ -1,0 +1,19 @@
+
+config-scripts
+
+A set of Python tools for modifying pDAQ XML run configurations. 
+
+* updateCalibration.py 
+
+Update a full-detector configuration with new DOM settings based on DOMCal results.
+
+* removeDOMs.py
+
+Remove one or a list of DOMs from the run configuration.
+
+* badDOMs.py
+
+Print a list of DOMs that have their high voltage off or are inferred not
+to be in the configuration.
+
+
