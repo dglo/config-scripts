@@ -1,0 +1,6 @@
+# Ignore Subversion directory during Git transition
+.svn
+
+# Python stuff
+*.pyc
+__pycache__

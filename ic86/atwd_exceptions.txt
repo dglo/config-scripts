@@ -1,0 +1,53 @@
+# IC86 ATWD selection and bias (frequency) exceptions file
+# 
+# Format is 
+#   mbid chip_select atwd_bias_0 atwd_bias_1
+# 
+# ATWD 0 = chip A and 1 = chip B (which chip to use)
+# "-" in a field means do not override
+
+# DOMs that have HV off and we don't update calibration
+# 07-44	 "Ear_Muffs"
+8b13cb959e23 - 850 850
+
+# IceACT trigger mainboard is hand-tuned
+# 00-01  "Reliant_Robin"
+f316d197344f - 850 850
+
+# DOMs with one chip disabled -- calibration may or may not be good
+# 19-60	 "Coxae"	
+24eceb28abce 1 850 -
+
+# 23-31	 "Stora_hunden"	
+3c9c7ace8dfb 1 690 -
+
+# 24-01	 "Boerenkaas"	
+6dac20fd0621 0 - 808
+
+# 26-61	 "William_Parry"	
+8e51f7605a0f 1 755 -
+
+# 40-60	 "Cavatelli"	
+9de6c286404c 1 934 -
+
+# 45-60	 "Cylinder"	
+0459432cb062 1 - -
+
+# 52-21	 "Air_Burkina"	
+8e915fcd588c 0 - 800
+
+# 54-51	 "Dendrophilia"	
+f97c4b42fc5f 1 958 -
+
+# 54-52	 "Raketost"	
+9fcd706ca864 1 911 -
+
+# 66-21	 "Bryology"	
+43149cdc4362 0 - 943
+
+# 67-63	 "Oklahoma_City"	
+429942a3e830 1 968 -
+
+# 84-41	 "Larvklubba"	
+e677731571cb 1 843 -
+

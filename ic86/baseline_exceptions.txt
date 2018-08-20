@@ -1,0 +1,21 @@
+# IC86 baseline exceptions file
+# 
+# Sets baselines in DOM configuration
+#
+# For the moment, this just enables regeneration of 
+# the baselines (which are not normally updated)
+# from the ATWD calibration results.
+#
+# Format (for now) is 
+#   mbid
+#
+
+# Added back for IC86-2018
+# 59-46 Pichelsberg
+203e9026afb1
+# 09-16 The_Penguin
+ee7de4bcda52
+# 05-22 Dalls_Porpoise
+1dfe86ab70d0
+
+

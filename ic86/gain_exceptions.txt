@@ -1,0 +1,101 @@
+# IC86 gain exceptions file
+#
+# Format is 
+#  mbid  target_hv  target_gain
+#
+# where you can set either a target voltage setting (V*2)
+# or gain (if you set both, the HV will override the gain)
+# Use "-" for no setting.
+
+# IceTop HG/LG swaps
+# 26-61	 "William_Parry"
+8e51f7605a0f - 1e5
+# 26-62	 "Hand"
+9ff68ca35585 - 5e6
+# 39-62	 "Unagi"
+0b5dc6a92170 - 5e6
+# 67-63	 "Oklahoma_City"
+429942a3e830 - 1e5
+# 67-64	 "Florida"
+cf08dc9919da - 5e6
+
+# HV is off
+# 07-44	 "Ear_Muffs"
+8b13cb959e23 0 -
+# 38-59	 "Blackberry"
+dd7b82733671 0 -
+# 60-55	 "Schango"
+bfce23980286 0 -
+# 68-42	 "Krabba"
+44e218aa590c 0 -
+# 00-01  "Reliant_Robin"
+f316d197344f 0 -
+
+# NEW for IC86-2013
+# 01-46 "Dovhjort"
+5318524a79f4 0 -
+# 22-49 "Les_Arcs"
+6745a006074f 0 -
+
+# Setting are not updated 
+# 21-30   "Phenol"
+57bb7c43b042 2500 -
+
+# 1e7 HV out of comfort zone
+# stick with IC86-2013 settings
+# 63-26   "Duck_Hunt"
+6f2a6d70f69e 3235 -
+# 77-25   "Fontina"
+737b88a52d11 3253 -
+
+# Noise rate too high if HV adjusted upward
+# 09-62   "Starcraft"
+81dc33d54be9 1368 -
+
+# Flary DOMs: lower gain to reduce flare rate/brightness
+# added for IC86-2018
+
+# 83-20  "Ibis_Bicycles"
+291080f467f5 - 6.7e6
+# 83-22  "Raleigh_Bikes"
+2cc3f2a04220 - 6.7e6
+# 82-51  "Hallon"
+016ebf80b896 - 6.7e6
+# 83-58  "Acadia"
+a5fefd7755fd - 6.7e6
+# 83-33  "Pictured_Rocks"
+6329adbd7c13 - 6.7e6
+# 52-57  "Tattby"
+ae99e4297c66 - 6.7e6
+# 80-31  "Yarn_People"
+201d4e7aa59c - 6.7e6
+# 83-52  "Hawaii_Volcanoes"
+4c8f583e2732 - 6.7e6
+# 27-57  "Soay"
+8ba1d0f31ada - 6.7e6
+# 83-12  "Klein"
+e53385a4835a - 6.7e6
+# 85-18  "Hurts"
+ab94d65662d7 - 6.7e6
+# 47-49  "Asat"
+1eb4f2e88f64 - 6.7e6
+# 82-57  "Space_Alligator"
+5799a318ae7e - 6.7e6
+# 80-47  "Vikare"
+f5a956b102e8 - 6.7e6
+# 80-24  "Poliziano"
+a986747a219c - 6.7e6
+# 57-40  "Nyama"
+25fdc90e035a - 6.7e6
+# 50-52  "Cord_Sportsman"
+8c7165c1ee37 - 6.7e6
+# 45-60  "Cylinder"
+0459432cb062 - 6.7e6
+# 09-56  "Xalda"
+2cbf32378b93 - 6.7e6
+# 09-22  "Beaked_Whale"
+478589a2f468 - 6.7e6
+# 51-59  "Citrine"
+cf48396f7e23 - 6.7e6
+# 80-42  "Brandlilja"
+d5f68ab474ae - 6.7e6
