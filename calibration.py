@@ -92,7 +92,7 @@ class CalibrationResults:
 
         vBias = self.getDAC(mbid, DAC_BIAS_VOLTAGE)*5./4096.        
         baseline = 0.        
-        for bin in xrange(128):
+        for bin in range(128):
             filters = [['id', str(atwd)], ['channel', str(ch)], ['bin', str(bin)]]
             atwdCal = self.getFitCal(mbid, 'atwd', filters=filters)
             if atwdCal is None:

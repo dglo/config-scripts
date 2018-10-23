@@ -251,8 +251,8 @@ if __name__ == "__main__":
 
     blArr = rc.domCfgs[testhub].getDOMBaselines(testid)
     print testid, "baselines:", blArr
-    for atwd in xrange(2):
-        for ch in xrange(3):
+    for atwd in range(2):
+        for ch in range(3):
             blArr[atwd][ch] = blArr[atwd][ch]+1
     rc.domCfgs[testhub].setDOMBaselines(testid, blArr)
     print testid, "baselines updated to:", blArr
