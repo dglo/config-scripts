@@ -469,8 +469,8 @@ def main():
             if mbid in blExc:
                 blOld = domCfg.getDOMBaselines(mbid)
                 blNew = [[0,0,0],[0,0,0]]
-                for chip in xrange(2):
-                    for ch in xrange(3):
+                for chip in range(2):
+                    for ch in range(3):
                         blNew[chip][ch] = cal.getBaseline(mbid, chip, ch)
 
                 print "WARNING: updating ATWD baselines", \

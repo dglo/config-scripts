@@ -26,8 +26,8 @@ omkeyString = "bad_doms = [ "
 
 # List of complete deployed DOMs
 nBad = 0
-for string in xrange(1,87):
-    for dom in xrange(1,64):
+for string in range(1,87):
+    for dom in range(1,64):
         if (dom > 60) and (string > 81):
             continue
         pos = [string, dom]
