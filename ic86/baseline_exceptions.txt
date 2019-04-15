@@ -10,12 +10,8 @@
 #   mbid
 #
 
-# Added back for IC86-2018
-# 59-46 Pichelsberg
-203e9026afb1
-# 09-16 The_Penguin
-ee7de4bcda52
-# 05-22 Dalls_Porpoise
-1dfe86ab70d0
+# Added back for IC86-2019
+# 30-60 Rowan
+7f01563a42c2
 
 
