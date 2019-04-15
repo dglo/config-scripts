@@ -32,6 +32,7 @@ MAX_HV_SCINT = 2500
 # Warning settings
 WARN_HV_CHANGE = 15
 WARN_SPE_DISC_CHANGE = 5
+WARN_SPE_DISC_CHANGE_PE = 0.055
 WARN_ATWD_FREQ_CHANGE = 5
 WARN_ATWD_FREQ_CHANGE_MHZ = 0.5
 WARN_MAX_GAIN_DIFF_PCT = 15
@@ -410,7 +411,9 @@ def main():
             else:    
 	        speDiscList.append(speDiscDiff)
                 oldDiscPE = cal.getSPEThresh(mbid, speDiscOld, gain)
-                speDiscPEList.append(DISC_INICE_PE-oldDiscPE)
+                newDiscPE = cal.getSPEThresh(mbid, speDiscNew, gain)
+                speDiscDiffPE = newDiscPE-oldDiscPE
+                speDiscPEList.append(speDiscDiffPE)
 
             # Do not check IceTop differences
             if not isIceTop and (abs(speDiscDiff) > WARN_SPE_DISC_CHANGE):
@@ -418,6 +421,11 @@ def main():
                       mbid, "%02d-%02d" % (string, dompos), \
                       nicks.getDOMName(mbid), speDiscOld, speDiscNew
 
+            if not isIceTop and not isScint and (abs(speDiscDiffPE) > WARN_SPE_DISC_CHANGE_PE):
+                print "WARNING: large SPE discriminator change (%.2f PE)" % (speDiscDiffPE),\
+                      mbid, "%02d-%02d" % (string, dompos), \
+                      nicks.getDOMName(mbid), "%0.2f" % oldDiscPE, DISC_INICE_PE
+            
             if not dryrun:
                 domCfg.setDOMSetting(mbid, 'speTriggerDiscriminator', speDiscNew)
                 domCfg.setDOMSetting(mbid, 'mpeTriggerDiscriminator', mpeDiscNew)                
@@ -439,6 +447,10 @@ def main():
                             int(domCfg.getDOMSetting(mbid, 'atwd1TriggerBias'))]
             atwdFreqMHzOld = (cal.getATWDFreq(mbid, 0, atwdFreqOld[0]),
                               cal.getATWDFreq(mbid, 1, atwdFreqOld[1]))
+            atwdFreqMHzNew = (cal.getATWDFreq(mbid, 0, atwdFreqNew[0]),
+                              cal.getATWDFreq(mbid, 1, atwdFreqNew[1]))
+
+            atwdFreqMHzDiff = (atwdFreqMHzNew[0]-atwdFreqMHzOld[0], atwdFreqMHzNew[1]-atwdFreqMHzOld[1])
 
             if (abs(atwdFreqNew[0]-atwdFreqOld[0]) > WARN_ATWD_FREQ_CHANGE) or \
                (abs(atwdFreqNew[1]-atwdFreqOld[1]) > WARN_ATWD_FREQ_CHANGE):
@@ -446,16 +458,16 @@ def main():
                       mbid, "%02d-%02d" % (string, dompos), \
                       nicks.getDOMName(mbid), atwdFreqOld, atwdFreqNew
 
-            if ((mbid not in bias0Exc) and (math.fabs(ATWD_FREQ_MHZ-atwdFreqMHzOld[0]) > WARN_ATWD_FREQ_CHANGE_MHZ)) or \
-               ((mbid not in bias1Exc) and (math.fabs(ATWD_FREQ_MHZ-atwdFreqMHzOld[1]) > WARN_ATWD_FREQ_CHANGE_MHZ)):
+            if ((math.fabs(atwdFreqMHzDiff[0]) > WARN_ATWD_FREQ_CHANGE_MHZ)) or \
+               ((math.fabs(atwdFreqMHzDiff[1]) > WARN_ATWD_FREQ_CHANGE_MHZ)):
                 print "WARNING: large ATWD sampling speed change",\
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), "(%.2f, %.2f MHz)" % (ATWD_FREQ_MHZ-atwdFreqMHzOld[0],ATWD_FREQ_MHZ-atwdFreqMHzOld[1])
+                      nicks.getDOMName(mbid), "(%.2f, %.2f MHz)" % (atwdFreqMHzNew[0]-atwdFreqMHzOld[0],atwdFreqMHzNew[1]-atwdFreqMHzOld[1])
                 
             atwdFreqList.append(atwdFreqNew[0]-atwdFreqOld[0])
             atwdFreqList.append(atwdFreqNew[1]-atwdFreqOld[1])
-            atwdFreqMHzList.append(ATWD_FREQ_MHZ-atwdFreqMHzOld[0])
-            atwdFreqMHzList.append(ATWD_FREQ_MHZ-atwdFreqMHzOld[1])
+            atwdFreqMHzList.append(atwdFreqMHzDiff[0])
+            atwdFreqMHzList.append(atwdFreqMHzDiff[1])
 
             if not dryrun:
                 domCfg.setDOMSetting(mbid, 'atwd0TriggerBias', atwdFreqNew[0])
