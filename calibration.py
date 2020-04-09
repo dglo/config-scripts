@@ -47,7 +47,8 @@ class CalibrationResults(object):
         for filename in calList:
             m = re.match(".*domcal_([0-9a-f]+)\.xml", filename)
             if not m:
-                print("Didn't understand filename convention of ",filename,", skipping", file=sys.stderr)
+                print("Didn't understand filename convention of ",filename,", skipping",
+                      file=sys.stderr)
                 continue
             mbid = m.group(1)
 
@@ -55,13 +56,15 @@ class CalibrationResults(object):
                 parser = etree.XMLParser(remove_comments=False, remove_pis=False)
                 tree = etree.parse(filename, parser=parser)                
             except:
-                print("WARNING: error parsing file",filename,", skipping", file=sys.stderr)
+                print("WARNING: error parsing file",filename,", skipping",
+                      file=sys.stderr)
                 continue
             
             if tree:
                 self.cal[mbid] = tree.getroot()
             else:
-                print("Couldn't parse calibration file",filename,"skipping", file=sys.stderr)
+                print("Couldn't parse calibration file",filename,"skipping",
+                      file=sys.stderr)
                 
     def __str__(self):
         str = ""
@@ -254,39 +257,88 @@ class CalibrationResults(object):
         return delta_t
 
 # FIX ME turn into tests
-if __name__ == "__main__":    
-    cal = CalibrationResults(sys.argv[1], filter="domcal*.xml")
+if __name__ == "__main__":
+    TESTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ic86/test")
+    cal = CalibrationResults(TESTDIR, filter="domcal*.xml")
 
     # Test with HV
-    testid = 'eaf3fe2cc0e2'
-    if not cal.exists(testid):
-        print("Couldn't find calibration for DOM",testid)
-        sys.exit(-1)
-    print("Calibration settings for DOM",testid)        
-    print("log(gain) at 1300V: ",math.log10(cal.getGain(testid, 1300)))
-    print("HV setting for 1e7 gain:",cal.getHVSetting(testid, 1e7))
-    print("Gain at HV+2V:",cal.getGain(testid, cal.getHVSetting(testid,1e7)/2. + 2.))
-    print("Disc. setting of 0.25 PE at 1e7 gain:",cal.getSPEDisc(testid, 0.25, 1e7))
-    print("Threshold at DAC setting of 560:", cal.getSPEThresh(testid, 560, 1e7))
-    print("Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
-          cal.getATWDFreqSetting(testid, 1, 300.))
-    print("Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
-          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2))
-    print("Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
-          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2))
-    print("Delta T for chip 0:",cal.getDeltaT(testid, True, 0))
-    print("Delta T for chip 1:",cal.getDeltaT(testid, True, 1))
-    print("Delta T for FADC:",cal.getDeltaT(testid, False, 0))    
-    # Test without HV
-    testid = '4ad659054904'
-    if not cal.exists(testid):
-        print("Couldn't find calibration for DOM",testid)
-        sys.exit(-1)
-    print("Calibration settings for DOM",testid)
-    print("Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
-          cal.getATWDFreqSetting(testid, 1, 300.))
-    print("Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
-          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2))
-    print("Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
-          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2))    
-    print("Discriminator setting for 0.25PE:",cal.getSPEDisc(testid, 0.25, 1e7))
+    try:
+        testid = 'eaf3fe2cc0e2'
+        assert cal.exists(testid)
+        print("Calibration settings for DOM", testid)
+
+        loggain = math.log10(cal.getGain(testid, 1300))
+        assert(abs(loggain-6.992) < 0.001)
+        print("log(gain) at 1300V: ", loggain)
+        
+        hv = cal.getHVSetting(testid, 1e7)
+        assert(hv == 2606)
+        print("HV setting for 1e7 gain:",hv)
+        
+        disc = cal.getSPEDisc(testid, 0.25, 1e7)
+        assert(disc == 565)
+        print("Disc. setting of 0.25 PE at 1e7 gain:", disc)
+        
+        thresh = cal.getSPEThresh(testid, 560, 1e7)
+        assert(abs(thresh-0.197) < 0.001)
+        print("Threshold at DAC setting of 560:", thresh)
+        
+        (bias0, bias1) = (cal.getATWDFreqSetting(testid, 0, 300.), cal.getATWDFreqSetting(testid, 1, 300.))
+        assert(bias0 == 827)
+        assert(bias1 == 820)
+        print("Trigger bias setting at 300 MHz:", bias0, bias1)
+        
+        (bl0_0, bl0_1, bl0_2) = cal.getBaseline(testid, 0, 0), \
+                                cal.getBaseline(testid, 0, 1), \
+                                cal.getBaseline(testid, 0, 2)
+        assert(bl0_0 == 128)
+        assert(bl0_1 == 130)
+        assert(bl0_2 == 135)
+        print("Average baselines for chip 0:", (bl0_0, bl0_1, bl0_2))
+        
+        (bl1_0, bl1_1, bl1_2) = cal.getBaseline(testid, 1, 0), \
+                                cal.getBaseline(testid, 1, 1), \
+                                cal.getBaseline(testid, 1, 2)
+        assert(bl1_0 == 130)
+        assert(bl1_1 == 135)
+        assert(bl1_2 == 139)
+        print("Average baselines for chip 1:", (bl1_0, bl1_1, bl1_2))
+        
+        dt0 = cal.getDeltaT(testid, True, 0)
+        assert(dt0 == 0.0)
+        print("Delta T for chip 0:", dt0)
+        
+        dt1 = cal.getDeltaT(testid, True, 1)
+        assert(abs(dt1-(-0.421)) < 0.001)
+        print("Delta T for chip 1:", dt1)
+        
+        dt_fadc = cal.getDeltaT(testid, False, 0)
+        assert(abs(dt_fadc-(-112.67)) < 0.01)
+        print("Delta T for FADC:", dt_fadc)
+        
+        # Test without HV
+        testid = '9ed5742a784d'
+        assert(cal.exists(testid))
+        print("Calibration settings for DOM",testid)
+        
+        (bias0, bias1) = (cal.getATWDFreqSetting(testid, 0, 300.), cal.getATWDFreqSetting(testid, 1, 300.))
+        assert(bias0 == 902)
+        assert(bias1 == 914)
+        print("Trigger bias setting at 300 MHz:", bias0, bias1)
+        
+        (bl0_0, bl0_1, bl0_2) = cal.getBaseline(testid, 0, 0), \
+                                cal.getBaseline(testid, 0, 1), \
+                                cal.getBaseline(testid, 0, 2)
+        assert(bl0_0 == 125)
+        assert(bl0_1 == 130)
+        assert(bl0_2 == 133)
+        print("Average baselines for chip 0:", (bl0_0, bl0_1, bl0_2))
+        
+        # Will use non-PMT disc cal
+        disc = cal.getSPEDisc(testid, 0.25, 1e7)
+        assert(disc == 569)
+        print("Discriminator setting for 0.25PE:", disc)
+        print("===PASS===")
+    except AssertionError:
+        print("===FAIL===")
+        
