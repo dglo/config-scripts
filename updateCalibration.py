@@ -412,7 +412,7 @@ def main():
             elif isScint:
                 speDiscListScint.append(speDiscDiff)
             else:    
-	        speDiscList.append(speDiscDiff)
+                speDiscList.append(speDiscDiff)
                 oldDiscPE = cal.getSPEThresh(mbid, speDiscOld, gain)
                 newDiscPE = cal.getSPEThresh(mbid, speDiscNew, gain)
                 speDiscDiffPE = newDiscPE-oldDiscPE
