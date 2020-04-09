@@ -4,11 +4,13 @@
 # high voltage.
 #
 
+from __future__ import print_function
+from builtins import range
 from nicknames import *
 from runConfig import *
 
 if (len(sys.argv) != 2):
-    print "Usage: %s <runconfig.xml>" % sys.argv[0]
+    print("Usage: %s <runconfig.xml>" % sys.argv[0])
     sys.exit(0)
 
 rc = RunConfig(sys.argv[1], oldFormat=False)
@@ -41,6 +43,6 @@ for string in range(1,87):
 omkeyString = omkeyString[:-1]
 omkeyString += " ]"
 
-print "Found %d bad DOMs" % nBad
-print omkeyString
+print("Found %d bad DOMs" % nBad)
+print(omkeyString)
 

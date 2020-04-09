@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 #
 
+from __future__ import print_function
+from builtins import str
+from builtins import range
 import sys
 import getopt
 import os
@@ -42,22 +45,22 @@ OUTPUT_FILE = "calupdate.txt"
 
 def usage():
     """ Print program usage """
-    print "Usage: %s [-htsi] [-v ###] [-n new_config_name]" % (sys.argv[0]), \
+    print("Usage: %s [-htsi] [-v ###] [-n new_config_name]" % (sys.argv[0]), \
         "[-c new_domconfig_name] [-g gain_file]",\
         "[-d disc_file] [-a atwd_file] [-b baseline_file]", \
-        "[-r beacon_rate] run_config.xml calibration_dir"
-    print "    -h       print this help message"
-    print "    -t       test run; do not write out new configuration"
-    print "    -s       save differences in settings for later plotting"
-    print "    -i       do not update IceTop high voltage or beacon rate settings"
-    print "    -g       gain override file"
-    print "    -d       discriminator override file"
-    print "    -a       ATWD override file"
-    print "    -b       baseline override file"
-    print "    -r       target beacon rate in Hz"
-    print "    -v ###   version number of new configuration"
-    print "    -n name  name of new configuration (top level)"
-    print "    -c name  name of new configuration (DOM config base name)"    
+        "[-r beacon_rate] run_config.xml calibration_dir")
+    print("    -h       print this help message")
+    print("    -t       test run; do not write out new configuration")
+    print("    -s       save differences in settings for later plotting")
+    print("    -i       do not update IceTop high voltage or beacon rate settings")
+    print("    -g       gain override file")
+    print("    -d       discriminator override file")
+    print("    -a       ATWD override file")
+    print("    -b       baseline override file")
+    print("    -r       target beacon rate in Hz")
+    print("    -v ###   version number of new configuration")
+    print("    -n name  name of new configuration (top level)")
+    print("    -c name  name of new configuration (DOM config base name)")    
 
 def getGainExceptions(filename):
     gainExc = {}
@@ -65,7 +68,7 @@ def getGainExceptions(filename):
     if filename is not None:
         f = open(filename, "r")
         if not f:
-            print >> sys.stderr, "ERROR: couldn't open gain exceptions file",filename
+            print("ERROR: couldn't open gain exceptions file",filename, file=sys.stderr)
             sys.exit(-1)
         for line in f.readlines():
 
@@ -89,7 +92,7 @@ def getDiscExceptions(filename):
     if filename is not None:
         f = open(filename, "r")
         if not f:
-            print >> sys.stderr, "ERROR: couldn't open exceptions file",filename
+            print("ERROR: couldn't open exceptions file",filename, file=sys.stderr)
             sys.exit(-1)
         for line in f.readlines():
             if line.strip().startswith("#"):
@@ -111,7 +114,7 @@ def getBaselineExceptions(filename):
     if filename is not None:
         f = open(filename, "r")
         if not f:
-            print >> sys.stderr, "ERROR: couldn't open exceptions file",filename
+            print("ERROR: couldn't open exceptions file",filename, file=sys.stderr)
             sys.exit(-1)
         for line in f.readlines():
             if line.strip().startswith("#"):
@@ -132,7 +135,7 @@ def getATWDExceptions(filename):
     if filename is not None:
         f = open(filename, "r")
         if not f:
-            print >> sys.stderr, "ERROR: couldn't open ATWD exceptions file",filename
+            print("ERROR: couldn't open ATWD exceptions file",filename, file=sys.stderr)
             sys.exit(-1)
         for line in f.readlines():
             if line.strip().startswith("#"):
@@ -176,7 +179,7 @@ def getRateSetting(rate):
     rate_int = int(math.ceil(1e9/(25.0*(1<<26)))*(1<<s))
     # Make sure it worked
     if (int(26 + math.log(rate_int/(1e9/25))/math.log(2)) != s):
-        print "WARNING: internal error calculating target rate!"
+        print("WARNING: internal error calculating target rate!")
     
     return rate_int
 
@@ -196,7 +199,7 @@ def main():
                       "disc", "gain", "atwd", "baseline", "rate",
                       "version", "name", "domname"])
     except getopt.GetoptError as err:
-        print str(err)
+        print(str(err))
         usage()
         sys.exit(2)
 
@@ -253,27 +256,27 @@ def main():
     (chipExc, bias0Exc, bias1Exc) = getATWDExceptions(atwdFile)
     blExc = getBaselineExceptions(baselineFile)
     if hvExc:
-        print "Applying",len(hvExc),"HV exceptions from",gainFile
+        print("Applying",len(hvExc),"HV exceptions from",gainFile)
     if gainExc:
-        print "Applying",len(gainExc),"gain exceptions from",gainFile
+        print("Applying",len(gainExc),"gain exceptions from",gainFile)
     if discExc:
-        print "Applying",len(discExc),"discriminator exceptions from",discFile
+        print("Applying",len(discExc),"discriminator exceptions from",discFile)
     if discExcPE:
-        print "Applying",len(discExcPE),"discriminator PE exceptions from",discFile
+        print("Applying",len(discExcPE),"discriminator PE exceptions from",discFile)
     #if chipExc is not None:
     #    print "Applying",len(chipExc),"ATWD chip selection exceptions from",atwdFile
     if bias0Exc:
-        print "Applying",len(bias0Exc),"ATWD0 bias exceptions from",atwdFile
+        print("Applying",len(bias0Exc),"ATWD0 bias exceptions from",atwdFile)
     if bias1Exc:
-        print "Applying",len(bias1Exc),"ATWD1 bias exceptions from",atwdFile
+        print("Applying",len(bias1Exc),"ATWD1 bias exceptions from",atwdFile)
     if blExc:
-        print "Applying",len(blExc),"ATWD baseline exceptions from",baselineFile
+        print("Applying",len(blExc),"ATWD baseline exceptions from",baselineFile)
 
     # Parse the run configuration files
     try:
         rc = RunConfig(cfgName, oldFormat=False)
     except RunConfigException:
-        print "WARNING: couldn't parse run configuration; trying old format..."
+        print("WARNING: couldn't parse run configuration; trying old format...")
         rc = RunConfig(cfgName, oldFormat=True)
         
     # DOM positions, names, etc.
@@ -299,8 +302,8 @@ def main():
                 cal = CalibrationResults(calDir, filter=f)
 
             if not cal.exists(mbid):
-                print "WARNING: no calibration results for", mbid, \
-                      nicks.getDOMPosition(mbid), nicks.getDOMName(mbid)
+                print("WARNING: no calibration results for", mbid, \
+                      nicks.getDOMPosition(mbid), nicks.getDOMName(mbid))
                 continue
             
             (string, dompos) = nicks.getDOMPosition(mbid)
@@ -331,11 +334,11 @@ def main():
 
             # Make sure HV is in range
             if not isScint and (hvSetNew > MAX_HV):
-                print "WARNING: HV setting %d for %s too high!  Clamping!\n" % (hvSetNew, mbid)
+                print("WARNING: HV setting %d for %s too high!  Clamping!\n" % (hvSetNew, mbid))
                 hvSetNew = MAX_HV
             elif isScint and (hvSetNew > MAX_HV_SCINT):
-                print "WARNING: HV setting %d for scintillator %s too high!  Clamping!\n" \
-                      % (hvSetNew, mbid)
+                print("WARNING: HV setting %d for scintillator %s too high!  Clamping!\n" \
+                      % (hvSetNew, mbid))
                 hvSetNew = MAX_HV_SCINT
                 
             hvSetOld = int(domCfg.getDOMSetting(mbid, 'pmtHighVoltage'))
@@ -345,10 +348,10 @@ def main():
             if gain > 0:
                 gainDiffPct = (gain-gainOld)/gain*100.
                 if (math.fabs(gainDiffPct) > WARN_MAX_GAIN_DIFF_PCT):
-                    print "WARNING: large gain change (%.1f%%)" % (gainDiffPct),\
+                    print("WARNING: large gain change (%.1f%%)" % (gainDiffPct),\
                         mbid, "%02d-%02d" % (string, dompos), \
                         nicks.getDOMName(mbid), "%.1f %.1f" \
-                        % (math.log10(cal.getGain(mbid, hvSetOld/2.)), math.log10(gain))
+                        % (math.log10(cal.getGain(mbid, hvSetOld/2.)), math.log10(gain)))
             else:
                 gainDiffPct = 0.
                 
@@ -366,14 +369,14 @@ def main():
             # unless specifically overridden in the HV exceptions list
             if isIceTop and icetopDisable and not (mbid in hvExc):
                 if abs(hvDiff) > WARN_HV_CHANGE:
-                    print "WARNING: large HV change predicted, but disabled for IceTop (%.1f V)" % (hvDiff),\
+                    print("WARNING: large HV change predicted, but disabled for IceTop (%.1f V)" % (hvDiff),\
                           mbid, "%02d-%02d" % (string, dompos), \
-                          nicks.getDOMName(mbid), hvSetOld, hvSetNew
+                          nicks.getDOMName(mbid), hvSetOld, hvSetNew)
             else:
                 if abs(hvDiff) > WARN_HV_CHANGE:
-                    print "WARNING: large HV change (%.1f V)" % (hvDiff),\
+                    print("WARNING: large HV change (%.1f V)" % (hvDiff),\
                           mbid, "%02d-%02d" % (string, dompos), \
-                          nicks.getDOMName(mbid), hvSetOld, hvSetNew
+                          nicks.getDOMName(mbid), hvSetOld, hvSetNew)
 
                 if not dryrun:
                     domCfg.setDOMSetting(mbid, 'pmtHighVoltage', hvSetNew)
@@ -384,7 +387,7 @@ def main():
                 (speDiscNew, mpeDiscNew) = discExc[mbid]
             elif mbid in discExcPE:
                 if isIceTop:
-                    print "WARNING: SPE-only discriminator override applied to IceTop DOM!"
+                    print("WARNING: SPE-only discriminator override applied to IceTop DOM!")
                 speDiscNew = cal.getSPEDisc(mbid, discExcPE[mbid], gain)
                 mpeDiscNew = speDiscNew+100
             else:
@@ -417,14 +420,14 @@ def main():
 
             # Do not check IceTop differences
             if not isIceTop and (abs(speDiscDiff) > WARN_SPE_DISC_CHANGE):
-                print "WARNING: large SPE discriminator change (%d counts)" % (speDiscDiff),\
+                print("WARNING: large SPE discriminator change (%d counts)" % (speDiscDiff),\
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), speDiscOld, speDiscNew
+                      nicks.getDOMName(mbid), speDiscOld, speDiscNew)
 
             if not isIceTop and not isScint and (abs(speDiscDiffPE) > WARN_SPE_DISC_CHANGE_PE):
-                print "WARNING: large SPE discriminator change (%.2f PE)" % (speDiscDiffPE),\
+                print("WARNING: large SPE discriminator change (%.2f PE)" % (speDiscDiffPE),\
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), "%0.2f" % oldDiscPE, DISC_INICE_PE
+                      nicks.getDOMName(mbid), "%0.2f" % oldDiscPE, DISC_INICE_PE)
             
             if not dryrun:
                 domCfg.setDOMSetting(mbid, 'speTriggerDiscriminator', speDiscNew)
@@ -454,15 +457,15 @@ def main():
 
             if (abs(atwdFreqNew[0]-atwdFreqOld[0]) > WARN_ATWD_FREQ_CHANGE) or \
                (abs(atwdFreqNew[1]-atwdFreqOld[1]) > WARN_ATWD_FREQ_CHANGE):
-                print "WARNING: large ATWD trigger bias change",\
+                print("WARNING: large ATWD trigger bias change",\
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), atwdFreqOld, atwdFreqNew
+                      nicks.getDOMName(mbid), atwdFreqOld, atwdFreqNew)
 
             if ((math.fabs(atwdFreqMHzDiff[0]) > WARN_ATWD_FREQ_CHANGE_MHZ)) or \
                ((math.fabs(atwdFreqMHzDiff[1]) > WARN_ATWD_FREQ_CHANGE_MHZ)):
-                print "WARNING: large ATWD sampling speed change",\
+                print("WARNING: large ATWD sampling speed change",\
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), "(%.2f, %.2f MHz)" % (atwdFreqMHzNew[0]-atwdFreqMHzOld[0],atwdFreqMHzNew[1]-atwdFreqMHzOld[1])
+                      nicks.getDOMName(mbid), "(%.2f, %.2f MHz)" % (atwdFreqMHzNew[0]-atwdFreqMHzOld[0],atwdFreqMHzNew[1]-atwdFreqMHzOld[1]))
                 
             atwdFreqList.append(atwdFreqNew[0]-atwdFreqOld[0])
             atwdFreqList.append(atwdFreqNew[1]-atwdFreqOld[1])
@@ -485,9 +488,9 @@ def main():
                     for ch in range(3):
                         blNew[chip][ch] = cal.getBaseline(mbid, chip, ch)
 
-                print "WARNING: updating ATWD baselines", \
+                print("WARNING: updating ATWD baselines", \
                       mbid, "%02d-%02d" % (string, dompos), \
-                      nicks.getDOMName(mbid), blOld, blNew
+                      nicks.getDOMName(mbid), blOld, blNew)
 
                 if not dryrun:
                     domCfg.setDOMBaselines(mbid,blNew)
@@ -501,7 +504,7 @@ def main():
                     if not dryrun:
                         domCfg.setDOMSetting(mbid, 'pulserRate', rateSetting)
                 else:
-                    print "WARNING: unexpected pulser mode",pulserMode,"for MBID",mbid
+                    print("WARNING: unexpected pulser mode",pulserMode,"for MBID",mbid)
             
     # Save updated run configuration files
     if not dryrun:
@@ -513,7 +516,7 @@ def main():
 
     # Save results for plotting
     if savePlotResults:
-        print "Saving differences in calibration to file",OUTPUT_FILE
+        print("Saving differences in calibration to file",OUTPUT_FILE)
         f = open(OUTPUT_FILE, 'w')
         plotResults = {"hvDiffList":hvDiffList,
                        "hvDiffListIT":hvDiffListIT,

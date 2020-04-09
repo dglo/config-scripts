@@ -7,11 +7,13 @@
 # Return various dictionaries keyed on mainboard ID
 #
 
+from __future__ import print_function
+from builtins import object
 import sys
 
 NICKNAMES = "ic86/nicknames.txt"
 
-class nicknames:
+class nicknames(object):
     def __init__(self, nicknameFile=NICKNAMES):
         self.posDict = {}
         self.idDict = {}
@@ -22,7 +24,7 @@ class nicknames:
         try:
             f = open(filename, "r")
         except:
-            print "ERROR: couldn't open nicknames file for MBID mapping."
+            print("ERROR: couldn't open nicknames file for MBID mapping.")
             sys.exit(1)
 
         # Skip header
@@ -84,7 +86,7 @@ if __name__ == "__main__":
         filename = NICKNAMES
     nicks = nicknames(nicknameFile=filename)
     for mbid in nicks.nameDict:
-        print mbid, nicks.getDOMID(mbid), \
-            nicks.getDOMName(mbid), nicks.getDOMPosition(mbid)
+        print(mbid, nicks.getDOMID(mbid), \
+            nicks.getDOMName(mbid), nicks.getDOMPosition(mbid))
 
     
