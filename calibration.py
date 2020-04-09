@@ -5,6 +5,10 @@
 # Support code for parsing DOMCal result XML files.
 #
 
+from __future__ import print_function
+from builtins import str
+from builtins import range
+from builtins import object
 import sys
 import getopt
 import os
@@ -26,7 +30,7 @@ DAC_BIAS_VOLTAGE = 7
 #--------------------------------------------------------------------------------
 E_CHARGE = 1.60217646e-19
 
-class CalibrationResults:
+class CalibrationResults(object):
     """Object collecting DOMCal XML calibration results"""
 
     # FIX ME better finding
@@ -43,7 +47,7 @@ class CalibrationResults:
         for filename in calList:
             m = re.match(".*domcal_([0-9a-f]+)\.xml", filename)
             if not m:
-                print >> sys.stderr, "Didn't understand filename convention of ",filename,", skipping"
+                print("Didn't understand filename convention of ",filename,", skipping", file=sys.stderr)
                 continue
             mbid = m.group(1)
 
@@ -51,13 +55,13 @@ class CalibrationResults:
                 parser = etree.XMLParser(remove_comments=False, remove_pis=False)
                 tree = etree.parse(filename, parser=parser)                
             except:
-                print >> sys.stderr, "WARNING: error parsing file",filename,", skipping"
+                print("WARNING: error parsing file",filename,", skipping", file=sys.stderr)
                 continue
             
             if tree:
                 self.cal[mbid] = tree.getroot()
             else:
-                print >> sys.stderr, "Couldn't parse calibration file",filename,"skipping"
+                print("Couldn't parse calibration file",filename,"skipping", file=sys.stderr)
                 
     def __str__(self):
         str = ""
@@ -83,7 +87,7 @@ class CalibrationResults:
             return 0.
         hvGainCal = self.getFitCal(mbid, 'hvGainCal')
         if hvGainCal is None:
-            print >> sys.stderr, "Missing HV/gain calibration for MBID",mbid
+            print("Missing HV/gain calibration for MBID",mbid, file=sys.stderr)
             return -1
         (b, m) = hvGainCal
         return math.pow(10., m*math.log10(hv) + b)
@@ -96,7 +100,7 @@ class CalibrationResults:
             filters = [['id', str(atwd)], ['channel', str(ch)], ['bin', str(bin)]]
             atwdCal = self.getFitCal(mbid, 'atwd', filters=filters)
             if atwdCal is None:
-                print >> sys.stderr, "Missing ATWD calibration for MBID",mbid
+                print("Missing ATWD calibration for MBID",mbid, file=sys.stderr)
                 return DEFAULT_BASELINE
             (b, m) = atwdCal            
             baseline += (vBias-b)/m
@@ -108,7 +112,7 @@ class CalibrationResults:
             return 0
         hvGainCal = self.getFitCal(mbid, 'hvGainCal')
         if hvGainCal is None:
-            print >> sys.stderr, "Missing HV/gain calibration for MBID",mbid
+            print("Missing HV/gain calibration for MBID",mbid, file=sys.stderr)
             return DEFAULT_HV_SETTING
         (b, m) = hvGainCal
         hv = math.pow(10., (math.log10(gain) - b) / m)
@@ -120,21 +124,21 @@ class CalibrationResults:
         # Non-HV discriminator calibration is fallback
         speDiscCal = self.getFitCal(mbid, 'discriminator', filters=[['id', 'spe']])
         if speDiscCal is None:
-            print >> sys.stderr, "No valid discriminator calibration found!"
+            print("No valid discriminator calibration found!", file=sys.stderr)
             return DEFAULT_SPE_SETTING            
         else:
             (b, m) = speDiscCal
         # Use PMT discriminator calibration if it exists and is OK
         pmtDiscCal = self.getFitCal(mbid, 'pmtDiscCal')
         if pmtDiscCal is None:
-            print >> sys.stderr, "Missing PMT discriminator setting for MBID",mbid
-            print >> sys.stderr, "WARNING: falling back to pulser discriminator calibration"
+            print("Missing PMT discriminator setting for MBID",mbid, file=sys.stderr)
+            print("WARNING: falling back to pulser discriminator calibration", file=sys.stderr)
         else:
             (b1, m1) = pmtDiscCal
             # DOMCal 7.6.0 had a bug that resulted in garbage here if the HV was off
             if math.isnan(b1) or math.isnan(m1) or (b1 > 0) or (m1 < 0):
-                print >> sys.stderr, "Bad PMT discriminator setting for MBID",mbid
-                print >> sys.stderr, "WARNING: falling back to pulser discriminator calibration"
+                print("Bad PMT discriminator setting for MBID",mbid, file=sys.stderr)
+                print("WARNING: falling back to pulser discriminator calibration", file=sys.stderr)
             else:
                 (b, m) = (b1, m1)
         return int(((gain * speFrac * E_CHARGE * 1e12 - b) / m) + 0.5)
@@ -145,38 +149,38 @@ class CalibrationResults:
             return 0
         pmtDiscCal = self.getFitCal(mbid, 'pmtDiscCal')
         if pmtDiscCal is None:
-            print >> sys.stderr, "Missing PMT discriminator setting for MBID",mbid
+            print("Missing PMT discriminator setting for MBID",mbid, file=sys.stderr)
             return DEFAULT_SPE_SETTING
         (b, m) = pmtDiscCal
         # DOMCal 7.6.0 had a bug that resulted in garbage here if the HV was off
         if math.isnan(b) or math.isnan(m) or (b > 0) or (m < 0):            
-            print >> sys.stderr, "Bad PMT discriminator setting for MBID",mbid
+            print("Bad PMT discriminator setting for MBID",mbid, file=sys.stderr)
             return DEFAULT_SPE_SETTING
         return (m * speDisc + b) / (gain * E_CHARGE * 1e12)
     
     def getATWDFreqSetting(self, mbid, atwd, freq):
         freqCal = self.getFitCal(mbid, 'atwdfreq', [['atwd', str(atwd)]])
         if freqCal is None:
-            print >> sys.stderr, "Bad ATWD frequency calibration for MBID",mbid,"chip",atwd
+            print("Bad ATWD frequency calibration for MBID",mbid,"chip",atwd, file=sys.stderr)
             return DEFAULT_FREQ_SETTING
         (c0, c1, c2) = freqCal
         try:
             bias = int((-c1 + math.sqrt(c1*c1 - 4*(c0-freq)*c2))/(2*c2) + 0.5)
         except ValueError:
-            print >> sys.stderr, "Bad ATWD frequency calibration for MBID",mbid,"chip",atwd
+            print("Bad ATWD frequency calibration for MBID",mbid,"chip",atwd, file=sys.stderr)
             return DEFAULT_FREQ_SETTING
         return bias
 
     def getATWDFreq(self, mbid, atwd, bias):
         freqCal = self.getFitCal(mbid, 'atwdfreq', [['atwd', str(atwd)]])
         if freqCal is None:
-            print >> sys.stderr, "Bad ATWD frequency calibration for MBID",mbid,"chip",atwd
+            print("Bad ATWD frequency calibration for MBID",mbid,"chip",atwd, file=sys.stderr)
             return None
         (c0, c1, c2) = freqCal
         try:
             freq_mhz = c2*bias*bias + c1*bias + c0
         except ValueError:
-            print >> sys.stderr, "Bad ATWD frequency calibration for MBID",mbid,"chip",atwd
+            print("Bad ATWD frequency calibration for MBID",mbid,"chip",atwd, file=sys.stderr)
             return None
         return freq_mhz
 
@@ -222,7 +226,7 @@ class CalibrationResults:
                     elif p.get('name') == "intercept":
                         fitParams[0] = float(p.text)            
             else:
-                print >> sys.stderr, "Error parsing calibration results: unknown fit model"
+                print("Error parsing calibration results: unknown fit model", file=sys.stderr)
         return fitParams            
 
 
@@ -243,7 +247,7 @@ class CalibrationResults:
         for t in deltas:
             d = t.find('delta_t')
             if d is None:
-                print >> sys.stderr, "Error parsing calibration results: can't find delta_t"
+                print("Error parsing calibration results: can't find delta_t", file=sys.stderr)
                 return None
             if (isATWD and t.attrib.get('id') == str(chip)) or not isATWD:
                 delta_t = float(d.text)
@@ -256,33 +260,33 @@ if __name__ == "__main__":
     # Test with HV
     testid = 'eaf3fe2cc0e2'
     if not cal.exists(testid):
-        print "Couldn't find calibration for DOM",testid
+        print("Couldn't find calibration for DOM",testid)
         sys.exit(-1)
-    print "Calibration settings for DOM",testid        
-    print "log(gain) at 1300V: ",math.log10(cal.getGain(testid, 1300))
-    print "HV setting for 1e7 gain:",cal.getHVSetting(testid, 1e7)
-    print "Gain at HV+2V:",cal.getGain(testid, cal.getHVSetting(testid,1e7)/2. + 2.)
-    print "Disc. setting of 0.25 PE at 1e7 gain:",cal.getSPEDisc(testid, 0.25, 1e7)
-    print "Threshold at DAC setting of 560:", cal.getSPEThresh(testid, 560, 1e7)
-    print "Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
-          cal.getATWDFreqSetting(testid, 1, 300.)
-    print "Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
-          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2)
-    print "Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
-          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2)
-    print "Delta T for chip 0:",cal.getDeltaT(testid, True, 0)
-    print "Delta T for chip 1:",cal.getDeltaT(testid, True, 1)
-    print "Delta T for FADC:",cal.getDeltaT(testid, False, 0)    
+    print("Calibration settings for DOM",testid)        
+    print("log(gain) at 1300V: ",math.log10(cal.getGain(testid, 1300)))
+    print("HV setting for 1e7 gain:",cal.getHVSetting(testid, 1e7))
+    print("Gain at HV+2V:",cal.getGain(testid, cal.getHVSetting(testid,1e7)/2. + 2.))
+    print("Disc. setting of 0.25 PE at 1e7 gain:",cal.getSPEDisc(testid, 0.25, 1e7))
+    print("Threshold at DAC setting of 560:", cal.getSPEThresh(testid, 560, 1e7))
+    print("Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
+          cal.getATWDFreqSetting(testid, 1, 300.))
+    print("Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
+          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2))
+    print("Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
+          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2))
+    print("Delta T for chip 0:",cal.getDeltaT(testid, True, 0))
+    print("Delta T for chip 1:",cal.getDeltaT(testid, True, 1))
+    print("Delta T for FADC:",cal.getDeltaT(testid, False, 0))    
     # Test without HV
     testid = '4ad659054904'
     if not cal.exists(testid):
-        print "Couldn't find calibration for DOM",testid
+        print("Couldn't find calibration for DOM",testid)
         sys.exit(-1)
-    print "Calibration settings for DOM",testid
-    print "Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
-          cal.getATWDFreqSetting(testid, 1, 300.)
-    print "Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
-          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2)
-    print "Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
-          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2)    
-    print "Discriminator setting for 0.25PE:",cal.getSPEDisc(testid, 0.25, 1e7)
+    print("Calibration settings for DOM",testid)
+    print("Trigger bias setting at 300 MHz:",cal.getATWDFreqSetting(testid, 0, 300.), \
+          cal.getATWDFreqSetting(testid, 1, 300.))
+    print("Average baselines for chip 0:",cal.getBaseline(testid, 0, 0), \
+          cal.getBaseline(testid, 0, 1), cal.getBaseline(testid, 0, 2))
+    print("Average baselines for chip 1:",cal.getBaseline(testid, 1, 0), \
+          cal.getBaseline(testid, 1, 1), cal.getBaseline(testid, 1, 2))    
+    print("Discriminator setting for 0.25PE:",cal.getSPEDisc(testid, 0.25, 1e7))

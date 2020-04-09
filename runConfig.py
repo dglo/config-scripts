@@ -6,6 +6,10 @@
 # including changes to the DOM and trigger configurations.
 #
 
+from __future__ import print_function
+from builtins import str
+from builtins import range
+from builtins import object
 import sys
 import os
 
@@ -19,7 +23,7 @@ class RunConfigException(Exception):
 
 #---------------------------------------------
 
-class XMLConfig:
+class XMLConfig(object):
     """XML element tree for configuration files"""
     def __init__(self, filename):
         self.path = os.path.dirname(filename)
@@ -34,7 +38,7 @@ class XMLConfig:
             self.root = self.tree.getroot()
         else:
             self.root = None
-            print >> sys.stderr, "Couldn't parse configuration file", filename
+            print("Couldn't parse configuration file", filename, file=sys.stderr)
             sys.exit(-1)
 
     def __str__(self):
@@ -225,7 +229,7 @@ class RunConfig(XMLConfig):
         self.tree.write(self.path+"/"+filename, xml_declaration=True)
         
     def getHubs(self):
-        return self.domCfgs.keys()
+        return list(self.domCfgs.keys())
 
     def removeDOM(self, mbid):
         for h in self.domCfgs:
@@ -235,7 +239,7 @@ class RunConfig(XMLConfig):
         return False
     
     def getDOMConfigs(self):
-        return self.domCfgs.values()
+        return list(self.domCfgs.values())
 
 if __name__ == "__main__":
     rc = RunConfig(sys.argv[1], oldFormat=False)
@@ -247,15 +251,15 @@ if __name__ == "__main__":
     hvSet = int(rc.domCfgs[testhub].getDOMSetting(testid, testqty))
     rc.domCfgs[testhub].setDOMSetting(testid, testqty, str(hvSet+111))
     hvSetNew = int(rc.domCfgs[testhub].getDOMSetting(testid, testqty))
-    print testid, ": changed", testqty, "from", hvSet, "to", hvSetNew
+    print(testid, ": changed", testqty, "from", hvSet, "to", hvSetNew)
 
     blArr = rc.domCfgs[testhub].getDOMBaselines(testid)
-    print testid, "baselines:", blArr
+    print(testid, "baselines:", blArr)
     for atwd in range(2):
         for ch in range(3):
             blArr[atwd][ch] = blArr[atwd][ch]+1
     rc.domCfgs[testhub].setDOMBaselines(testid, blArr)
-    print testid, "baselines updated to:", blArr
+    print(testid, "baselines updated to:", blArr)
     
     rc.write(newName="sps-test-output",
              newVersion=333,

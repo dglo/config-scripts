@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #
 
+from __future__ import print_function
+from builtins import str
 import sys
 import getopt
 import os
@@ -11,14 +13,14 @@ from nicknames import *
 
 def usage():
     """ Print program usage """
-    print "Usage: %s [-h] [-v ###] [-n new_config_name]" % (sys.argv[0]), \
-          "[-l dom_list] run_config.xml [dom1 dom2...]"
-    print "    -h       print this help message"
-    print "    -l       list of DOMs to remove"
-    print "    -v ###   version number of new configuration"
-    print "    -n name  name of new configuration (top level)"
-    print "    -c name  name of new configuration (DOM config base name)"
-    print "   dom       can be specified by position, MBID, or name"
+    print("Usage: %s [-h] [-v ###] [-n new_config_name]" % (sys.argv[0]), \
+          "[-l dom_list] run_config.xml [dom1 dom2...]")
+    print("    -h       print this help message")
+    print("    -l       list of DOMs to remove")
+    print("    -v ###   version number of new configuration")
+    print("    -n name  name of new configuration (top level)")
+    print("    -c name  name of new configuration (DOM config base name)")
+    print("   dom       can be specified by position, MBID, or name")
 
 def main():
     """
@@ -30,7 +32,7 @@ def main():
         opts, args = getopt.getopt(sys.argv[1:], "hl:v:n:c:",
                      ["help", "list", "version", "name", "domname"])
     except getopt.GetoptError as err:
-        print str(err)
+        print(str(err))
         usage()
         sys.exit(2)
 
@@ -70,7 +72,7 @@ def main():
     if domFile is not None:
         f = open(domFile, "r")
         if not f:
-            print >> sys.stderr, "Error: couldn't open DOM list file", domFile
+            print("Error: couldn't open DOM list file", domFile, file=sys.stderr)
             sys.exit(-1)
             
         for line in f.readlines():
@@ -85,38 +87,38 @@ def main():
                     int(d, 16)
                     domList.append(d)                    
                 except ValueError:
-                    print >> sys.stderr, "Skipping invalid mbid: ", vals[0]
+                    print("Skipping invalid mbid: ", vals[0], file=sys.stderr)
                     continue                
 
     if cfgNewName is None or \
             cfgVersion is None or \
             cfgDomName is None:
-        print >> sys.stderr, "Usage!"
-        print >> sys.stderr, ("Warning if you do not specify -v -n and -c "
+        print("Usage!", file=sys.stderr)
+        print(("Warning if you do not specify -v -n and -c "
                               "this program will overwrite configuration "
-                              "files (bad)!")
-        print >> sys.stderr, "-"*60
+                              "files (bad)!"), file=sys.stderr)
+        print("-"*60, file=sys.stderr)
         usage()
         sys.exit(-1)
     
-    print "Removing", len(domList), "DOMs from configuration", cfgName
+    print("Removing", len(domList), "DOMs from configuration", cfgName)
 
     # Parse the run configuration files
     try:
         rc = RunConfig(cfgName, oldFormat=False)
     except RunConfigException:
-        print "WARNING: couldn't parse run configuration; trying old format..."
+        print("WARNING: couldn't parse run configuration; trying old format...")
         rc = RunConfig(cfgName, oldFormat=True)
         
     for mbid in domList:
         (string, dompos) = nicks.getDOMPosition(mbid)
         if rc.removeDOM(mbid):
-            print "Removed DOM", mbid, "%02d-%02d" % (string, dompos), \
-                nicks.getDOMName(mbid)
+            print("Removed DOM", mbid, "%02d-%02d" % (string, dompos), \
+                nicks.getDOMName(mbid))
         else:
-            print ("WARNING: couldn't find DOM %s %02d-%02d %s "
+            print(("WARNING: couldn't find DOM %s %02d-%02d %s "
                    "to remove!") % (mbid, string,
-                                    dompos, nicks.getDOMName(mbid))
+                                    dompos, nicks.getDOMName(mbid)))
 
             
     # Save updated run configuration files
