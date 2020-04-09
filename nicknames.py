@@ -10,8 +10,11 @@
 from __future__ import print_function
 from builtins import object
 import sys
+import os
 
-NICKNAMES = "ic86/nicknames.txt"
+# Default nicknames file (relative to this source file)
+NICKNAMES = os.path.join(os.path.dirname(os.path.abspath(__file__)), \
+                         "ic86/nicknames.txt")
 
 class nicknames(object):
     def __init__(self, nicknameFile=NICKNAMES):
