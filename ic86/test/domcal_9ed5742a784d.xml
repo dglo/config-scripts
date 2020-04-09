@@ -1,0 +1,5489 @@
+<domcal version="7.6.2">
+  <date>10-3-2020</date>
+  <time>00:08:29</time>
+  <domid>9ed5742a784d</domid>
+  <temperature format="Kelvin">243.8</temperature>
+  <dac channel="0">850</dac>
+  <dac channel="1">2300</dac>
+  <dac channel="2">350</dac>
+  <dac channel="3">2250</dac>
+  <dac channel="4">850</dac>
+  <dac channel="5">2300</dac>
+  <dac channel="6">350</dac>
+  <dac channel="7">2130</dac>
+  <dac channel="8">0</dac>
+  <dac channel="9">556</dac>
+  <dac channel="10">800</dac>
+  <dac channel="11">0</dac>
+  <dac channel="12">0</dac>
+  <dac channel="13">0</dac>
+  <dac channel="14">0</dac>
+  <dac channel="15">1023</dac>
+  <adc channel="0">5</adc>
+  <adc channel="1">1015</adc>
+  <adc channel="2">854</adc>
+  <adc channel="3">427</adc>
+  <adc channel="4">82</adc>
+  <adc channel="5">38</adc>
+  <adc channel="6">82</adc>
+  <adc channel="7">122</adc>
+  <adc channel="8">688</adc>
+  <adc channel="9">891</adc>
+  <adc channel="10">630</adc>
+  <adc channel="11">825</adc>
+  <adc channel="12">0</adc>
+  <adc channel="13">990</adc>
+  <adc channel="14">17</adc>
+  <adc channel="15">262</adc>
+  <adc channel="16">569</adc>
+  <adc channel="17">107</adc>
+  <adc channel="18">555</adc>
+  <adc channel="19">262</adc>
+  <adc channel="20">569</adc>
+  <adc channel="21">107</adc>
+  <adc channel="22">529</adc>
+  <adc channel="23">0</adc>
+  <frontEndImpedance format="Ohms">43.0</frontEndImpedance>
+  <discriminator id="spe">
+    <fit model="linear">
+      <param name="slope">0.0140715</param>
+      <param name="intercept">-7.6055</param>
+      <regression-coeff>0.999955</regression-coeff>
+    </fit>
+  </discriminator>
+  <discriminator id="mpe">
+    <fit model="linear">
+      <param name="slope">0.140116</param>
+      <param name="intercept">-74.8329</param>
+      <regression-coeff>0.999959</regression-coeff>
+    </fit>
+  </discriminator>
+  <atwd id="0" channel="0" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00198051</param>
+      <param name="intercept">2.86644</param>
+      <regression-coeff>0.999991</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00199311</param>
+      <param name="intercept">2.87983</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.00200655</param>
+      <param name="intercept">2.84391</param>
+      <regression-coeff>0.999989</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00204081</param>
+      <param name="intercept">2.87029</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.00203953</param>
+      <param name="intercept">2.86551</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00203696</param>
+      <param name="intercept">2.85225</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.00204114</param>
+      <param name="intercept">2.86565</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.00203628</param>
+      <param name="intercept">2.85163</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.00203323</param>
+      <param name="intercept">2.85987</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00203921</param>
+      <param name="intercept">2.8666</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00203968</param>
+      <param name="intercept">2.84545</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00204723</param>
+      <param name="intercept">2.85514</param>
+      <regression-coeff>1</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00204312</param>
+      <param name="intercept">2.83987</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.0020413</param>
+      <param name="intercept">2.84208</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00203692</param>
+      <param name="intercept">2.86538</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.00203599</param>
+      <param name="intercept">2.85987</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.0020442</param>
+      <param name="intercept">2.85251</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00205731</param>
+      <param name="intercept">2.87312</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.00204127</param>
+      <param name="intercept">2.83893</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.00203785</param>
+      <param name="intercept">2.86463</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.00203994</param>
+      <param name="intercept">2.85248</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00204318</param>
+      <param name="intercept">2.86605</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00204383</param>
+      <param name="intercept">2.85518</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.00204215</param>
+      <param name="intercept">2.84037</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00204478</param>
+      <param name="intercept">2.86155</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.00204481</param>
+      <param name="intercept">2.86055</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.00204214</param>
+      <param name="intercept">2.86555</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00203763</param>
+      <param name="intercept">2.8519</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.00204706</param>
+      <param name="intercept">2.87277</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00204183</param>
+      <param name="intercept">2.85372</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00203851</param>
+      <param name="intercept">2.84304</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.00204514</param>
+      <param name="intercept">2.85085</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00204522</param>
+      <param name="intercept">2.84124</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00203496</param>
+      <param name="intercept">2.85833</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.00204565</param>
+      <param name="intercept">2.8414</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.0020471</param>
+      <param name="intercept">2.84721</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.00204497</param>
+      <param name="intercept">2.84234</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00204372</param>
+      <param name="intercept">2.88422</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00204544</param>
+      <param name="intercept">2.87466</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00204639</param>
+      <param name="intercept">2.86871</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.00204221</param>
+      <param name="intercept">2.85837</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00203811</param>
+      <param name="intercept">2.85267</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.00204575</param>
+      <param name="intercept">2.84937</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00204857</param>
+      <param name="intercept">2.84615</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00204923</param>
+      <param name="intercept">2.88474</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.0020455</param>
+      <param name="intercept">2.84756</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00203774</param>
+      <param name="intercept">2.84768</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.00204509</param>
+      <param name="intercept">2.86649</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.00204611</param>
+      <param name="intercept">2.8582</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.00204006</param>
+      <param name="intercept">2.86935</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00204806</param>
+      <param name="intercept">2.856</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00204398</param>
+      <param name="intercept">2.86424</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00204178</param>
+      <param name="intercept">2.85148</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00204428</param>
+      <param name="intercept">2.847</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.00204603</param>
+      <param name="intercept">2.85928</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00204113</param>
+      <param name="intercept">2.86016</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00204593</param>
+      <param name="intercept">2.85815</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00204458</param>
+      <param name="intercept">2.84481</param>
+      <regression-coeff>1</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00204252</param>
+      <param name="intercept">2.84317</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.0020435</param>
+      <param name="intercept">2.85103</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.00204861</param>
+      <param name="intercept">2.85303</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00204187</param>
+      <param name="intercept">2.84439</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00204409</param>
+      <param name="intercept">2.84486</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.00204516</param>
+      <param name="intercept">2.85669</param>
+      <regression-coeff>1</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00204382</param>
+      <param name="intercept">2.85177</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00204939</param>
+      <param name="intercept">2.86779</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00204418</param>
+      <param name="intercept">2.85474</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00204726</param>
+      <param name="intercept">2.85649</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00205286</param>
+      <param name="intercept">2.8585</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00204514</param>
+      <param name="intercept">2.84971</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.00204279</param>
+      <param name="intercept">2.84533</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.00204821</param>
+      <param name="intercept">2.85176</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00205551</param>
+      <param name="intercept">2.86625</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00204927</param>
+      <param name="intercept">2.85436</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.00204243</param>
+      <param name="intercept">2.84921</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00204896</param>
+      <param name="intercept">2.87008</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00205002</param>
+      <param name="intercept">2.84885</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00204898</param>
+      <param name="intercept">2.86392</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.00205006</param>
+      <param name="intercept">2.84741</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00204359</param>
+      <param name="intercept">2.86277</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00204715</param>
+      <param name="intercept">2.85098</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00204547</param>
+      <param name="intercept">2.82965</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.00204542</param>
+      <param name="intercept">2.85636</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.00204531</param>
+      <param name="intercept">2.85562</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00205033</param>
+      <param name="intercept">2.84896</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00204479</param>
+      <param name="intercept">2.85579</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00204807</param>
+      <param name="intercept">2.8618</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00205071</param>
+      <param name="intercept">2.85316</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00205081</param>
+      <param name="intercept">2.85702</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00204994</param>
+      <param name="intercept">2.85828</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00204987</param>
+      <param name="intercept">2.82357</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00205187</param>
+      <param name="intercept">2.85685</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00204656</param>
+      <param name="intercept">2.86702</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.00205022</param>
+      <param name="intercept">2.8334</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00204753</param>
+      <param name="intercept">2.84621</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00204558</param>
+      <param name="intercept">2.83667</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00205393</param>
+      <param name="intercept">2.88008</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00204595</param>
+      <param name="intercept">2.8558</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00204485</param>
+      <param name="intercept">2.86018</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.00204276</param>
+      <param name="intercept">2.84452</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00205676</param>
+      <param name="intercept">2.86355</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.00205113</param>
+      <param name="intercept">2.85112</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.00204841</param>
+      <param name="intercept">2.87065</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.00205319</param>
+      <param name="intercept">2.85427</param>
+      <regression-coeff>1</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00204888</param>
+      <param name="intercept">2.84622</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00204949</param>
+      <param name="intercept">2.87153</param>
+      <regression-coeff>1</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00205183</param>
+      <param name="intercept">2.85917</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.00204996</param>
+      <param name="intercept">2.84883</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.00204956</param>
+      <param name="intercept">2.84321</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.00204971</param>
+      <param name="intercept">2.86072</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.00204548</param>
+      <param name="intercept">2.84746</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.00205063</param>
+      <param name="intercept">2.85919</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00203989</param>
+      <param name="intercept">2.83459</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.00205071</param>
+      <param name="intercept">2.84883</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00204977</param>
+      <param name="intercept">2.84974</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00204146</param>
+      <param name="intercept">2.83372</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00205184</param>
+      <param name="intercept">2.84577</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00206049</param>
+      <param name="intercept">2.8747</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.00204701</param>
+      <param name="intercept">2.84813</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00204474</param>
+      <param name="intercept">2.8464</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00204919</param>
+      <param name="intercept">2.84072</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00205731</param>
+      <param name="intercept">2.85597</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.00204601</param>
+      <param name="intercept">2.85974</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00204578</param>
+      <param name="intercept">2.84836</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00205073</param>
+      <param name="intercept">2.85074</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00205172</param>
+      <param name="intercept">2.85664</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00203207</param>
+      <param name="intercept">2.85689</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="0" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00200557</param>
+      <param name="intercept">2.84905</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00185575</param>
+      <param name="intercept">2.85607</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00187066</param>
+      <param name="intercept">2.86807</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.00188339</param>
+      <param name="intercept">2.8319</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00191345</param>
+      <param name="intercept">2.85563</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.0019137</param>
+      <param name="intercept">2.85105</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00191093</param>
+      <param name="intercept">2.83894</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.00191472</param>
+      <param name="intercept">2.85182</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.00190983</param>
+      <param name="intercept">2.83902</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.00190785</param>
+      <param name="intercept">2.84604</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00191434</param>
+      <param name="intercept">2.85278</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00191404</param>
+      <param name="intercept">2.83545</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00192048</param>
+      <param name="intercept">2.84281</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00191762</param>
+      <param name="intercept">2.8276</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.00191479</param>
+      <param name="intercept">2.83156</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00191031</param>
+      <param name="intercept">2.85222</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.0019096</param>
+      <param name="intercept">2.84627</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.00191945</param>
+      <param name="intercept">2.84059</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00193149</param>
+      <param name="intercept">2.86042</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.00191589</param>
+      <param name="intercept">2.82844</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.0019123</param>
+      <param name="intercept">2.85086</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.0019132</param>
+      <param name="intercept">2.84079</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00191732</param>
+      <param name="intercept">2.85243</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00191676</param>
+      <param name="intercept">2.84265</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.001915</param>
+      <param name="intercept">2.82807</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00192043</param>
+      <param name="intercept">2.85147</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.0019195</param>
+      <param name="intercept">2.84962</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.00191755</param>
+      <param name="intercept">2.85305</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00191269</param>
+      <param name="intercept">2.84142</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.0019201</param>
+      <param name="intercept">2.86038</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00191445</param>
+      <param name="intercept">2.84111</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00191357</param>
+      <param name="intercept">2.83282</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.00191825</param>
+      <param name="intercept">2.83902</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00191808</param>
+      <param name="intercept">2.83115</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00191031</param>
+      <param name="intercept">2.84628</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.0019192</param>
+      <param name="intercept">2.83104</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.00192021</param>
+      <param name="intercept">2.83642</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.00191932</param>
+      <param name="intercept">2.8328</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00191869</param>
+      <param name="intercept">2.87191</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00191942</param>
+      <param name="intercept">2.86415</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00191929</param>
+      <param name="intercept">2.85827</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.001915</param>
+      <param name="intercept">2.84764</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00191096</param>
+      <param name="intercept">2.84388</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.00191977</param>
+      <param name="intercept">2.84125</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00192408</param>
+      <param name="intercept">2.83611</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00192364</param>
+      <param name="intercept">2.87257</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.00191989</param>
+      <param name="intercept">2.83849</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00191296</param>
+      <param name="intercept">2.83973</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.00191964</param>
+      <param name="intercept">2.85538</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.00191866</param>
+      <param name="intercept">2.849</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.00191408</param>
+      <param name="intercept">2.85947</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00192103</param>
+      <param name="intercept">2.8473</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00191904</param>
+      <param name="intercept">2.8551</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00191898</param>
+      <param name="intercept">2.84557</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00191885</param>
+      <param name="intercept">2.84079</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.0019197</param>
+      <param name="intercept">2.84983</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00191508</param>
+      <param name="intercept">2.85363</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00191806</param>
+      <param name="intercept">2.85043</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00191702</param>
+      <param name="intercept">2.83707</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00191703</param>
+      <param name="intercept">2.83628</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.00191655</param>
+      <param name="intercept">2.84403</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.0019234</param>
+      <param name="intercept">2.84684</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00191436</param>
+      <param name="intercept">2.83747</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00191861</param>
+      <param name="intercept">2.83941</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.00191903</param>
+      <param name="intercept">2.84937</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00191757</param>
+      <param name="intercept">2.84548</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00192221</param>
+      <param name="intercept">2.86035</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00191947</param>
+      <param name="intercept">2.8498</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00192001</param>
+      <param name="intercept">2.85146</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00192502</param>
+      <param name="intercept">2.8517</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00191818</param>
+      <param name="intercept">2.84598</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.0019156</param>
+      <param name="intercept">2.8409</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.00192032</param>
+      <param name="intercept">2.84713</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00192634</param>
+      <param name="intercept">2.85878</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00192245</param>
+      <param name="intercept">2.85022</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.00191535</param>
+      <param name="intercept">2.84466</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00192143</param>
+      <param name="intercept">2.86484</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00192202</param>
+      <param name="intercept">2.84455</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00192072</param>
+      <param name="intercept">2.85913</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.00192229</param>
+      <param name="intercept">2.84442</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00191604</param>
+      <param name="intercept">2.85798</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00192014</param>
+      <param name="intercept">2.8479</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00191736</param>
+      <param name="intercept">2.83003</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.00191828</param>
+      <param name="intercept">2.85273</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.00191965</param>
+      <param name="intercept">2.8534</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00192216</param>
+      <param name="intercept">2.84717</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00191952</param>
+      <param name="intercept">2.85519</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00192167</param>
+      <param name="intercept">2.8583</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00192386</param>
+      <param name="intercept">2.85221</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00192339</param>
+      <param name="intercept">2.85482</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00192208</param>
+      <param name="intercept">2.85526</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00192236</param>
+      <param name="intercept">2.82362</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00192557</param>
+      <param name="intercept">2.85501</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00191979</param>
+      <param name="intercept">2.86413</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.0019236</param>
+      <param name="intercept">2.83442</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00192207</param>
+      <param name="intercept">2.84618</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00192067</param>
+      <param name="intercept">2.83881</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00192561</param>
+      <param name="intercept">2.8783</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00192053</param>
+      <param name="intercept">2.85565</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00191804</param>
+      <param name="intercept">2.86162</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.0019179</param>
+      <param name="intercept">2.84583</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00192827</param>
+      <param name="intercept">2.86307</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.00192331</param>
+      <param name="intercept">2.8505</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.00192153</param>
+      <param name="intercept">2.87063</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.00192555</param>
+      <param name="intercept">2.85428</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00192115</param>
+      <param name="intercept">2.84714</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00192263</param>
+      <param name="intercept">2.87153</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00192393</param>
+      <param name="intercept">2.85945</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.0019231</param>
+      <param name="intercept">2.85039</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.00192104</param>
+      <param name="intercept">2.84367</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.00192328</param>
+      <param name="intercept">2.86331</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.00191601</param>
+      <param name="intercept">2.85032</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.00192287</param>
+      <param name="intercept">2.86105</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00191266</param>
+      <param name="intercept">2.83735</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.0019216</param>
+      <param name="intercept">2.85115</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00192323</param>
+      <param name="intercept">2.85272</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00191433</param>
+      <param name="intercept">2.8367</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00192323</param>
+      <param name="intercept">2.84818</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00193179</param>
+      <param name="intercept">2.87638</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.00191763</param>
+      <param name="intercept">2.8501</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00191505</param>
+      <param name="intercept">2.84917</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00192083</param>
+      <param name="intercept">2.84291</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00192894</param>
+      <param name="intercept">2.85898</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.0019172</param>
+      <param name="intercept">2.86198</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00191861</param>
+      <param name="intercept">2.85126</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00192391</param>
+      <param name="intercept">2.85343</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00192188</param>
+      <param name="intercept">2.86035</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00190851</param>
+      <param name="intercept">2.85748</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="1" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00189095</param>
+      <param name="intercept">2.8555</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00185434</param>
+      <param name="intercept">2.86438</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00186347</param>
+      <param name="intercept">2.87502</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.00187194</param>
+      <param name="intercept">2.84014</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00189907</param>
+      <param name="intercept">2.8641</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.00190059</param>
+      <param name="intercept">2.85804</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00189879</param>
+      <param name="intercept">2.84652</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.00190159</param>
+      <param name="intercept">2.86077</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.00189611</param>
+      <param name="intercept">2.84495</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.00189463</param>
+      <param name="intercept">2.85221</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00190302</param>
+      <param name="intercept">2.86153</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00190198</param>
+      <param name="intercept">2.84285</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00190973</param>
+      <param name="intercept">2.85011</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00190518</param>
+      <param name="intercept">2.83476</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.00190173</param>
+      <param name="intercept">2.84003</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00189799</param>
+      <param name="intercept">2.85897</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.00190029</param>
+      <param name="intercept">2.85301</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.00191059</param>
+      <param name="intercept">2.84778</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00191931</param>
+      <param name="intercept">2.86795</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.00190316</param>
+      <param name="intercept">2.83446</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.00190058</param>
+      <param name="intercept">2.85653</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.00190108</param>
+      <param name="intercept">2.85019</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00190509</param>
+      <param name="intercept">2.85808</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00190633</param>
+      <param name="intercept">2.84857</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.0019041</param>
+      <param name="intercept">2.83558</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00190727</param>
+      <param name="intercept">2.85822</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.00190528</param>
+      <param name="intercept">2.85548</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.0019043</param>
+      <param name="intercept">2.85909</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00190089</param>
+      <param name="intercept">2.85015</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.00190759</param>
+      <param name="intercept">2.8673</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00190235</param>
+      <param name="intercept">2.84749</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00190103</param>
+      <param name="intercept">2.83932</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.00190529</param>
+      <param name="intercept">2.84709</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00190714</param>
+      <param name="intercept">2.83777</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00189843</param>
+      <param name="intercept">2.85241</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.00190682</param>
+      <param name="intercept">2.83955</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.00190686</param>
+      <param name="intercept">2.84218</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.0019071</param>
+      <param name="intercept">2.83781</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00190715</param>
+      <param name="intercept">2.87904</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00190691</param>
+      <param name="intercept">2.8714</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00190752</param>
+      <param name="intercept">2.86385</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.00190298</param>
+      <param name="intercept">2.85353</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00190053</param>
+      <param name="intercept">2.8521</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.00190935</param>
+      <param name="intercept">2.84775</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00191246</param>
+      <param name="intercept">2.84232</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00191155</param>
+      <param name="intercept">2.87907</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.00190677</param>
+      <param name="intercept">2.84513</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00189978</param>
+      <param name="intercept">2.84437</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.00190512</param>
+      <param name="intercept">2.86085</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.00190643</param>
+      <param name="intercept">2.85666</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.0019016</param>
+      <param name="intercept">2.86383</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00190969</param>
+      <param name="intercept">2.85181</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00190714</param>
+      <param name="intercept">2.86092</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00190575</param>
+      <param name="intercept">2.85216</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00190749</param>
+      <param name="intercept">2.84532</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.00190744</param>
+      <param name="intercept">2.85505</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00190467</param>
+      <param name="intercept">2.86025</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00190703</param>
+      <param name="intercept">2.85621</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00190803</param>
+      <param name="intercept">2.84193</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00190717</param>
+      <param name="intercept">2.84147</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.00190655</param>
+      <param name="intercept">2.85082</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.00191089</param>
+      <param name="intercept">2.84986</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00190254</param>
+      <param name="intercept">2.84183</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00190682</param>
+      <param name="intercept">2.84511</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.001907</param>
+      <param name="intercept">2.85439</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00190529</param>
+      <param name="intercept">2.84905</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00191014</param>
+      <param name="intercept">2.86481</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00190635</param>
+      <param name="intercept">2.85594</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00190942</param>
+      <param name="intercept">2.85541</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00191361</param>
+      <param name="intercept">2.85628</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00190757</param>
+      <param name="intercept">2.85081</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.00190561</param>
+      <param name="intercept">2.84585</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.0019098</param>
+      <param name="intercept">2.85175</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00191495</param>
+      <param name="intercept">2.86311</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00190971</param>
+      <param name="intercept">2.85658</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.00190306</param>
+      <param name="intercept">2.84853</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00190968</param>
+      <param name="intercept">2.86891</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00191101</param>
+      <param name="intercept">2.84975</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00190936</param>
+      <param name="intercept">2.86481</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.00191354</param>
+      <param name="intercept">2.84766</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00190571</param>
+      <param name="intercept">2.86213</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00190981</param>
+      <param name="intercept">2.85391</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00190704</param>
+      <param name="intercept">2.83419</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.00190824</param>
+      <param name="intercept">2.85767</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.00190961</param>
+      <param name="intercept">2.85721</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00191184</param>
+      <param name="intercept">2.85249</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00190886</param>
+      <param name="intercept">2.85781</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00190985</param>
+      <param name="intercept">2.86172</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00191361</param>
+      <param name="intercept">2.85708</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00191194</param>
+      <param name="intercept">2.85894</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00191216</param>
+      <param name="intercept">2.85859</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00191296</param>
+      <param name="intercept">2.82681</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00191513</param>
+      <param name="intercept">2.86093</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00190956</param>
+      <param name="intercept">2.8672</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.00191344</param>
+      <param name="intercept">2.83664</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00191342</param>
+      <param name="intercept">2.85023</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00190882</param>
+      <param name="intercept">2.84247</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00191856</param>
+      <param name="intercept">2.88191</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00190976</param>
+      <param name="intercept">2.8577</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00191022</param>
+      <param name="intercept">2.86507</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.00190824</param>
+      <param name="intercept">2.84905</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00192015</param>
+      <param name="intercept">2.86558</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.0019139</param>
+      <param name="intercept">2.8533</param>
+      <regression-coeff>0.999992</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.00191187</param>
+      <param name="intercept">2.87447</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.00191634</param>
+      <param name="intercept">2.85549</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00191317</param>
+      <param name="intercept">2.84923</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00191508</param>
+      <param name="intercept">2.87454</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00191403</param>
+      <param name="intercept">2.8617</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.00191365</param>
+      <param name="intercept">2.85158</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.00191175</param>
+      <param name="intercept">2.84676</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.00191317</param>
+      <param name="intercept">2.86801</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.00190676</param>
+      <param name="intercept">2.85288</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.001913</param>
+      <param name="intercept">2.86351</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00190392</param>
+      <param name="intercept">2.8405</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.00191127</param>
+      <param name="intercept">2.85585</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00191295</param>
+      <param name="intercept">2.85468</param>
+      <regression-coeff>0.999992</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00190532</param>
+      <param name="intercept">2.839</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00191648</param>
+      <param name="intercept">2.85204</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00192133</param>
+      <param name="intercept">2.87876</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.00190873</param>
+      <param name="intercept">2.85121</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00190864</param>
+      <param name="intercept">2.85157</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00191319</param>
+      <param name="intercept">2.84707</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00192142</param>
+      <param name="intercept">2.86072</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.00190801</param>
+      <param name="intercept">2.86391</param>
+      <regression-coeff>0.999995</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00191066</param>
+      <param name="intercept">2.85345</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00191478</param>
+      <param name="intercept">2.85693</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00191283</param>
+      <param name="intercept">2.86243</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00190109</param>
+      <param name="intercept">2.85902</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="0" channel="2" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00188549</param>
+      <param name="intercept">2.85867</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00198277</param>
+      <param name="intercept">2.89242</param>
+      <regression-coeff>0.999989</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00198409</param>
+      <param name="intercept">2.88152</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.0020002</param>
+      <param name="intercept">2.86452</param>
+      <regression-coeff>0.999991</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00204872</param>
+      <param name="intercept">2.86245</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.00205115</param>
+      <param name="intercept">2.88478</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00205705</param>
+      <param name="intercept">2.8658</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.0020492</param>
+      <param name="intercept">2.87442</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.00205914</param>
+      <param name="intercept">2.89434</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.00204914</param>
+      <param name="intercept">2.84995</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00205385</param>
+      <param name="intercept">2.86172</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00204737</param>
+      <param name="intercept">2.85308</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00204797</param>
+      <param name="intercept">2.86667</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00205434</param>
+      <param name="intercept">2.88311</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.00205144</param>
+      <param name="intercept">2.86625</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00204927</param>
+      <param name="intercept">2.86947</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.00204515</param>
+      <param name="intercept">2.87074</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.00205968</param>
+      <param name="intercept">2.8822</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00205443</param>
+      <param name="intercept">2.87327</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.0020454</param>
+      <param name="intercept">2.8544</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.00205109</param>
+      <param name="intercept">2.86537</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.00205233</param>
+      <param name="intercept">2.86581</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00205007</param>
+      <param name="intercept">2.86991</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00204877</param>
+      <param name="intercept">2.86924</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.00205951</param>
+      <param name="intercept">2.86701</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00205832</param>
+      <param name="intercept">2.85982</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.00205652</param>
+      <param name="intercept">2.85619</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.00205364</param>
+      <param name="intercept">2.89144</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00205411</param>
+      <param name="intercept">2.86886</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.00205533</param>
+      <param name="intercept">2.87803</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00206195</param>
+      <param name="intercept">2.89114</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00204843</param>
+      <param name="intercept">2.85705</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.0020467</param>
+      <param name="intercept">2.87088</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00205394</param>
+      <param name="intercept">2.88392</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00205503</param>
+      <param name="intercept">2.8794</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.00204805</param>
+      <param name="intercept">2.88065</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.00204695</param>
+      <param name="intercept">2.86532</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.00206302</param>
+      <param name="intercept">2.8598</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00205455</param>
+      <param name="intercept">2.85743</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00205162</param>
+      <param name="intercept">2.86815</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00205307</param>
+      <param name="intercept">2.85419</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.0020536</param>
+      <param name="intercept">2.83888</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00204872</param>
+      <param name="intercept">2.87236</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.00204913</param>
+      <param name="intercept">2.8613</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00205632</param>
+      <param name="intercept">2.86937</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00206111</param>
+      <param name="intercept">2.85688</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.00204809</param>
+      <param name="intercept">2.88644</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00204601</param>
+      <param name="intercept">2.86746</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.00204944</param>
+      <param name="intercept">2.86905</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.00206083</param>
+      <param name="intercept">2.86931</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.00205899</param>
+      <param name="intercept">2.87533</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00205017</param>
+      <param name="intercept">2.86363</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00205439</param>
+      <param name="intercept">2.88073</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00205077</param>
+      <param name="intercept">2.8543</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00205401</param>
+      <param name="intercept">2.8605</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.00205109</param>
+      <param name="intercept">2.87344</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00204751</param>
+      <param name="intercept">2.88773</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00205235</param>
+      <param name="intercept">2.86218</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00205513</param>
+      <param name="intercept">2.87098</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00205577</param>
+      <param name="intercept">2.86855</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.00204963</param>
+      <param name="intercept">2.88165</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.00205353</param>
+      <param name="intercept">2.86344</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00205996</param>
+      <param name="intercept">2.86389</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00205307</param>
+      <param name="intercept">2.85845</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.00205194</param>
+      <param name="intercept">2.86296</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00206064</param>
+      <param name="intercept">2.85524</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00205154</param>
+      <param name="intercept">2.84794</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00204954</param>
+      <param name="intercept">2.85637</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00205422</param>
+      <param name="intercept">2.86155</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00205307</param>
+      <param name="intercept">2.86564</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00205458</param>
+      <param name="intercept">2.86613</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.00205379</param>
+      <param name="intercept">2.87783</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.00205597</param>
+      <param name="intercept">2.85606</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00205616</param>
+      <param name="intercept">2.86621</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00204745</param>
+      <param name="intercept">2.86099</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.0020579</param>
+      <param name="intercept">2.87237</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00205922</param>
+      <param name="intercept">2.8592</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00205742</param>
+      <param name="intercept">2.86093</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00205537</param>
+      <param name="intercept">2.87327</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.00204671</param>
+      <param name="intercept">2.86075</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00205928</param>
+      <param name="intercept">2.87492</param>
+      <regression-coeff>0.999994</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00206327</param>
+      <param name="intercept">2.88331</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00205232</param>
+      <param name="intercept">2.85974</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.00205412</param>
+      <param name="intercept">2.86896</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.00206084</param>
+      <param name="intercept">2.8732</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00205038</param>
+      <param name="intercept">2.85211</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00205526</param>
+      <param name="intercept">2.88335</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00205361</param>
+      <param name="intercept">2.86447</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00205947</param>
+      <param name="intercept">2.85915</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00205307</param>
+      <param name="intercept">2.84749</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00204889</param>
+      <param name="intercept">2.86257</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00205454</param>
+      <param name="intercept">2.86891</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00205339</param>
+      <param name="intercept">2.87308</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00205667</param>
+      <param name="intercept">2.87176</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.00205556</param>
+      <param name="intercept">2.86032</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00204692</param>
+      <param name="intercept">2.85296</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00205194</param>
+      <param name="intercept">2.86761</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00205835</param>
+      <param name="intercept">2.85785</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00205552</param>
+      <param name="intercept">2.87405</param>
+      <regression-coeff>0.999996</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00205209</param>
+      <param name="intercept">2.85166</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.00205921</param>
+      <param name="intercept">2.87952</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00204901</param>
+      <param name="intercept">2.86938</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.00205441</param>
+      <param name="intercept">2.87267</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.0020497</param>
+      <param name="intercept">2.86392</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.00205899</param>
+      <param name="intercept">2.87816</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00206407</param>
+      <param name="intercept">2.87672</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00205075</param>
+      <param name="intercept">2.87398</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00205746</param>
+      <param name="intercept">2.87444</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.00207184</param>
+      <param name="intercept">2.8655</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.00206134</param>
+      <param name="intercept">2.87035</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.00205188</param>
+      <param name="intercept">2.8604</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.00206316</param>
+      <param name="intercept">2.87337</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.00206085</param>
+      <param name="intercept">2.86415</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00206376</param>
+      <param name="intercept">2.8843</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.00205541</param>
+      <param name="intercept">2.83411</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00205017</param>
+      <param name="intercept">2.85942</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00205645</param>
+      <param name="intercept">2.85911</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00206085</param>
+      <param name="intercept">2.85496</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00205539</param>
+      <param name="intercept">2.85281</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.00205734</param>
+      <param name="intercept">2.87289</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00205984</param>
+      <param name="intercept">2.87194</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00205915</param>
+      <param name="intercept">2.86666</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00205456</param>
+      <param name="intercept">2.88071</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.00206956</param>
+      <param name="intercept">2.86961</param>
+      <regression-coeff>0.999998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00205514</param>
+      <param name="intercept">2.85687</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00206005</param>
+      <param name="intercept">2.86272</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00206152</param>
+      <param name="intercept">2.86701</param>
+      <regression-coeff>0.999999</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00204279</param>
+      <param name="intercept">2.8556</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="0" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00202049</param>
+      <param name="intercept">2.83942</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00198128</param>
+      <param name="intercept">2.88527</param>
+      <regression-coeff>0.999932</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00198959</param>
+      <param name="intercept">2.87272</param>
+      <regression-coeff>0.999925</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.00199729</param>
+      <param name="intercept">2.85399</param>
+      <regression-coeff>0.999938</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00204457</param>
+      <param name="intercept">2.8518</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.00204953</param>
+      <param name="intercept">2.87295</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00205413</param>
+      <param name="intercept">2.85648</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.00204504</param>
+      <param name="intercept">2.86235</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.00205765</param>
+      <param name="intercept">2.88359</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.00204454</param>
+      <param name="intercept">2.83808</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00205485</param>
+      <param name="intercept">2.8511</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00204448</param>
+      <param name="intercept">2.84222</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00204739</param>
+      <param name="intercept">2.85833</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00204824</param>
+      <param name="intercept">2.87409</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.00204975</param>
+      <param name="intercept">2.85427</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00204406</param>
+      <param name="intercept">2.85958</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.0020389</param>
+      <param name="intercept">2.86084</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.00205458</param>
+      <param name="intercept">2.8707</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00205282</param>
+      <param name="intercept">2.86316</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.0020405</param>
+      <param name="intercept">2.84457</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.00204442</param>
+      <param name="intercept">2.85612</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.00204455</param>
+      <param name="intercept">2.85414</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00205012</param>
+      <param name="intercept">2.86042</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00204525</param>
+      <param name="intercept">2.85853</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.00205182</param>
+      <param name="intercept">2.85741</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00205717</param>
+      <param name="intercept">2.84912</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.00205789</param>
+      <param name="intercept">2.849</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.00204837</param>
+      <param name="intercept">2.88293</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00204997</param>
+      <param name="intercept">2.86002</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.00204828</param>
+      <param name="intercept">2.87007</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00206271</param>
+      <param name="intercept">2.88278</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00204193</param>
+      <param name="intercept">2.847</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.00204428</param>
+      <param name="intercept">2.86162</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00204395</param>
+      <param name="intercept">2.8744</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00205237</param>
+      <param name="intercept">2.87017</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.00204041</param>
+      <param name="intercept">2.86947</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.00204288</param>
+      <param name="intercept">2.85685</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.00206195</param>
+      <param name="intercept">2.8498</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00205015</param>
+      <param name="intercept">2.84986</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00204673</param>
+      <param name="intercept">2.85904</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00204812</param>
+      <param name="intercept">2.84786</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.00204913</param>
+      <param name="intercept">2.83177</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00204458</param>
+      <param name="intercept">2.86394</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.00204583</param>
+      <param name="intercept">2.85501</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00204934</param>
+      <param name="intercept">2.8618</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00205326</param>
+      <param name="intercept">2.84866</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.00204311</param>
+      <param name="intercept">2.87809</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00203716</param>
+      <param name="intercept">2.85909</param>
+      <regression-coeff>0.999993</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.00204817</param>
+      <param name="intercept">2.86186</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.00205461</param>
+      <param name="intercept">2.8612</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.00205395</param>
+      <param name="intercept">2.86877</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00204148</param>
+      <param name="intercept">2.85573</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00204761</param>
+      <param name="intercept">2.8748</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00204164</param>
+      <param name="intercept">2.84718</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00204521</param>
+      <param name="intercept">2.85412</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.00204546</param>
+      <param name="intercept">2.86767</param>
+      <regression-coeff>0.999969</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00204463</param>
+      <param name="intercept">2.88017</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00204412</param>
+      <param name="intercept">2.85779</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00205357</param>
+      <param name="intercept">2.86493</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00204486</param>
+      <param name="intercept">2.86257</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.00204877</param>
+      <param name="intercept">2.87457</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.0020503</param>
+      <param name="intercept">2.85908</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00205327</param>
+      <param name="intercept">2.85816</param>
+      <regression-coeff>0.999962</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00204751</param>
+      <param name="intercept">2.85219</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.00204889</param>
+      <param name="intercept">2.85859</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00205609</param>
+      <param name="intercept">2.84891</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00204805</param>
+      <param name="intercept">2.84176</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00204899</param>
+      <param name="intercept">2.85223</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00204868</param>
+      <param name="intercept">2.85775</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00204683</param>
+      <param name="intercept">2.86134</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00204739</param>
+      <param name="intercept">2.86033</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.00204861</param>
+      <param name="intercept">2.87629</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.00205237</param>
+      <param name="intercept">2.85138</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00205027</param>
+      <param name="intercept">2.86438</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00204135</param>
+      <param name="intercept">2.85577</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.00204903</param>
+      <param name="intercept">2.86915</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00205597</param>
+      <param name="intercept">2.85703</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00205039</param>
+      <param name="intercept">2.8566</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00204887</param>
+      <param name="intercept">2.87038</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.00203994</param>
+      <param name="intercept">2.85792</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00205316</param>
+      <param name="intercept">2.87339</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00205618</param>
+      <param name="intercept">2.88016</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00204602</param>
+      <param name="intercept">2.85782</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.0020445</param>
+      <param name="intercept">2.86842</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.0020507</param>
+      <param name="intercept">2.86982</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00204475</param>
+      <param name="intercept">2.85351</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00205105</param>
+      <param name="intercept">2.88134</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00204553</param>
+      <param name="intercept">2.86425</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00205454</param>
+      <param name="intercept">2.85592</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00204803</param>
+      <param name="intercept">2.8482</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00204219</param>
+      <param name="intercept">2.86261</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00204761</param>
+      <param name="intercept">2.86841</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00204943</param>
+      <param name="intercept">2.87334</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00204976</param>
+      <param name="intercept">2.87119</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.00204678</param>
+      <param name="intercept">2.86073</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00204472</param>
+      <param name="intercept">2.85373</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00204354</param>
+      <param name="intercept">2.86835</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00205264</param>
+      <param name="intercept">2.86035</param>
+      <regression-coeff>0.999966</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00204462</param>
+      <param name="intercept">2.87483</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00204947</param>
+      <param name="intercept">2.85398</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.00205157</param>
+      <param name="intercept">2.88115</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00204214</param>
+      <param name="intercept">2.87259</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.00204893</param>
+      <param name="intercept">2.87165</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.00205145</param>
+      <param name="intercept">2.86891</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.0020558</param>
+      <param name="intercept">2.8797</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00205747</param>
+      <param name="intercept">2.87824</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00204685</param>
+      <param name="intercept">2.87814</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00205352</param>
+      <param name="intercept">2.87647</param>
+      <regression-coeff>0.999965</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.0020649</param>
+      <param name="intercept">2.86868</param>
+      <regression-coeff>0.999962</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.0020517</param>
+      <param name="intercept">2.87331</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.00204878</param>
+      <param name="intercept">2.86443</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.00206076</param>
+      <param name="intercept">2.87817</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.00205802</param>
+      <param name="intercept">2.86796</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00205377</param>
+      <param name="intercept">2.88787</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.00204624</param>
+      <param name="intercept">2.83894</param>
+      <regression-coeff>0.999962</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00204869</param>
+      <param name="intercept">2.86262</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00205014</param>
+      <param name="intercept">2.86316</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00205422</param>
+      <param name="intercept">2.85804</param>
+      <regression-coeff>0.999961</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00204582</param>
+      <param name="intercept">2.85708</param>
+      <regression-coeff>0.999966</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.0020542</param>
+      <param name="intercept">2.87756</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00205608</param>
+      <param name="intercept">2.87569</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00205008</param>
+      <param name="intercept">2.87136</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00204883</param>
+      <param name="intercept">2.88534</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.00206471</param>
+      <param name="intercept">2.87499</param>
+      <regression-coeff>0.999964</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00205131</param>
+      <param name="intercept">2.86262</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00205597</param>
+      <param name="intercept">2.86868</param>
+      <regression-coeff>0.999965</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00205717</param>
+      <param name="intercept">2.87599</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00204217</param>
+      <param name="intercept">2.85965</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="1" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00202316</param>
+      <param name="intercept">2.84942</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="0">
+    <fit model="linear">
+      <param name="slope">-0.00197758</param>
+      <param name="intercept">2.89582</param>
+      <regression-coeff>0.999933</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="1">
+    <fit model="linear">
+      <param name="slope">-0.00197683</param>
+      <param name="intercept">2.88182</param>
+      <regression-coeff>0.999922</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="2">
+    <fit model="linear">
+      <param name="slope">-0.00198303</param>
+      <param name="intercept">2.86328</param>
+      <regression-coeff>0.999949</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="3">
+    <fit model="linear">
+      <param name="slope">-0.00203228</param>
+      <param name="intercept">2.85977</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="4">
+    <fit model="linear">
+      <param name="slope">-0.00202932</param>
+      <param name="intercept">2.88406</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="5">
+    <fit model="linear">
+      <param name="slope">-0.00204529</param>
+      <param name="intercept">2.86369</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="6">
+    <fit model="linear">
+      <param name="slope">-0.00203208</param>
+      <param name="intercept">2.87126</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="7">
+    <fit model="linear">
+      <param name="slope">-0.0020452</param>
+      <param name="intercept">2.89422</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="8">
+    <fit model="linear">
+      <param name="slope">-0.0020259</param>
+      <param name="intercept">2.84528</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="9">
+    <fit model="linear">
+      <param name="slope">-0.00203601</param>
+      <param name="intercept">2.85925</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="10">
+    <fit model="linear">
+      <param name="slope">-0.00203043</param>
+      <param name="intercept">2.85195</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="11">
+    <fit model="linear">
+      <param name="slope">-0.00202728</param>
+      <param name="intercept">2.86861</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="12">
+    <fit model="linear">
+      <param name="slope">-0.00203886</param>
+      <param name="intercept">2.88149</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="13">
+    <fit model="linear">
+      <param name="slope">-0.00203365</param>
+      <param name="intercept">2.86197</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="14">
+    <fit model="linear">
+      <param name="slope">-0.00203306</param>
+      <param name="intercept">2.86969</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="15">
+    <fit model="linear">
+      <param name="slope">-0.00203003</param>
+      <param name="intercept">2.87038</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="16">
+    <fit model="linear">
+      <param name="slope">-0.00204386</param>
+      <param name="intercept">2.87947</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="17">
+    <fit model="linear">
+      <param name="slope">-0.00203836</param>
+      <param name="intercept">2.87079</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="18">
+    <fit model="linear">
+      <param name="slope">-0.00202716</param>
+      <param name="intercept">2.85458</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="19">
+    <fit model="linear">
+      <param name="slope">-0.00203349</param>
+      <param name="intercept">2.86275</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="20">
+    <fit model="linear">
+      <param name="slope">-0.00203293</param>
+      <param name="intercept">2.86194</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="21">
+    <fit model="linear">
+      <param name="slope">-0.00203633</param>
+      <param name="intercept">2.86897</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="22">
+    <fit model="linear">
+      <param name="slope">-0.00202734</param>
+      <param name="intercept">2.86595</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="23">
+    <fit model="linear">
+      <param name="slope">-0.00204118</param>
+      <param name="intercept">2.86413</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="24">
+    <fit model="linear">
+      <param name="slope">-0.00204281</param>
+      <param name="intercept">2.85734</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="25">
+    <fit model="linear">
+      <param name="slope">-0.00204034</param>
+      <param name="intercept">2.85802</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="26">
+    <fit model="linear">
+      <param name="slope">-0.00203885</param>
+      <param name="intercept">2.88833</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="27">
+    <fit model="linear">
+      <param name="slope">-0.00203665</param>
+      <param name="intercept">2.86608</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="28">
+    <fit model="linear">
+      <param name="slope">-0.00203642</param>
+      <param name="intercept">2.87828</param>
+      <regression-coeff>0.999967</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="29">
+    <fit model="linear">
+      <param name="slope">-0.00204078</param>
+      <param name="intercept">2.8894</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="30">
+    <fit model="linear">
+      <param name="slope">-0.00202977</param>
+      <param name="intercept">2.85328</param>
+      <regression-coeff>0.999989</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="31">
+    <fit model="linear">
+      <param name="slope">-0.00202794</param>
+      <param name="intercept">2.86881</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="32">
+    <fit model="linear">
+      <param name="slope">-0.00203231</param>
+      <param name="intercept">2.88396</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="33">
+    <fit model="linear">
+      <param name="slope">-0.00203823</param>
+      <param name="intercept">2.87575</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="34">
+    <fit model="linear">
+      <param name="slope">-0.0020233</param>
+      <param name="intercept">2.87549</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="35">
+    <fit model="linear">
+      <param name="slope">-0.00203187</param>
+      <param name="intercept">2.86611</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="36">
+    <fit model="linear">
+      <param name="slope">-0.00204745</param>
+      <param name="intercept">2.8576</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="37">
+    <fit model="linear">
+      <param name="slope">-0.00203809</param>
+      <param name="intercept">2.85517</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="38">
+    <fit model="linear">
+      <param name="slope">-0.00203198</param>
+      <param name="intercept">2.8667</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="39">
+    <fit model="linear">
+      <param name="slope">-0.00203499</param>
+      <param name="intercept">2.85588</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="40">
+    <fit model="linear">
+      <param name="slope">-0.00203205</param>
+      <param name="intercept">2.83734</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="41">
+    <fit model="linear">
+      <param name="slope">-0.00203028</param>
+      <param name="intercept">2.87035</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="42">
+    <fit model="linear">
+      <param name="slope">-0.0020344</param>
+      <param name="intercept">2.86245</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="43">
+    <fit model="linear">
+      <param name="slope">-0.00203327</param>
+      <param name="intercept">2.86857</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="44">
+    <fit model="linear">
+      <param name="slope">-0.00204318</param>
+      <param name="intercept">2.85456</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="45">
+    <fit model="linear">
+      <param name="slope">-0.00202962</param>
+      <param name="intercept">2.88384</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="46">
+    <fit model="linear">
+      <param name="slope">-0.00202756</param>
+      <param name="intercept">2.86829</param>
+      <regression-coeff>0.999969</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="47">
+    <fit model="linear">
+      <param name="slope">-0.0020316</param>
+      <param name="intercept">2.86651</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="48">
+    <fit model="linear">
+      <param name="slope">-0.0020413</param>
+      <param name="intercept">2.866</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="49">
+    <fit model="linear">
+      <param name="slope">-0.0020393</param>
+      <param name="intercept">2.87672</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="50">
+    <fit model="linear">
+      <param name="slope">-0.00203189</param>
+      <param name="intercept">2.86174</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="51">
+    <fit model="linear">
+      <param name="slope">-0.00203648</param>
+      <param name="intercept">2.87925</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="52">
+    <fit model="linear">
+      <param name="slope">-0.00203506</param>
+      <param name="intercept">2.85335</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="53">
+    <fit model="linear">
+      <param name="slope">-0.00203532</param>
+      <param name="intercept">2.86215</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="54">
+    <fit model="linear">
+      <param name="slope">-0.00203024</param>
+      <param name="intercept">2.87278</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="55">
+    <fit model="linear">
+      <param name="slope">-0.00202816</param>
+      <param name="intercept">2.88525</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="56">
+    <fit model="linear">
+      <param name="slope">-0.00203656</param>
+      <param name="intercept">2.866</param>
+      <regression-coeff>0.999969</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="57">
+    <fit model="linear">
+      <param name="slope">-0.00203743</param>
+      <param name="intercept">2.87075</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="58">
+    <fit model="linear">
+      <param name="slope">-0.00203611</param>
+      <param name="intercept">2.86734</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="59">
+    <fit model="linear">
+      <param name="slope">-0.00203567</param>
+      <param name="intercept">2.879</param>
+      <regression-coeff>0.999989</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="60">
+    <fit model="linear">
+      <param name="slope">-0.00203925</param>
+      <param name="intercept">2.86607</param>
+      <regression-coeff>0.999964</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="61">
+    <fit model="linear">
+      <param name="slope">-0.00204206</param>
+      <param name="intercept">2.86193</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="62">
+    <fit model="linear">
+      <param name="slope">-0.00203424</param>
+      <param name="intercept">2.85623</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="63">
+    <fit model="linear">
+      <param name="slope">-0.0020366</param>
+      <param name="intercept">2.86594</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="64">
+    <fit model="linear">
+      <param name="slope">-0.00204097</param>
+      <param name="intercept">2.85329</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="65">
+    <fit model="linear">
+      <param name="slope">-0.00202861</param>
+      <param name="intercept">2.84633</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="66">
+    <fit model="linear">
+      <param name="slope">-0.00203436</param>
+      <param name="intercept">2.85562</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="67">
+    <fit model="linear">
+      <param name="slope">-0.00203364</param>
+      <param name="intercept">2.86321</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="68">
+    <fit model="linear">
+      <param name="slope">-0.00203086</param>
+      <param name="intercept">2.86559</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="69">
+    <fit model="linear">
+      <param name="slope">-0.00203432</param>
+      <param name="intercept">2.86378</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="70">
+    <fit model="linear">
+      <param name="slope">-0.00203364</param>
+      <param name="intercept">2.87981</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="71">
+    <fit model="linear">
+      <param name="slope">-0.00203514</param>
+      <param name="intercept">2.85748</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="72">
+    <fit model="linear">
+      <param name="slope">-0.00203821</param>
+      <param name="intercept">2.8675</param>
+      <regression-coeff>0.999988</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="73">
+    <fit model="linear">
+      <param name="slope">-0.00203446</param>
+      <param name="intercept">2.86008</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="74">
+    <fit model="linear">
+      <param name="slope">-0.00203791</param>
+      <param name="intercept">2.8754</param>
+      <regression-coeff>0.999985</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="75">
+    <fit model="linear">
+      <param name="slope">-0.00203522</param>
+      <param name="intercept">2.8592</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="76">
+    <fit model="linear">
+      <param name="slope">-0.00203725</param>
+      <param name="intercept">2.86032</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="77">
+    <fit model="linear">
+      <param name="slope">-0.00203553</param>
+      <param name="intercept">2.87475</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="78">
+    <fit model="linear">
+      <param name="slope">-0.0020226</param>
+      <param name="intercept">2.86138</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="79">
+    <fit model="linear">
+      <param name="slope">-0.00203585</param>
+      <param name="intercept">2.8754</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="80">
+    <fit model="linear">
+      <param name="slope">-0.00204391</param>
+      <param name="intercept">2.88327</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="81">
+    <fit model="linear">
+      <param name="slope">-0.00203269</param>
+      <param name="intercept">2.86293</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="82">
+    <fit model="linear">
+      <param name="slope">-0.00203124</param>
+      <param name="intercept">2.8703</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="83">
+    <fit model="linear">
+      <param name="slope">-0.00203785</param>
+      <param name="intercept">2.87296</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="84">
+    <fit model="linear">
+      <param name="slope">-0.00202864</param>
+      <param name="intercept">2.85632</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="85">
+    <fit model="linear">
+      <param name="slope">-0.00203378</param>
+      <param name="intercept">2.88461</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="86">
+    <fit model="linear">
+      <param name="slope">-0.00202774</param>
+      <param name="intercept">2.86772</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="87">
+    <fit model="linear">
+      <param name="slope">-0.00204149</param>
+      <param name="intercept">2.85831</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="88">
+    <fit model="linear">
+      <param name="slope">-0.00203389</param>
+      <param name="intercept">2.85323</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="89">
+    <fit model="linear">
+      <param name="slope">-0.00203044</param>
+      <param name="intercept">2.86385</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="90">
+    <fit model="linear">
+      <param name="slope">-0.00203156</param>
+      <param name="intercept">2.87048</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="91">
+    <fit model="linear">
+      <param name="slope">-0.00203613</param>
+      <param name="intercept">2.87721</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="92">
+    <fit model="linear">
+      <param name="slope">-0.00203386</param>
+      <param name="intercept">2.87445</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="93">
+    <fit model="linear">
+      <param name="slope">-0.0020408</param>
+      <param name="intercept">2.86168</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="94">
+    <fit model="linear">
+      <param name="slope">-0.00202705</param>
+      <param name="intercept">2.85601</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="95">
+    <fit model="linear">
+      <param name="slope">-0.00203142</param>
+      <param name="intercept">2.87364</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="96">
+    <fit model="linear">
+      <param name="slope">-0.00203802</param>
+      <param name="intercept">2.86039</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="97">
+    <fit model="linear">
+      <param name="slope">-0.00203312</param>
+      <param name="intercept">2.8762</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="98">
+    <fit model="linear">
+      <param name="slope">-0.00203008</param>
+      <param name="intercept">2.8566</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="99">
+    <fit model="linear">
+      <param name="slope">-0.00203728</param>
+      <param name="intercept">2.88394</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="100">
+    <fit model="linear">
+      <param name="slope">-0.00203004</param>
+      <param name="intercept">2.87499</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="101">
+    <fit model="linear">
+      <param name="slope">-0.00203576</param>
+      <param name="intercept">2.87404</param>
+      <regression-coeff>0.99997</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="102">
+    <fit model="linear">
+      <param name="slope">-0.00203199</param>
+      <param name="intercept">2.87256</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="103">
+    <fit model="linear">
+      <param name="slope">-0.00204189</param>
+      <param name="intercept">2.88041</param>
+      <regression-coeff>0.999978</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="104">
+    <fit model="linear">
+      <param name="slope">-0.00203946</param>
+      <param name="intercept">2.87973</param>
+      <regression-coeff>0.999987</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="105">
+    <fit model="linear">
+      <param name="slope">-0.00203139</param>
+      <param name="intercept">2.88048</param>
+      <regression-coeff>0.999984</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="106">
+    <fit model="linear">
+      <param name="slope">-0.00204026</param>
+      <param name="intercept">2.88</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="107">
+    <fit model="linear">
+      <param name="slope">-0.002054</param>
+      <param name="intercept">2.86931</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="108">
+    <fit model="linear">
+      <param name="slope">-0.00203883</param>
+      <param name="intercept">2.87502</param>
+      <regression-coeff>0.999974</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="109">
+    <fit model="linear">
+      <param name="slope">-0.0020343</param>
+      <param name="intercept">2.86805</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="110">
+    <fit model="linear">
+      <param name="slope">-0.0020417</param>
+      <param name="intercept">2.87961</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="111">
+    <fit model="linear">
+      <param name="slope">-0.0020411</param>
+      <param name="intercept">2.87058</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="112">
+    <fit model="linear">
+      <param name="slope">-0.00204932</param>
+      <param name="intercept">2.88886</param>
+      <regression-coeff>0.999976</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="113">
+    <fit model="linear">
+      <param name="slope">-0.00203396</param>
+      <param name="intercept">2.84247</param>
+      <regression-coeff>0.999986</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="114">
+    <fit model="linear">
+      <param name="slope">-0.00202887</param>
+      <param name="intercept">2.86498</param>
+      <regression-coeff>0.999983</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="115">
+    <fit model="linear">
+      <param name="slope">-0.00204066</param>
+      <param name="intercept">2.86495</param>
+      <regression-coeff>0.999973</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="116">
+    <fit model="linear">
+      <param name="slope">-0.00203923</param>
+      <param name="intercept">2.86148</param>
+      <regression-coeff>0.999979</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="117">
+    <fit model="linear">
+      <param name="slope">-0.00203569</param>
+      <param name="intercept">2.86095</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="118">
+    <fit model="linear">
+      <param name="slope">-0.00204117</param>
+      <param name="intercept">2.87963</param>
+      <regression-coeff>0.99998</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="119">
+    <fit model="linear">
+      <param name="slope">-0.00204048</param>
+      <param name="intercept">2.87759</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="120">
+    <fit model="linear">
+      <param name="slope">-0.00204005</param>
+      <param name="intercept">2.87688</param>
+      <regression-coeff>0.999972</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="121">
+    <fit model="linear">
+      <param name="slope">-0.00203643</param>
+      <param name="intercept">2.88679</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="122">
+    <fit model="linear">
+      <param name="slope">-0.00205498</param>
+      <param name="intercept">2.87703</param>
+      <regression-coeff>0.999966</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="123">
+    <fit model="linear">
+      <param name="slope">-0.00204126</param>
+      <param name="intercept">2.86533</param>
+      <regression-coeff>0.999981</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="124">
+    <fit model="linear">
+      <param name="slope">-0.00204023</param>
+      <param name="intercept">2.873</param>
+      <regression-coeff>0.999971</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="125">
+    <fit model="linear">
+      <param name="slope">-0.00204303</param>
+      <param name="intercept">2.87644</param>
+      <regression-coeff>0.999982</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="126">
+    <fit model="linear">
+      <param name="slope">-0.00202382</param>
+      <param name="intercept">2.86268</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <atwd id="1" channel="2" bin="127">
+    <fit model="linear">
+      <param name="slope">-0.00201685</param>
+      <param name="intercept">2.85215</param>
+      <regression-coeff>0.999975</regression-coeff>
+    </fit>
+  </atwd>
+  <fadc_baseline>
+    <fit model="linear">
+      <param name="slope">1.25133</param>
+      <param name="intercept">-870.49</param>
+      <regression-coeff>0.999997</regression-coeff>
+    </fit>
+  </fadc_baseline>
+  <fadc_gain>
+    <gain error="2.72913e-08">9.08154e-05</gain>
+  </fadc_gain>
+  <fadc_delta_t>
+    <delta_t error="0.113599">-114.859</delta_t>
+  </fadc_delta_t>
+  <atwd_delta_t id="0">
+    <delta_t error="0">0</delta_t>
+  </atwd_delta_t>
+  <atwd_delta_t id="1">
+    <delta_t error="0.00577132">-0.0245321</delta_t>
+  </atwd_delta_t>
+  <amplifier channel="0">
+    <gain error="0.00449268">-16.2032</gain>
+  </amplifier>
+  <amplifier channel="1">
+    <gain error="0.000828644">-1.77612</gain>
+  </amplifier>
+  <amplifier channel="2">
+    <gain error="0.000839307">-0.16578</gain>
+  </amplifier>
+  <atwdfreq atwd="0">
+    <fit model="quadratic">
+      <param name="c0">23.9055</param>
+      <param name="c1">0.332569</param>
+      <param name="c2">-2.94927e-05</param>
+      <regression-coeff>0.999977</regression-coeff>
+    </fit>
+  </atwdfreq>
+  <atwdfreq atwd="1">
+    <fit model="quadratic">
+      <param name="c0">27.1583</param>
+      <param name="c1">0.325027</param>
+      <param name="c2">-2.90772e-05</param>
+      <regression-coeff>0.999968</regression-coeff>
+    </fit>
+  </atwdfreq>
+  <baseline voltage="0">
+    <base atwd="0" channel="0" value="-0.000682903"/>
+    <base atwd="0" channel="1" value="0.000292802"/>
+    <base atwd="0" channel="2" value="9.52173e-05"/>
+    <base atwd="1" channel="0" value="-0.000539396"/>
+    <base atwd="1" channel="1" value="4.36076e-05"/>
+    <base atwd="1" channel="2" value="-0.000134093"/>
+  </baseline>
+</domcal>
