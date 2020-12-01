@@ -105,6 +105,7 @@ b592c5613a00	UP6H7552	Alan_Elcheikh	45-01	-
 75f7917d9ef1	UP6H7500	AlbaNova	12-55	NULL
 3e330666139d	TP5P0939	Albany	49-22	-
 778fa3a8e2bf	UL9P6630	Albino_Shouting_Gorilla	84-27	NULL
+8a6763d90eb5	UP5H0158	Alby	2022-03	NULL
 7d51fc47fae7	UP5P0894	Alcoholophilia	71-19	-
 5a17b09191f9	UL8P6504	Aldan_River	85-07	NULL
 d2f3e6129811	TP4Y0047	Aldersbacher	17-12	-
@@ -114,6 +115,7 @@ c0bde286456c	AP7P2095	Aldof_Nordenskiold	02-64	NULL
 abffc18cfb4b	UP4P0176	Ale	30-35	-
 a7c9e7c099b6	UP7Y4672	Aleksey	20-53	NULL
 5f25fa3b0195	UP7P2266	Aleut_Nation	41-09	NULL
+ccb14563aee5	TP5Y0121	Alexanderplatz	-	-
 ed15bebde247	TP7P2793	Alexander_Kielland	04-12	NULL
 0d5ca4453398	AP6P1159	Alexandria	75-62	NULL
 047b664ed8bf	UP7P2696	Alexandria_Lighthouse	04-35	NULL
@@ -150,6 +152,7 @@ a95cd1ea85de	UP4Y0024	Alsfelder	58-59	-
 edc24bfa1009	TP8P3345	Altay	27-10	NULL
 e44a199ef687	UP5H0206	Altorp	50-33	-
 cc7cab0c3aa3	UP7P2572	Altstadt	31-11	NULL
+31e4c559571d	TP6H7503	Aluddsparken	-	-
 ddad59b68a8e	UP4P0210	Aluminum	54-25	-
 e279d4c39ba4	UP7P2582	Alumot	32-49	NULL
 fb2a9e5fd451	TP5H0115	Alvik	39-52	-
@@ -234,6 +237,7 @@ e68a6acda6b4	UP5H0236	Anka	46-51	-
 82e4f98539ba	UP8P3152	Antarctic_Fur_Seal	13-45	NULL
 33d79d5f8402	UP5P0520	Antarctic_Wind	19-49	-
 755b43a6672e	UP7H8190	Antares	25-25	NULL
+d1d2b6a6858d	UP4P0246	Anteater	-	-
 16a5b9112b00	UP4P0252	Antelope	21-21	-
 846519f9a592	UP5P1004	Anthophilia	39-53	-
 fbfd0026868a	UP4P0196	Anthracene	21-37	-
@@ -244,6 +248,7 @@ fbfd0026868a	UP4P0196	Anthracene	21-37	-
 58bf6b37d756	AP8P3023	Antwerp_1920	81-64	NULL
 aea89c50c9d2	UP6P1350	Ant_Nebula	72-35	Referred to as the Ant Nebula because it resembles the head and thorax of a garden-variety ant.
 e02e36073f39	TP6P1503	Anvik_River	67-60	W Alaska, SE of Norton Sound
+ac5125a3767b	SCUBE045	Achill	2023-45	NULL
 c4fbe853920e	UP7P2186	Aorta	09-33	NULL
 139315c78309	UP7P2294	Apache_Tribe	54-17	NULL
 2cc578db777a	UP7P2296	Apalachee_Tribe	52-01	NULL
@@ -262,6 +267,7 @@ ca5beeb3e975	UP7Y4742	Apophyse	41-49	NULL
 23386c077d61	UP8P3520	Appel	19-15	NULL
 b13ef6c4785a	AP6P1182	Appendix	22-62	NULL
 d0aaa4430f0f	UP7P2118	Appenzeller	76-25	NULL
+91c420c11953	TP4P0093	Apple	2021-04	NULL
 cb545b4fdb54	TP6P1627	Appleby	63-34	Appleby is a young pilot from Iowa. Orr does not like him, and cryptically says that he has flies in his eyes
 fbc76652eb62	UP6P1450	Applescript	64-03	scripting language built into MacOS
 3790c231c86f	TP8P3635	Apples_to_Apples	22-38	NULL
@@ -269,10 +275,12 @@ fbc76652eb62	UP6P1450	Applescript	64-03	scripting language built into MacOS
 4631c8148d56	TL9P6737	Apricot_Tree	84-24	NULL
 f35dc4df03a3	TP7P2767	April	04-04	NULL
 55ef64629b71	UP7P2526	Aquaman	10-19	NULL
+b2965980e6a9	UK4P0053	Aquarius	-	-
 226fc0214283	UP8P3366	Arabi	09-07	NULL
 f6c43323753e	UP5P0744	Arachnology	38-21	-
 f18893dc447e	TP7P2267	Aragorn	36-24	NULL
 ce8781b75e57	TP8P3335	Arapawa_Island	51-16	NULL
+c7e51e8bc3f9	TP6H7509	Arbetargatan	2020-07	NULL
 4a9f5c028a98	TP8P3133	Arbor	09-26	NULL
 c388318f78d1	UP7P2524	Archangel	25-15	NULL
 0fa175799dac	UP5P0750	Archeology	66-59	-
@@ -286,7 +294,9 @@ cadddb51694e	UP7Y4574	Aremoricii	76-33	NULL
 9c2b2b464cb9	AP6P1177	Argos	68-61	NULL
 81bf7824c854	TP7P2803	Ariane_5	04-44	NULL
 8d78210718e2	UP7P2170	Ariel	62-13	NULL
+f771bb4dce28	UK4P0045	Aries	-	-
 6d88a0134ee7	TP7Y4547	Arina	20-54	NULL
+0f435aa75910	UP5P1020	Arizona	-	-
 19768b41eb40	TP6Y4413	Arjaman	65-06	Indian Gods and legendary heroes
 c9310c0d6306	TP7Y4483	Arkadak	55-24	NULL
 dad5d385e30c	TP8P3383	Arkansas_River	26-22	NULL
@@ -331,6 +341,7 @@ a206d4de714f	TP7Y4495	Astronomix	28-40	NULL
 309126999fc9	UP5P0854	Astrophilia	39-55	-
 27c85ac90997	TP7P2665	Asvina	04-38	NULL
 7b60c607ac74	UP8P3232	Atabaque	05-45	NULL
+ff245ac8fbac	SCUBE053	Al_Fiyay	2023-53	NULL
 6c10d2c16763	TP6P1881	Atafu	52-63	NULL
 c4b2d9e19419	UP5P0590	Ataxophobia	39-13	-
 307910cc4bb9	UP7Y4788	Atelopus_Varius	18-25	NULL
@@ -378,6 +389,7 @@ f85b490bd264	UP7Y4508	Avoranfix	53-09	NULL
 845587c96539	UP8P3178	Axe_File	25-37	NULL
 87f40dd137fc	UP5P0766	Axiology	66-55	-
 2db3d359d581	UP7Y4748	Axis	08-37	NULL
+c6ccd7507d6b	UP6P1214	Azalea	-	Hole 13 Par 5   510 yards
 2419aecc23e7	TP7P2663	Azar	04-26	NULL
 654318f0ca97	TP6P1795	Azerbaijan_Airlines	52-50	Belgium national airline
 474107574a40	TP9P3779	Azkaban	79-28	NULL
@@ -386,20 +398,24 @@ a1aa615d0a79	UP7Y4870	A_Space_Odyssey	08-35	NULL
 700721bb194d	AP6P1129	A_Top	65-64	on top of
 e7300376af94	TP6Y4313	Ba	20-46	Gods of Ancient Egypt
 a2af6cbe0132	TP6Y4301	Baalchamman	12-34	African Gods and Legendary Heroes
+ad084d9664ba	UP5P0584	Baba_Yagaish	-	-
 7d1ed7aacdd0	TP7P2103	Babeldaob	75-52	NULL
 359ab791855c	TP5P0949	Babesiosis	65-12	-
+4fb2e7dcd3cf	UP4P0260	Baboon	-	-
 0045bed2e4d1	UP6H7510	Babordsgatan	48-51	-
 beef4c77fd7b	AP6P1161	Babylon	75-61	NULL
 d4ff422e05b5	TP6P1391	Baccarat	65-60	A card Game
 be90c9a998e6	UP8P3606	Bachelor	14-05	NULL
 6807dbacd9a9	UP5P0552	Backdraft	38-31	-
 ae797d35898e	TP8P3647	Backgammon	14-52	NULL
+392736254736	AP6P1134	Back_Stop	-	Pots !
 d7bc23a055e1	UP5P0778	Bacteriology	49-39	-
 bf15323513ac	UP4P0262	Badger	50-29	-
 ddef74809c4a	TP6P1697	Badlands	54-28	lovers on the run from the law
 8fe2151454cc	TP7P2491	Badminton	19-46	NULL
 6ba0bfbdc3fe	UP7P2718	Bagan_Temples	23-25	NULL
 dcc216356b8a	UP5H0182	Bagarmossen	57-49	-
+d4297ca9bc97	TP5H0201	Baggeby	-	-
 3e3546026c45	TP6H7511	Baggensgatan	57-06	-
 a03eebde0246	UP7H8256	Bagis	24-33	NULL
 ddf3bd37c45e	UP8P3476	Bag_Drag	31-17	NULL
@@ -416,6 +432,7 @@ d7c64c74116d	TP7P2667	Bahman	11-32	NULL
 e38fb99f9d50	TP6Y4235	Balanza	60-50	African Gods and Legendary Heroes
 28679ea442fc	UP7H8064	Balder	20-37	NULL
 ec3d154eb359	UP6H7512	Baldersgatan	57-47	-
+a6c0812a36bd	UP5P0528	Bali_Wind	-	-
 1006af5496ac	UP7P2566	Balkenkneipp	03-37	NULL
 0738ac4b2aa7	UP8P3370	Balkhi	26-09	NULL
 c6b62dc7a168	TP7H8257	Ball	23-16	NULL
@@ -430,6 +447,7 @@ c86aa754071c	UP7P2252	Balrog	26-13	NULL
 ea9b58c7fae8	UP7P2154	Bambi	25-47	NULL
 d7898cb743e3	TP7Y4671	Bampur	12-04	NULL
 51c2b0b2f2d6	TP4P0113	Banana	38-56	-
+29a2ab1e6a93	SCIN0003	Banana_Pancake	12-66	NULL
 1b73400bad28	UP8Y5026	Bancha	42-47	NULL
 0b41d3cfb925	UP6P1736	Banded_Coral_Shrimp	53-23	NULL
 ccef0ef2d3e5	TP6H7513	Banergatan	48-02	-
@@ -457,10 +475,12 @@ bd117ddaaf89	TP7P2489	Baseball	10-52	NULL
 82f06c7576cc	UP7P2408	Basketball	10-51	NULL
 7831d9ed26f6	UP8P3522	Basso	19-19	NULL
 6936ddf96e33	UP8P3248	Bass_Drum	05-23	NULL
+d40c5384e223	SCUBE001	Alofi	2023-01	NULL
 8b4f73f932ea	TP7H8259	Bast	15-26	NULL
 7d8833638c3b	TP6H7515	Bastugatan	57-26	-
 c8689d728b08	TP5H0147	Bastulunsen	72-34	-
 737d355af587	UP4P0264	Bat	21-01	-
+ff2d381f65ab	SCUBE064	Ambon	2023-64	NULL
 c08647a47bc8	UP7Y4842	Batagur_Baska	27-05	NULL
 7027c56a42f5	UP7P2502	Batgirl	03-23	NULL
 d398d5055839	TP7P2507	Batman	25-26	NULL
@@ -507,6 +527,7 @@ e4648ab898e2	AP7P2093	Bellingshausen	10-64	NULL
 0a759178688b	UP7Y4590	Bellovaci	76-31	NULL
 bbc6dac6c156	AP7P2027	Belly_Button	27-61	NULL
 58d02ed78f37	UP8P3260	Bell_Tree	05-27	-
+fef6a0b94761	SCUBE041	Ambrym	2023-41	NULL
 8d5df67bee78	TP7P2407	Belmont_Radio	41-32	NULL
 ce4a86627a7b	TP7Y4541	Belokurikha	69-04	NULL
 b461aab8896f	UP6Y4426	Benben	47-11	Gods of Ancient Egypt
@@ -525,6 +546,7 @@ e24f79cfd6c7	UP5H9214	Beren	45-25	NULL
 1e1be77ad6b7	UP4H0060	Bergshamra	52-07	-
 37504355c3f8	TP6H7519	Bergsundsgatan	57-14	-
 91f5921825a2	UP6H7734	Bergtunga	68-57	NULL
+0325005ad002	XK4Y0001	Berlin	-	-
 e20a9732ceb1	AP8P3013	Berlin_1936	79-64	NULL
 ddd6a46d3741	TP5Y0145	Berlin_Schonefeld	59-14	-
 bb7c26343f8c	TP5Y0137	Bernau	39-36	-
@@ -575,6 +597,7 @@ fbcf14f41006	TL9P6741	Birch_Tree	84-20	NULL
 968c43ffe8be	TP7Y4619	Birjand	12-48	NULL
 bd74d1a6c543	TP4H0055	Birka	38-46	-
 f615f7874f06	UP7Y4612	Birobidzhan	69-41	NULL
+dfa96aa467d2	DFLSyn03	BirthDOM	-	-
 4dd06b2e1927	TP8P3557	Biscayne	35-56	NULL
 ccf4d094d750	UP8Y5048	Bissap	42-17	NULL
 f16f3e478eed	TP4Y0017	Bitburger	67-48	-
@@ -613,6 +636,7 @@ b1fc89162c0b	UP4P0080	Blueberry	30-53	-
 d030f9de4010	UP4H0026	Bluetooth	30-25	-
 2d67ece35d25	TP8P3641	Blue_Max	22-46	NULL
 052ef5661e4d	TP6P1893	Blue_Ringed_Octopus	52-22	NULL
+1035a0e862cd	UP6P1364	Blue_Snowballish	-	The Blue Snowball was discovered in 1784, by William Herschel.  It is a very small nebula.
 563e21d0770a	TP7P2757	Blue_Whale	16-02	NULL
 2bf29a3b9f7b	UP9P3828	Bluff_Downs_Python	32-29	NULL
 21537d5de371	TP8P3519	BMC_Racing	02-60	NULL
@@ -622,6 +646,7 @@ b26d41c3e751	UP7P2436	Bobbelsche	09-49	NULL
 13ae193b721f	TL9H6089	Bockrot	86-52	NULL
 c51dfaa9f463	UP5H0144	Bodharan	46-45	-
 b3d216f8abe5	UP8P3202	Bodhran	05-51	NULL
+6e5c434f9731	SCUBE002	Antipaxos	2023-02	NULL
 80998f82fb99	TP8P3139	Bodifile	16-28	NULL
 ca89aa173c6b	UP8Y4982	Bodinieri	08-49	NULL
 3c9ae2d127d7	TP7Y4589	Bodiocasses	76-10	NULL
@@ -633,6 +658,7 @@ e7d5108e5eb2	UP5H0192	Bofink	37-53	-
 0ded4ff42d65	TP8P3659	Boggle	31-12	NULL
 361943d50d05	TP7P2525	Bohnebeitel	34-14	NULL
 77fbadc8edc7	UP7Y4570	Boii	60-09	NULL
+866532c3c7f9	TP5P0859	Boise	-	-
 6fb0e0007455	TP7Y4677	Bojnourd	26-36	NULL
 7c5f67026abc	TL9H6069	Bok	86-24	NULL
 ec6fa2dc57f7	UL9H6032	Boknoppning	85-23	NULL
@@ -643,6 +669,7 @@ b97cd48fff63	TL9H6011	Bombmurkla	84-30	NULL
 bafa0e62dd75	TP5H0133	Bondkobben	47-40	-
 3b76b596f1f3	UP7P2198	Bone	44-17	NULL
 66ba5a8442aa	TP8P3173	Bongo	05-46	NULL
+dcee7e8c9fac	SCUBE003	Asinara	2023-03	NULL
 cd8a81d10684	TP6P1739	Bonnie_And_Clyde	73-30	Vigalante lovers running from the law
 55bad13a6e65	TP8P3517	Bontrager	19-34	NULL
 95a5e41f1dfd	TP6P1321	Boomerang	72-06	At 1 kelvin; the coldest place known.
@@ -650,6 +677,7 @@ f7ec304c5caf	TP7H8065	Bor	10-46	NULL
 b1c145c78235	UP5P0524	Borasco	73-27	-
 bceb156d2756	UP7Y4686	Borazjan	18-15	NULL
 2ed5eb6f15e8	UP6P1828	Bora_Bora	75-57	NULL
+9d04f523f8f8	DSYRef01	BoreDOM	-	NULL
 09b91d7afd51	UP9P3780	Borgin_And_Burks	79-47	NULL
 da4975c9d833	UP7Y4644	Boris	12-39	NULL
 c658b8d1d3e1	TP8Y5093	Bori_Cha	35-16	NULL
@@ -657,6 +685,7 @@ c658b8d1d3e1	TP8Y5093	Bori_Cha	35-16	NULL
 c77ff8935f47	TP7Y4693	Boroujerd	12-24	NULL
 8b88a9d5709c	UL9H6090	Borstfibbla	81-19	NULL
 81892efef29d	UL9H6030	Borstticka	82-03	NULL
+fe7cb97b43e0	UP4Y0064	Bosch	-	-
 ef99b7c87866	TP5P0865	Boston	54-02	-
 c57a5d327723	UP4H0048	Botkyrka	37-55	-
 3c0685cd7798	TP7P2727	Boto	13-18	NULL
@@ -679,12 +708,14 @@ a1e00e525b7a	TP6Y4437	Brahma	65-30	Indian Gods and legendary heroes
 0b676a9fbfb9	TP6P1755	Brain_Coral	61-08	NULL
 0b78d4bd9c3c	TL9P6621	Brain_Slug	80-34	NULL
 99d606243a15	TP8P3207	Brake_Drum	09-38	NULL
+9984c001b14c	SCUBE054	Atlasov	2023-54	NULL
 8cb936a40bc0	UL9H6092	Brakved	81-29	NULL
 8431fc82dcb5	TP7Y4579	Bramovices	69-28	NULL
 d5f68ab474ae	TL9H6093	Brandlilja	80-42	NULL
 613a034da319	UP7H8248	Brandman	15-47	NULL
 d656756eb743	TP7H8263	Brassa	24-14	NULL
 927188038066	TP4Y0041	Braugold	58-56	-
+0e7e478e4d23	UP4Y0062	Braustolz	-	-
 27f791d29331	UP6H7694	Braxen	52-05	NULL
 92ba61537798	UL9P6706	Breach_of_Protocol	43-55	NULL
 4e6df16d0fa8	UP6P1686	Breakfast_At_Tiffanys	75-51	classic romance drama
@@ -732,6 +763,7 @@ db32d1a4bdb4	UP6P1256	Buckbean	65-23	A Flower
 9f05fd6341a1	TP6P1463	Buckland_River	67-36	at base of Seward Peninsula
 944a4127d4ca	UP6Y4364	Budai	74-57	Chinese gods and mythical heroes
 dbfb63c68279	TP4Y0031	Budweiser	51-52	-
+519231a39678	UP4P0270	Buffalo	-	-
 dfd3ff66933f	TP7Y4793	Bufo_Lemur	27-52	NULL
 e8341d6ea7d0	TP5Y0193	Bugatti_EB	49-50	-
 cc15c3955364	TL9P6615	Buggalo	82-10	NULL
@@ -807,6 +839,7 @@ c1fa4983fce6	UP5P0746	Campanology	54-49	-
 437ba560f8c5	UP8P3604	Campo_Imperatore	07-49	NULL
 de50db8dc67c	UP8P3378	Canadian_River	16-47	NULL
 5afd3f215d81	UP6P1390	Canasta	65-35	A card Game
+3db537746d3e	UK4P0057	Cancer	-	-
 bc355246fcef	UP5P0638	Cancerophobia	20-35	-
 0c5f80348cdb	UP5P1064	Candidiasis	69-27	-
 524093180cb7	UP8P3562	Cane_River_Creole	07-31	NULL
@@ -823,6 +856,7 @@ ea33238379da	UP7P2430	Canoeing	36-43	NULL
 b35b5ab19233	UP5P0512	Cape_Doctor	29-45	-
 05f6bd68263f	TP7Y4749	Capitatum	10-16	NULL
 2d3967ad656f	TP8P3515	Capitol_Reef	16-58	NULL
+d893596f5ab1	TK4P0052	Capricorn	-	-
 dde189309f7d	TP7P2547	Captain_America	10-10	NULL
 b02edef4037b	TP6P1667	Captain_Flume	75-18	Character from Joseph Hellers catch-22
 d0d23d785ff5	UP7P2140	Captain_Hook	26-31	NULL
@@ -837,7 +871,9 @@ eeb299b6639d	AP4P0066	Carbon	30-63	-
 beb37f6943b8	UP5P0788	Cardiology	50-45	-
 b38156bb3292	TP8P3397	Carducci	41-42	NULL
 35bff912839d	TP7Y4527	Carferrix	70-40	NULL
+64b09605d1b2	UP4P0278	Caribou	-	-
 12be59353507	UP8P3222	Carillon	13-25	NULL
+305939e1ac83	SCUBE009	Bhasan_Char	2023-09	NULL
 4760bac5d0a2	UL8P6564	Carlsbad_Caverns	36-55	NULL
 d9002ecbbcd8	TP4Y0015	Carlsberg	71-22	-
 eb2d4cbe5e38	UL9P6718	Carl_Bauman	82-29	NULL
@@ -864,13 +900,16 @@ b01929561446	UP8P3636	Cartagena	22-35	NULL
 bce25e925110	TP5Y0199	Case_Arrow	73-28	NULL
 04c4c687d113	TP7P2729	Caspian_Seal	17-16	NULL
 3bb4aae4d90d	AP8P3032	Cassini	25-63	NULL
+7413df4e37b7	TP6P1331	Cassiopeia_A	-	A supernova remnant, Cas A is the strongest radio source in the sky beyond our solar system.
 d2933b285ba5	TP8P3181	Castanet	13-32	NULL
+f470533203af	SCUBE010	Big_Susie	2023-10	NULL
 0dddc6303d32	TP6P1551	Castlevania	64-56	a game where you must defeat the evil Dracula
 798e62def158	UP4P0280	Cat	38-09	-
 92eb64c07455	UP8Y5110	Catnip	33-53	NULL
 800c38a81552	UP8P3436	Catullus	19-27	NULL
 7032848adf4c	UP7Y4566	Catuvellauni	06-35	NULL
 36942fcf93ea	TP6P1307	Cat_People	48-16	A 1942 horror film which tells the story of a young Serbian woman, Irena Dubrovna (Simone Simon) who is haunted by the myth of the cat people of her village.
+48416b9ba9e8	UP4P0180	Cauliflower	-	-
 6d4c1d11adc8	UP8P3442	Cavalcanti	37-23	NULL
 9de6c286404c	TP4P0115	Cavatelli	40-60	-
 76936e59c393	TP9P3829	Cave_Bear	SP-08	NULL
@@ -883,6 +922,8 @@ d23e8e9cb67c	TP8P3487	CDC	16-18	NULL
 5c71001db35b	TP6H7521	Cedersdalsgatan	72-30	-
 7ab6a30cf2ec	UP8Y4976	Cedrus_Atlantica_Gla	31-37	NULL
 9611a51b5d23	UP8Y4984	Cedrus_Deodora	15-45	NULL
+19b9e90a7df9	TP4P0177	Celery	-	-
+fe98695ac9c5	SCUBE043	Bleaker	2023-43	NULL
 5e87fccefb9f	TP8P3217	Celesta	27-06	NULL
 400e34e99096	UP6H7522	Celsiusgatan	47-25	-
 2e9909915567	TP8Y4977	Celtis_Sinens	24-28	NULL
@@ -921,6 +962,7 @@ bba8eec4cf29	UP8P3596	Champery	80-25	NULL
 812d7fccae45	TP7Y4499	Changeledix	06-36	NULL
 b0f53da2c2e6	UP7P2716	Channel_Tunnel	04-25	NULL
 95f873d141af	TP7Y4923	Chaoite	33-56	NULL
+085b6654d840	TP6P1653	Chaplain_Tappman	-	Character from Joseph Hellers catch-22
 5b7003b3954b	UP6H7524	Chapmansgatan	72-55	-
 f23c1d938a5b	UP4P0162	Chardonnay	21-43	-
 8a37ddd1ab65	UP7P2374	Charlie_Hustle	25-05	NULL
@@ -935,6 +977,7 @@ d869e56e8ccb	AP7P2022	Cheek	36-62	NULL
 46156c784280	UP7Y4700	Chenaran	12-27	NULL
 5718b2191491	TP6P1455	Chena_River	63-58	clear water stream running from the hills east of Fairbanks
 27f510ce0f43	TP8P3179	Chenda	13-30	NULL
+42c452d697f6	SCUBE059	Bruny	2023-59	NULL
 07f0bd878087	UP6Y4402	Cheper	47-33	Gods of Ancient Egypt
 16bda0975661	TP6Y4375	Cheribakef	53-22	Gods of Ancient Egypt
 7b795906d57b	UP7P2268	Cherokee_Nation	52-09	NULL
@@ -955,6 +998,7 @@ a81913342414	TP5P0925	Chicago	74-26	-
 983befee4930	UP6P1502	Chilkat_River	60-23	rises in Coast Range NW of Skagway
 544bd104ea58	UP6P1874	Chimay	55-49	NULL
 732bb554ac66	UP8P3230	Chime	13-37	NULL
+2b813db6dcd9	SCUBE011	Cayman_Brac	2023-11	NULL
 bb080ba774fc	UP4P0290	Chimpanzee	50-01	-
 bf6d354d200b	AP7P2021	Chin	12-64	NULL
 9bc59ddd6c2f	TL9P6667	Chinaberry_Tree	86-16	NULL
@@ -1023,7 +1067,9 @@ e54a6fc00005	UP8P3638	Civilization_Game	22-55	NULL
 3e1f5c9d31ad	UP6Y4262	Cizin	46-55	NULL
 43e6e51efed1	AP6H7525	Claestorp	54-18	NULL
 e40dc035ecd0	TL9P6733	Claire_Pettersen	80-32	NULL
+77cdd81d981a	UP5P0908	Claustrophilia	-	-
 473dec4ca2fc	UP8P3228	Claves	05-21	NULL
+3270c97e3f5f	SCUBE012	Chizumalu	2023-12	NULL
 619ee8b9d11f	UP8P3496	Clean_Air_Building	08-13	NULL
 583cd1999cc6	TP8P3285	Clearwater	37-40	NULL
 827d4be6b410	AP8P3029	Clementine	15-61	NULL
@@ -1072,7 +1118,9 @@ fe8ccf6d03ed	TP7P2139	Comte	60-38	NULL
 5b9ae7909352	TP4P0101	Conchiglie	21-02	-
 fdc5695d1990	UP5P0722	Conchology	56-29	-
 c1c6c5f74dd1	TP5P0947	Concord	59-50	-
+1c10c09d3772	DFLRef06	ConDOM	-	-
 e68fe59e70d5	UP8P3258	Conga	19-39	NULL
+28abd0fbde52	SCUBE039	Darsah	2023-39	NULL
 4627f3c3985d	UL8P6578	Congaree	36-49	NULL
 30fb64f92ec3	UP8P3380	Congo_River	28-53	NULL
 d68886f0d068	TP5P0885	Connecticut	67-52	-
@@ -1119,6 +1167,7 @@ b58c37f92603	TP7Y4837	Cotoneaster_Melanbos	16-30	NULL
 cb34e91ecaf8	TP5Y0213	Covini_C6W	30-44	-
 57b56c6739a6	UP4P0294	Cow	40-25	-
 2c785d5a1379	TP8P3195	Cowbell	13-46	NULL
+25768738effc	SCUBE013	Disko	2023-13	NULL
 24eceb28abce	TP7Y4771	Coxae	19-60	NULL
 5d69f15ddb5f	TP6Y4279	Coyopa	47-22	NULL
 5038af08fa94	UP4P0296	Coyote	56-35	-
@@ -1156,11 +1205,13 @@ f359b616c6c2	TP8P3439	Croce	27-36	NULL
 6e3f8b69462a	TP5Y0215	Crosley_Curtis	67-30	-
 af75609627a5	UP7P2414	Crosley_Radio	41-23	NULL
 25bfe1f176da	TP8P3191	Crotales	05-56	NULL
+99e78f577c5f	SCUBE014	Dulalam	2023-14	NULL
 4d14fda0db07	TP8Y5089	Crowdie	33-20	NULL
 e37203ef5b66	TP7P2341	Crow_Nation	62-26	NULL
 36e33b143b41	UP7Y4954	Crres	13-23	NULL
 4bffea79ef44	UP8P3304	Cruden_Bay	26-49	NULL
 cc1d04faa955	UP7P2180	Cruella_De_Vil	44-13	NULL
+9547839e08cf	DFLSyn01	CryDOM	-	NULL
 54501bb54517	TP6P1777	Cryptic_Teardrop_Crab	69-36	NULL
 a997c4bd189f	UP5P0808	Cryptology	49-29	-
 02f67a010560	UP5P1052	Cryptosporidiosis	73-25	-
@@ -1168,6 +1219,7 @@ a997c4bd189f	UP5P0808	Cryptology	49-29	-
 87815acbcaa3	TP8P3607	Crystal	80-56	NULL
 bcba29ac86b0	UP6P1770	Cubana_Air	74-47	Cuba national airline
 9e909a587ba5	TP7Y4689	Cuboideum	18-26	NULL
+6f5f9b170405	TP4P0097	Cucumber	-	-
 72da50585120	TP6Y4283	Cumhau	47-16	NULL
 e161990377dd	TP7Y4813	Cuora_Pani	18-08	NULL
 dde569498bb5	UP6P1690	Cup_Coral	76-23	NULL
@@ -1187,6 +1239,7 @@ c01a534234dd	UP7Y4920	Cxo	34-53	NULL
 d660132d722e	TP7H8253	Cykelbud	15-54	NULL
 0459432cb062	TP6H7667	Cylinder	45-60	NULL
 282fc077162f	UP8P3236	Cymbal	19-35	NULL
+ed257dc7af07	SCUBE015	Kao	2023-15	NULL
 ed01f9bbaea8	TP8P3295	Cypress_Point	02-50	NULL
 d833500d655c	UL9P6666	Cypress_Tree	86-53	NULL
 f1ded618bb03	TP6P1791	Cyprus_Airways	61-50	Cyprus national airline
@@ -1353,8 +1406,14 @@ a60552758c56	UP7Y4512	Dithyrambix	03-41	NULL
 cbf1705315f4	TP6Y4443	Diti	65-16	Indian Gods and legendary heroes
 736530d477f4	TP7P2471	Diving	09-12	NULL
 53a863817388	UP6Y4376	Di_kang_Wang	48-57	Chinese gods and mythical heroes
+484657db3e0f	SCUBE051	Fogo	2023-51	NULL
 889a91405a69	UP8P3238	Djembe	25-31	NULL
 ebe074e96c81	UP8H8526	Djupfrysa	80-03	NULL
+f92559ca15ce	UP4H0043	Djursholm	-	-
+8c40d705fc4b	DMICE001	DMICE1	2079-01
+37793e5448e1	DMICE002	DMICE2	2079-02
+99b591c21d6e	DMICE003	DMICE3	2007-03
+04f1d6939870	DMICE004	DMICE4	2007-04
 308da957ba2a	TP6P1647	Dobbs	76-52	Character from Joseph Hellers catch-22
 450d9e376ad3	TP6H7537	Docentbacken	52-16	-
 b9adeae6e010	UP7P2538	Doctor_Doom	10-15	NULL
@@ -1375,6 +1434,7 @@ d7bf54b7a445	TP7Y4533	Dogmatix	44-10	NULL
 4424ac8d389a	UP4P0302	Dolphin	21-27	-
 df9a3d818c99	UP7P2226	Dol_Guldur	45-19	NULL
 c5e37313b38c	TP7H8195	Domare	42-44	NULL
+812678dde98d	DFLRef05	DomDOM	-	-
 4959df8ace2a	TP5H0189	Domherre	65-32	-
 2fea6615072e	TP8P3621	Dominos	22-48	NULL
 d10fb14e5985	TP7P2181	Donald_Duck	44-08	NULL
@@ -1420,6 +1480,7 @@ f3d443d1eacd	TP6H7539	Drakenbergsgatan	68-16	-
 35498bccdf32	UP6Y4290	Draupadi	66-17	Indian Gods and legendary heroes
 8c722131fdb2	UP6P1368	Draw_Poker	78-53	A card Game
 4e5199ba5216	TP6P1683	Dreedles_Girl	69-20	Character from Joseph Hellers catch-22
+3024468b1d21	XK4Y0002	Dresden	-	-
 e57d90005cb2	TP8Y5165	Drewensee	51-38	NULL
 6489d0ab4784	TP9P3835	Drift	79-32	NULL
 5d051f90ffa8	TP7H8229	Drifttekniker	25-34	NULL
@@ -1439,7 +1500,9 @@ ba6567a4bf73	TL9H6013	Druvskinn	82-50	NULL
 892c7b7fff87	UL8P6548	Dry_Tortugas	83-49	NULL
 b2c4c46cc80a	TP9P3703	Dr_Bunsen_Honeydew	22-52	NULL
 929ac56c78a0	TP6P1287	Dr_Caligari	58-48	The film tells the story of the deranged Doctor Caligari and his faithful somnambulist Cesare and their connection to a string of murders in a German mountain village, Holstenwall.
+7b00f53b4cac	TP6P1311	Dr_Jekyll	-	See Mr Hyde
 7f13b45ae306	UP7P2342	Dr_K	26-01	NULL
+b1d194277c79	TP6P1561	Dr_Mario	-	a game where you must match up pills to make them disappear; similar to Tetris
 dd6aa14bddae	UP6P1684	Dr_No	69-53	First bond film
 c101b1a17d91	TP7Y4841	Dr_Oxs_Experiment	33-48	NULL
 a33fde4a917b	TP6P1313	Dr_Satan	58-54	From House of 1000 Corpses, created by Rob Zombie
@@ -1461,6 +1524,7 @@ f9df912f6666	AP7P2080	Dumont_dUrville	18-64	NULL
 4e62947b0e83	TP6P1649	Dunbar	76-14	Character from Joseph Hellers catch-22
 0591abfba0b3	TP8P3663	Dungeons_And_Dragons	31-18	NULL
 a276b86e8cd4	TP6Y4365	Dung_Wang_Kung	73-48	Chinese gods and mythical heroes
+ac245af1bd74	SCUBE022	Formentera	2023-22	NULL
 7c063b9bee63	UP6P1374	Durak_Card	72-03	A card Game
 5da4ddb2f58c	UP6Y4442	Durga	73-49	Indian Gods and legendary heroes
 60c8afa7a645	UP7H8012	Durk	20-11	NULL
@@ -1479,6 +1543,7 @@ d340ebe9d24c	UP7H8014	Dyvika	03-57	NULL
 076eb942057b	UP5Y0076	Eagle_SS_Register	36-15	-
 2e9df9180b0a	AP7P2008	Ear	13-61	NULL
 3f0c7f61d176	TP7P2247	Earendil	62-54	NULL
+3f0cac2ea980	UV4P0038	Earth	-	-
 c69c3a24460f	UP7Y4872	Earthlight	35-23	NULL
 8b13cb959e23	TP8P3491	Ear_Muffs	07-44	NULL
 4098488fe3aa	TP6P1719	Easy_Rider	75-44	Road trip movie with motorcycles
@@ -1496,6 +1561,7 @@ b17d60b9b610	AP7P2097	Edmund_Hillary	05-64	NULL
 e01c838123f6	TP6P1877	Efate	55-20	NULL
 7f707bb1b21c	UP6H7676	Effektregulator	68-19	NULL
 cd5d58344001	TP8H8527	Eftersteka	01-04	NULL
+e5c34e1fca8f	UP6P1330	Egg_Nebula	1C-11	NULL
 fee1e48fda57	TP7Y4667	Eghlid	18-58	NULL
 49587b6a3026	TP5Y0071	Eichwalde	58-06	-
 ed02ce817a2e	TP6Y4479	Eiebt	56-08	Gods of Ancient Egypt
@@ -1521,6 +1587,7 @@ eaf23330318c	UP7P2508	Elektra	03-17	NULL
 2e0a617a7d84	TP6H7677	Elementnyckel	68-46	NULL
 0f1ac8f0cacc	UP4P0306	Elephant	73-35	-
 1eb997390c7d	UP5P1062	Elephantiasis	56-19	-
+4ad659054904	UP6P1352	Elephants_Trunk	2021-03	NULL
 0b02b5dd41da	TP9P3895	Elephant_Bird	80-52	NULL
 81597447a683	UP8P3146	Elephant_Seal	16-23	NULL
 8d2fdbf0bb48	UP7Y4578	Eleutetes	69-29	NULL
@@ -1530,6 +1597,7 @@ ed51aeab5658	UP7Y4506	Elevedelix	20-51	NULL
 7b909b9dcd76	TP4P0139	Eliche	49-60	-
 2aa3aba6e7e2	TP7Y4733	Elimia_Ampla	16-34	NULL
 748b7fbe2dfb	UP7Y4576	Elisyques	54-27	NULL
+48af0f004df6	SPTSyn01	ElkDOM	-	-
 913532d97dd5	UP7H8118	Elle	10-39	NULL
 178fb493ef75	TP6P1309	Elm_Street	56-24	If Nancy Doesnt Wake Up Screaming She Wont Wake Up At All!
 0e27c5127891	UL9P6680	Elm_Tree	82-01	NULL
@@ -1562,6 +1630,7 @@ fb29b40cb960	UP5P0724	Enetophobia	74-25	-
 e340dc2ad364	TP8P3573	Engelberg	22-16	NULL
 a53c62b0b9bc	TP6H7541	Engelbrektsgatan	36-16	-
 6c7b32bac895	UP4P0188	English_bitter	30-27	-
+0d654a32652c	SCIN0004	English_Muffin	62-66	NULL
 bad4c872db29	UP5P0754	Enigmatology	18-47	-
 4b7e5077341a	UP5H0136	Enkelbeckasin	57-53	-
 e5565ae67d39	TP6H7679	Enkelcell	52-20	NULL
@@ -1613,6 +1682,7 @@ c8cf49d63eb4	TP6P1787	Estonian_Air	71-58	Estonia national airline
 0c07dc747695	UP7Y4592	Esubii	69-35	NULL
 3d10761b2bce	TP6P1319	Eta_Carinae	72-10	A large bright nebula which surrounds the star Eta Carinae, one of the most massive and luminous stars in the galaxy.
 6a7d013b1f79	UP5P0500	Etesianish	56-33	-
+8abbafdc5cd4	UP4P0174	Ethanol	-	-
 42850b5eff52	UP6P1774	Ethiopian_Airlines	74-01	Ethiopia national airline
 3a4bc102e538	UP5P0814	Ethnology	67-37	-
 3fb02132dd71	UP5P0832	Ethnomusicology	63-07	-
@@ -1647,13 +1717,16 @@ ab90f2029182	UP5P0504	Fairy	40-19	-
 f2660d6c0521	UP7P2146	Fairy_Godmother	26-57	NULL
 7f2771292703	UP7P2152	Faline	44-29	NULL
 8dff3afed7e9	UP5H0100	Falk	51-43	-
+bef23e9a5714	UP6H7550	Falkenbergsgatan	-	-
 af768c4fe499	UP7H8016	Fall	16-29	NULL
 022827679a48	TP7Y4781	Falstaff	16-08	NULL
 a5488735ece1	TP6H7551	Falugatan	22-64	-
 0cf63aa5cf19	UP6H7582	Falukorv	53-51	NULL
 36316d61d91f	TP7H8017	Famn	20-16	NULL
+8345f5622449	SCUBE061	Galiano	2023-61	NULL
 44e4b1d67bf4	TP7P2537	Fantastic_Four	28-32	NULL
 7016429f6048	UP7Y4718	Farahan	37-41	NULL
+a490e191a5a0	UP4P0110	Farfalle	2029-03	NULL
 073911129bf8	UP6Y4392	Fara_Maka	70-25	African Gods and Legendary Heroes
 92c569d46a6a	UP6Y4310	Faro	55-59	African Gods and Legendary Heroes
 3740f1e662c4	UP5H0110	Farsta	29-11	-
@@ -1692,6 +1765,7 @@ f272122cafc2	UP5Y0088	Fiat_124	63-45	-
 ba7934f9fdab	TP8Y4997	Ficus_Neriifolia	23-48	NULL
 719f8c186e1a	UP8Y4970	Ficus_Panda	33-47	NULL
 98913839345b	UP6P1670	Fiddler_On_The_Roof	70-17	Film adaptation of the famous musical
+f64370cae2d9	DSYRef02	FiefDOM	-	NULL
 af5e88004e25	UP8P3492	Field_Trousers	08-09	NULL
 57424de6f73a	TP5P0999	Fifth_Diseasish	75-20	-
 62645a002733	TP4P0141	Fig	21-64	-
@@ -1712,6 +1786,7 @@ e825465e5e14	UP7P2578	Finthen	03-15	NULL
 83824cad4ee7	UP8P3102	Fin_Whale	15-35	NULL
 4f369ab46dbf	UP6P1208	Firethorn	56-37	Hole 15 Par 5   530 yards
 bdee3d653170	TP8P3555	Fire_Island	35-42	NULL
+33fc1bd553e2	AP6P1141	Fire_Stop	-	Material used to close open parts especially of a building for preventing the spread of fire
 66a1bcf08f16	UP7Y4712	Firouzabad	03-43	NULL
 011d29bbcdb2	TL9P6707	Fir_Tree	86-54	NULL
 489c743f1b29	UP7H8236	Fiskare	15-55	NULL
@@ -1730,13 +1805,16 @@ c313d7db55b7	UP6P1726	Flamingo_Tongue	75-33	NULL
 2b8f8f22a689	UL9H6108	Flaskstarr	86-51	NULL
 9e04d67c2fc7	UP6H7690	Flatkabel	18-09	NULL
 dadca34d6e8d	TP5H0229	Flatkobben	57-02	-
+9117fdb0eb77	TP5H0223	Flatskutharan	-	-
 0b600c82c4db	TP6P1775	Flatworm	75-30	NULL
 10344741a2f6	AP6P1147	Flat_Top	78-63	short haircut brushed straight up and cut flat
 33dd22b7e546	UP9P3724	Flaubert	14-25	NULL
 4da7f92cad09	UP8P3490	Fleece_Jacket	08-05	NULL
 7f43fbd81ad9	UP7P2564	Flehbutz	34-21	NULL
+d65cd4992a83	UP6H7554	Fleminggatan	-	-
 a3351b112e57	UP5H0184	Flemingsberg	59-39	-
 7fa81356850e	TP8P3205	Flexatone	05-44	NULL
+4d9e3717241a	SCUBE055	Gozo	2023-55	NULL
 8147a8ef87c0	TP6H7555	Flintbacken	68-26	-
 6df516d92e68	UP7H8132	Floden	42-37	NULL
 2064132c45d5	UL9H6042	Flodtagging	81-25	NULL
@@ -1786,12 +1864,15 @@ e98575fcbca5	UP8P3310	Fox_Valley	37-47	NULL
 1ea82d9a5af0	UP5P0892	Francophilia	39-39	-
 46c50860eb1b	UP6P1280	Frankenstein	58-23	Frankensteins monster is a creature first appearing in Mary Shelleys novel, Frankenstein, or The Modern Prometheus.  Frankenstein was the name of the creatures creator, and not the monster itself.
 0e391dad60d4	TP5P0945	Frankfort	59-48	-
+91fd0f9da867	XK4Y0003	Frankfurt	-	-
 fd5bfdf7087b	TP8P3249	Fraser_River	09-06	NULL
 72778fb5fff0	UP7Y4952	Fraxinus_Uhdei	43-29	NULL
 4a69f7426979	UP6P1250	Freddy_Krueger	48-39	Frederick Charles Krueger is a fictional character from the Nightmare on Elm Street series.  He is an undead serial killer and child killer who can attack his victims supernaturally from within their own dreams & nightmares.
 9039fcfb8fce	AP7P2073	Frederick_Cook	05-61	NULL
 fcb45157fdb6	UL9P6682	Fredrick_Hanson	86-11	NULL
 f3e5a9531ebd	UP6H7742	Fredrik_Sorqvist	45-07	NULL
+ae8cd9812b41	PSLSyn02	FreeDOM	-	-
+186df6f34856	DFLRef03	FreeDOM-x	-	NULL
 eb0b443e6419	TP6P1411	Free_Cell	71-12	A card Game
 99e71442ce7d	TP7H8121	Frej	23-30	NULL
 3a7fa916e12a	UP7H8122	Freja	34-05	NULL
@@ -1850,9 +1931,11 @@ aa69bded76a9	UP7Y4936	Galex	34-57	NULL
 e57ac684d874	AP8P3027	Galileo	81-62	NULL
 bc35ab0c0620	TP8P3245	Gallatin_River	09-48	NULL
 9ebd9f9d4c41	UP6H7560	Gallerian	77-03	-
+803862fec756	TP6H7561	Galtholmen	-	-
 b4f88a3cce9d	UP8Y5156	Gamalost	24-31	NULL
 706c4e611644	TP7P2513	Gambit	51-30	NULL
 1f0b62be3733	UP6H7562	Gambrinusgatan	22-37	-
+72a8b301512c	SCUBE017	Gylto	2023-17	NULL
 8a5135a98180	TP8P3619	Game_Of_Life	14-54	NULL
 a41180160b85	TP6H7563	Gamla_brogatan	52-42	-
 0d7bbbb87f61	UP5H0170	Gamla_stan	50-05	-
@@ -1862,6 +1945,7 @@ a958f3f3be93	UP8P3292	Ganges_River	19-37	NULL
 e6fd616c37d0	UP7H8110	Ganndul	20-15	NULL
 a5b57a6dfa0d	UP4P0184	Garbanzo_bean	54-47	-
 1b699147c996	UP5P0514	Gargoyle	29-43	-
+c4644ee13484	SCIN0005	Garlic_Naan	2020-05	NULL
 86e958e3f2a0	UP8H8532	Garnera	01-47	NULL
 6b97625c90eb	UP6Y4410	Garuda	65-27	Indian Gods and legendary heroes
 d45104a36aaa	TP7Y4539	Garumni	06-30	NULL
@@ -1876,10 +1960,12 @@ c913c77ddddc	UP9P3762	Gaunt_Shack	79-23	NULL
 452a435e5a05	TP6H7565	Gaveliusgatan	77-16	-
 8945dcc56f7c	TP7Y4803	Gazella_Doma	37-08	NULL
 cf973bde89f8	TP8Y5083	Gbejna	43-42	NULL
+caae2293e43e	DFLRef08	GeekDOM	-	-
 35d44b2d0794	TP7H8095	Gefjon	20-22	NULL
 382ae25f4aeb	TP7P2603	Geigerfraenzje	03-10	NULL
 238de71b398b	TP8Y5087	Geitost	33-32	NULL
 a073a64a7711	UP7Y4610	Gelendzhik	55-19	NULL
+0742bd5eabed	UK4P0049	Gemini	-	-
 b6233f625935	TP7Y4699	Genaveh	18-34	NULL
 aefac00535e2	UP5P0828	Genealogy	49-09	-
 00388825b7a6	TP7P2433	General_Electric_Radio	20-36	NULL
@@ -1958,6 +2044,7 @@ bf15fc194d1a	TP5H0171	Globen	37-38	-
 f6c988555d15	TL9P6641	Globetrotter	84-42	NULL
 f7178188b3fd	UP5P0702	Globophobia	39-15	-
 1ec5dea1bbf4	TP8P3209	Glockenspiel	09-24	NULL
+1c05633d9365	SCUBE018	Hascosay	2023-18	NULL
 92b740e30032	UP5P0890	Glossophilia	59-07	-
 aa6f56d166a1	UP5P0654	Glossophobia	30-13	-
 634a2e26456e	UP7P2120	Gloucester	60-57	NULL
@@ -1987,6 +2074,7 @@ a861a18355e1	UP5P0566	Gollum	56-25	-
 df4d800b9a4a	TP7P2273	Gondolin	45-44	NULL
 588c18033e94	UP7P2626	Gonen	11-03	NULL
 87b33450f98d	UP8P3254	Gong	16-05	NULL
+d0d8d3e451bb	SCUBE019	Heimaey	2023-19	NULL
 3d396a345753	UP6Y4306	Gonggong	78-35	Chinese gods and mythical heroes
 e44b031d89fb	UP7P2570	Gonsenheim	03-29	NULL
 a7bb9b8a0bba	UP7P2142	Goofy	17-39	NULL
@@ -2014,6 +2102,7 @@ b7f7d5d7f45b	UL9H6020	Grantaggsvamp	84-37	NULL
 642bf8836cbf	TL9H6157	Graoskiva	85-50	NULL
 fe31034a7a59	UP4P0102	Grape	71-59	-
 01c997d687a6	UP5P0714	Graphophobia	38-49	-
+107316d026bf	TP8H8533	Grava	2020-08	NULL
 cee6be65c9db	TP7H8171	Gravstickeln	42-22	NULL
 2774a88da4b0	TP6P1603	Gray	64-16	a color
 8b88d32d3e99	UP8P3144	Gray_Seal	04-41	NULL
@@ -2038,6 +2127,7 @@ ae28f12de5c8	TP6H7623	Greve	68-04	NULL
 3391a73d1be6	TP7P2335	Grey_Eagle	53-58	NULL
 1f624b09cea7	UP5P0604	Griffin	63-33	-
 f153445edf98	UP8H8534	Grilla	01-39	NULL
+76333fb8d615	SCIN0002	Grilled_Cheese	62-65	NULL
 2ff3b0f21004	UP9P3784	Grimmauld_Place	43-09	NULL
 b490f3903bd5	TP9P3765	Gringotts	79-54	NULL
 6009cfaf9679	UP7H8022	Grippa	28-25	NULL
@@ -2061,6 +2151,7 @@ db0a3f475ab7	UP6P1854	Guadalcanal	62-21	NULL
 cedef4df5373	TP7H8203	Guide	15-42	NULL
 f0c7540f4d84	UP7Y4850	Guillaume_Tell	06-03	NULL
 441be30d7a7b	UP8P3458	Guinizzelli	19-31	NULL
+20cfbf709ef1	SCUBE020	Hiiumaa	2023-20	NULL
 ef81eb7f03f1	TP6P1825	Gulf_Air	74-42	Bahrain national airline
 4bd18fbab065	UP8P3404	Gulf_Coast	02-59	NULL
 ada28eff60fd	UP6P1464	Gulkana_River	67-49	rises in foothills of Alaska Range
@@ -2072,6 +2163,7 @@ f76b3d17c81c	UL9H6022	Gullklubba	81-39	NULL
 6ddd795c77eb	TP6P1325	Gum	73-20	Named after its discoverer, the Australian astronomer Colin Stanley Gum.
 716c68e28f41	TP8Y5031	Gunpowder	43-54	NULL
 6b29929c1ae9	TP8P3149	Gun_Tap	41-48	NULL
+eb0a3780b46c	UP4H0051	Gustavsberg	-	-
 44eb3c619854	UP6P1652	Gus_Wes	76-13	Characters from Joseph Hellers catch-22
 33370227f166	TP8P3353	Gute	27-32	NULL
 e5cfc34241f1	UP7P2438	Gutzje	05-37	NULL
@@ -2122,6 +2214,7 @@ f9122ed3c86d	TL9H6117	Hampa	85-22	NULL
 88ea27028958	UP4P0326	Hamster	77-47	-
 9ff68ca35585	AP7P2018	Hand	26-62	NULL
 895fb7d30171	UP7P2490	Handball	20-17	NULL
+d3b6681f3fa6	SCUBE021	Hon_Sang	2023-21	NULL
 741fdd5b6111	TP4H0050	Handen	30-50	-
 0208144ca98e	TP9P3769	Hanged_Man	79-26	NULL
 ca0a6cc49ce3	UP7P2698	Hanging_Gardens_Babylon	11-53	NULL
@@ -2136,6 +2229,7 @@ a8b6daae18f8	UP6Y4420	Harachte	41-05	Gods of Ancient Egypt
 57a6cb44117e	AP6P1168	Harappa	68-62	NULL
 7ccb05a67436	UP8P3136	Harbor_Seal	11-47	NULL
 21a709d3d347	AP6P1104	Hard_Stop	65-63	Hard braking, but not necessarily with locked wheels
+aa8d25d8bd6f	SCIN0006	Hard_Tack	2020-06	NULL
 4d00a23496c7	UP7H8134	Haren	42-45	NULL
 07da898a0d65	UP7Y4526	Harenbaltix	12-47	NULL
 e7660902959e	UL9H6118	Harmynta	85-39	NULL
@@ -2370,6 +2464,7 @@ d4b07c2b11be	UP5H0164	Igelboda	50-39	-
 fd9f76f53a71	UP6H7704	Igelkott	42-27	NULL
 033807dcd7c4	UP8P3386	Iguazu_River	15-13	NULL
 fa3a64e2e4dd	TP7Y4877	Ijon_Tichy	06-22	NULL
+66d6302e86d7	UP4P0104	Ika	-	-
 2c4ff107f4eb	UP7Y4780	Ilium	18-39	NULL
 2c5c3ee76846	TP6H7705	Iller	36-32	NULL
 58b816d60fb8	UP7P2310	Illini_Nation	62-03	NULL
@@ -2462,7 +2557,9 @@ a2d3f851cc6c	UP7P2402	Interocean_Radio	36-37	NULL
 87ccc169316b	TP7P2543	Invisible_Woman	10-04	NULL
 431d2cb68a55	UP5P0642	Iophobia	46-01	-
 d0995f822b43	UP5P0958	Iowa	40-03	-
+ad1e249c87f7	UP4P0284	IPA	1C-09	NULL
 34fc4905a9f5	UP8P3246	Ipu	05-03	NULL
+e3e157390365	SCUBE042	Inousses	2023-42	NULL
 df63f745273a	TP7Y4673	Iranshahr	12-28	NULL
 7624f22947a4	UP7Y4938	Iras	05-29	NULL
 851e25fc2fa7	UP9P3822	Irish_Elk	80-13	NULL
@@ -2536,6 +2633,7 @@ fce85d51015b	UP7Y4730	Javanroud	37-19	NULL
 0c980ea7c166	UP6P1488	Java_Script	53-33	EMCAScript based scripting language developed by Netscape
 a346a0810b35	TP7P2485	Javelin_Throw	31-10	NULL
 9134ab5ae40f	UP8P3234	Jawbone	05-25	NULL
+21b0bf97e9c2	SCUBE052	Ko_Mai_Si	2023-52	NULL
 5f9cc24f4f5f	UP6H7724	Jeanne_Edwards	45-37	NULL
 9f78a4f96b83	UP5Y0112	Jeep_Cherokee	39-19	-
 a0c0ead240fc	TP5P0953	Jefferson_City	74-24	-
@@ -2581,6 +2679,7 @@ cb9685551835	TP7H8137	Jungfrun	34-36	NULL
 c5852b10b983	TP6P1233	Juniper	58-24	Hole  6 Par 3   180 yards
 3d78eb650749	UP8Y4998	Juniperus_Chinensi	43-27	NULL
 0e7530f07696	TP8Y4967	Juniperus_Formosa	33-46	NULL
+23cb5bb2e4cc	UV4P0036	Jupiter	-	-
 b2411cc9a983	TP8P3379	Jurua_River	35-62	NULL
 0c7d06092630	TP7H8281	Jycke	25-56	NULL
 4bd82dff7649	TP6Y4435	Jyestha	54-30	Indian Gods and legendary heroes
@@ -2629,6 +2728,7 @@ d917c662950c	UP5H0210	Karlaplan	18-55	-
 75adea2e840d	UP7H8188	Karlavagnen	23-11	NULL
 6540d583f8a7	AP5H0161	Karlberg	56-62	-
 7917c864de61	TP6P1425	Karluk_River	48-32	35 km (22 miles) long
+74a829b73455	TP4H0035	Karl_Sverkersson	-	-
 7edda2dff78e	TP7P2821	Karnak_Temple	11-58	NULL
 cd8f52092957	UP6H7708	Karp	68-35	NULL
 27cde135cdb9	TP8Y5149	Karpfensee	15-38	NULL
@@ -2685,7 +2785,9 @@ bc44b39cfa73	TP7P2735	Killer_Whale	11-30	NULL
 640a5302bf9c	TP6P1505	Killik_River	48-28	NW Alaska; rises in Brooks Range
 d4db9f1b764d	TP8P3593	Killington	07-46	NULL
 112137cf22b4	UP5P0772	Killology	54-07	-
+c42c0e20f97e	SCUBE034	Lantau	2023-34	NULL
 d28d98adfa7a	UP5P0824	Kinesiology	49-19	-
+74fdeafed9a5	TSLRef02	KingDOM	-	-
 3c75852cd2f1	TP7Y4607	Kingisepp	55-42	NULL
 cce16a8df8d0	TP7P2511	Kingpin	03-58	NULL
 abdfe78ba486	UP6P1436	KingSalmon_River	48-07	S Alaska, on Alaska Peninsula
@@ -2726,6 +2828,8 @@ ec8842300a3f	UP7H8286	Knodd	33-29	NULL
 0259b7a81e69	AP6P1176	Knossos	70-62	NULL
 2ee39e715fa9	TP6H7735	Knot	68-08	NULL
 7d128cc5b2b5	TL9H6175	Knott	84-14	NULL
+52e44861747e	TP4H0034	Knut_Eriksson	-	-
+1d6e2309e969	TP4H0027	Knut_the_Great	-	-
 3c172c6a6072	TP8Y4999	Kobald	15-36	NULL
 396a5d961de1	UP5P0612	Kobold	29-21	-
 c8a7aee677c6	TP6P1441	Kobuk_River	58-02	NW Alaska; rises in Brooks Range
@@ -2742,10 +2846,12 @@ fd2e0d95d64d	UP7H8138	Kompassen	42-59	NULL
 d22cfe60b395	UL8P6540	Kona_Bikes	82-59	NULL
 1503e69fa706	UP5P0554	Kona_Storm	45-17	-
 e07086ea806f	UP7Y4824	Konia_Dikume	27-23	NULL
+be7c2b56f87f	TP5Y0129	Konigs_Wusterhausen	-	-
 c254ef756f75	UP8H8542	Konservera	43-17	NULL
 cc863a459753	TL9H6145	Kontor	84-56	NULL
 ec373b40e53c	TP9P3749	Koozebanian	22-42	NULL
 770b2d011fe4	TL9H6085	Korn	81-32	NULL
+9518cfe5b304	TP5H0111	Kornknarr	-	-
 ea6367859e6b	UP6P1850	Koror	69-31	NULL
 6486b9f6c41a	TP5H0149	Korp	64-52	-
 cdbc5a3ff9e0	TP7H8139	Korpen	34-60	NULL
@@ -2833,9 +2939,11 @@ d907ac6deae2	TP7Y4899	Lapan_Tubsat	13-16	NULL
 5919c5e8ca28	UL9H6152	Laptop	82-37	NULL
 a4c90c56a982	AP6P1130	Lap_Top	45-64	the top of a lap or a computer that can be placed there for use
 f5d596cfb67c	TP8Y4971	Larix_Kaempferi	15-02	NULL
+64a8ac5299b1	TP6P1291	Larry_Talbot	2029-04	NULL
 c088f36023c9	UP5H0198	Larsberg	59-21	-
 e677731571cb	UL8H6004	Larvklubba	84-41	NULL
 b254fa0dc242	UP5P0780	Laryngology	71-17	-
+527d2e355d13	TP4P0123	Lasagna	-	-
 190ad4380b6e	UP5Y0126	LaSalle_Series_52	59-09	-
 33530089b4ce	UP8P3552	Lassen_Volcanic	02-45	NULL
 30e33d60b8cc	UP6P1622	Last_Picture_Show	44-31	Texas character study
@@ -2868,6 +2976,7 @@ a803d0f5a2fb	AP7P2019	Leg	06-63	NULL
 637a11c33c78	UP7P2124	Leicester	55-47	NULL
 e3745bed763b	UP4H0022	Leif_Eriksson	40-33	-
 6734654db93b	TP8P3369	Leineschaf	27-58	NULL
+f66d0c44a101	XK4Y0005	Leipzig	-	-
 42ec848643f4	TP5P1001	Leishmaniasis	78-08	-
 f82ea99946f7	TP6Y4253	Lei_Ku	48-50	Chinese gods and mythical heroes
 63cf1d74e420	TP7H8141	Lejonet	23-20	NULL
@@ -2878,6 +2987,7 @@ c38b453120f0	TL8P6541	LeMond	83-42	NULL
 916ceadb214d	UP4P0346	Lemur	21-23	-
 1577f0d26a96	TP8P3261	Lena_River	28-22	NULL
 7313851678cb	TP7Y4523	Lentix	60-34	NULL
+149427c139c6	TK4P0056	Leo	-	-
 cbf99d4ab9ba	UP7Y4640	Leonid	12-59	NULL
 4659ab46dd7a	UP4P0348	Leopard	50-35	-
 e016962a7f83	TP8P3429	Leopardi	19-18	NULL
@@ -2908,6 +3018,7 @@ c8476800c4f5	UP7P2516	Lex_Luthor	16-41	NULL
 d0f3f833f6f7	UP6P1292	Le_Manoir_Du_Diable	58-43	The Devils Castle  is a two minute long, b/w French film directed by Georges Melies. It was from this two minute short that the horror film was born 1896
 859a519c4df8	TP6Y4231	Lianja	77-52	African Gods and Legendary Heroes
 855b78c7bbd7	UP6P1746	LIAT_Air	61-01	Antigua and Barbuda national airline
+460e9b94433e	TK4P0050	Libra	-	-
 5504ff26c3a5	TP5Y0119	Lichtenberg	58-34	-
 b2ca6bfe867b	TP8Y5057	Licorice	42-24	NULL
 8c0474305b8c	UP6P1602	Lieutenant_Nately	77-49	Character from Joseph Hellers catch-22
@@ -2925,9 +3036,11 @@ c1daa2988ab9	TP7H8143	Lilla_lejonet	24-32	NULL
 55989b17f992	UP7H8176	Lilla_vattenormen	34-39	NULL
 06fce7d3cef3	UP5H0108	Lillbredskobben	46-33	-
 c7cb584f8b7a	TP7P2185	Lilo_Pelekai	44-30	NULL
+acf6a6c09841	TP6P1205	Lily_River	-	Erect perennial leafy-stemmed bulbous herbs that are native to the northern hemisphere
 0df7b060acad	TP4P0151	Lima_bean	21-34	-
 c4502ee6681b	UP6P1878	Limburger	55-55	NULL
 db092d7fb53e	UP4P0130	Lime	38-51	-
+ee4210503635	UP5P0986	Limnophiliaish	-	-
 40eaad986cb7	UP5P0676	Limnophobia	71-25	-
 bd394598ad8c	UP6P1814	Limpet	61-29	NULL
 94ed2cf401bd	TP5P1011	Lincoln	54-50	-
@@ -2939,6 +3052,7 @@ c223af68a5e5	TL8H6003	Lindyna	81-22	NULL
 9f8c72e69e62	UP6H7614	Lingoncider	77-59	-
 18ef19ecf338	UP7Y4600	Lingones	03-45	NULL
 87e1a08e9aec	UP6H7594	Lingonsylt	52-35	NULL
+8564a671744b	TP4P0335	Linguineon	-	-
 4adaf4b1cd1a	UP7Y4502	Linguistix	06-23	NULL
 628a498e5422	UL9H6156	Linjal	82-21	NULL
 aa88fdddb58c	TP9P3723	Link_Hogthrob	22-34	NULL
@@ -3023,12 +3137,14 @@ ca54112824aa	TP6Y4447	Luxing	56-40	Chinese gods and mythical heroes
 dbc83b20ace2	UP6Y4446	Lu_Dongbin	72-05	Chinese gods and mythical heroes
 ae962dcf74f0	TP5P0989	Lyme_Disease	78-50	-
 d6e925e95cb7	UL8P6530	Lynskey	83-05	NULL
+b1c30c940ae5	UP4P0350	Lynx	-	-
 05283a08c417	UP7Y4794	Lynx_Pardinus	10-17	NULL
 05ef8b4c9814	TP7H8145	Lyran	25-28	NULL
 42b30c6c9b6c	TP6P1485	Lyric	63-60	Concurrent programming language developed for SPARC multicomputers
 108795f54b19	TP8Y5095	Maasdam	43-44	NULL
 29b56353ee5d	UP8Y5186	Maassee	35-17	NULL
 b8201831976b	UP6Y4284	Maat	57-19	Gods of Ancient Egypt
+5890e56d9d92	UP4P0112	Macaroni	-	-
 c3da20872ff6	TP7Y4823	Macbeth	34-10	NULL
 bdd8a39e2114	UP8P3456	Machiavelli	09-05	NULL
 4bfa20490ca9	AP7P2064	Machu_Picchu	19-63	NULL
@@ -3046,10 +3162,12 @@ ae98314ef100	TP6Y4251	Mafdet	57-34	Gods of Ancient Egypt
 0b1cac02eab6	AP8P3025	Magellan	16-63	NULL
 919365782abe	TP6P1615	Magenta	69-24	a color
 764557c0372c	TP7Y4861	Magic	13-58	NULL
+e8612bd59276	UP4P0128	Magnesium	-	-
 c2321f763998	UP7P2534	Magneto	26-39	NULL
 f634ed54c5f0	TP6P1235	Magnolia	46-42	Hole  5 Par 4   455 yards
 d4c2b259064f	UP9P3788	Magnolia_Crescent	07-23	NULL
 2be00fdf2cbf	TL9P6709	Magnolia_Tree	81-34	NULL
+703113e6be74	AP4P0062	Maguro	-	-
 3456ce88eeb2	UP6Y4276	Mahischa	72-33	Indian Gods and legendary heroes
 501baf2a09e0	UP9P3748	Mahna_Mahna	22-53	NULL
 66b35ae8aa8b	UP7P2128	Mahon	55-11	NULL
@@ -3090,6 +3208,7 @@ c0bb2366b6e7	UP6P1510	Maneki_Neko	56-23	Welcoming cat, beckoning cat
 a3da1d091369	TP6Y4271	Manezet	57-20	Gods of Ancient Egypt
 0c5bf2c7cad0	UP4P0088	Manganese	40-53	-
 fe5980a37b5c	UP7H8076	Mange	20-19	NULL
+f334d47417e4	UP4P0096	Mango	-	-
 a75b83672b4b	UP6P1654	Manhattan	64-21	Drama_Comedy from Woody Allen
 025d07f5a727	AP5P0421	Maniaphobia	50-64	-
 308d3f7692fd	TP4P0129	Manicotti	29-64	-
@@ -3106,9 +3225,11 @@ a75b83672b4b	UP6P1654	Manhattan	64-21	Drama_Comedy from Woody Allen
 2753cf9cdc6e	TP6P1481	Maple	77-58	"interpreted, dynamically typed language used in the computer algebra system of the same name"
 3e8960af0a43	UP8P3474	MAPO	35-07	NULL
 4eaea9feea08	TP8P3201	Maraca	05-16	NULL
+0be80e6de01f	SCUBE023	Lembeh	2023-23	NULL
 fb370aab3165	TP8P3405	Maraini	37-16	NULL
 51f1204d760f	UP7P2676	March	04-53	NULL
 7868a673b58b	TP8P3219	Marching_Machine	05-08	NULL
+aa09c3d7122d	SCUBE046	Lifou	2023-46	NULL
 8fd4b844ccbe	TP7P2199	March_Hare	44-52	NULL
 9ba442f2a29b	UP7P2400	Marconi_Radio	05-41	NULL
 4fd8e78d4332	UP5Y0136	Marcos_TSO	71-35	-
@@ -3120,6 +3241,7 @@ a449f728dc25	TP5H0231	Mariatorget	47-58	-
 195f74e98672	TP7P2607	Marienborn	51-22	NULL
 6584af07a218	TP6P1207	Marigold	65-20	A nice resturant near WI capitol, where a lot of icecube people have lunce
 90462b3f27fa	TP8P3199	Marimba	05-38	NULL
+d04c08372ffa	SCUBE024	Little_Abaco	2023-24	NULL
 c0aa431afcd0	TL8P6535	Marin	83-04	NULL
 b2f387d98eef	AP8P3001	Mariner	16-61	NULL
 b86971679a3a	UP6P1556	Mariokart	05-43	a great racing game for multiple Nintendo platforms
@@ -3130,12 +3252,15 @@ a0d899b577cb	UP5Y0138	Marmon_78	38-07	-
 3c08d0d1d479	TL9H6015	Marmorskinn	85-44	NULL
 38075fec8d71	UP8P3624	Marmot	80-49	NULL
 a3801045000f	TP6P1589	Maroon	69-16	a color
+09e184e64f9a	UV4P0031	Mars	-	-
 f32f79c5fadf	UP9P3868	Marsupial_Lion	79-27	NULL
 44a23b1870fa	TP9P3855	Marsupial_Tapir	31-14	NULL
 c6445aa13a97	TP7P2807	Mars_Climate_Orbiter	04-46	NULL
 ab0920f34f5d	TP7P2817	Mars_Polar_Lander	11-22	NULL
+84f72d8732a5	TP4P0213	Marten	-	-
 1dc57891d282	UL9P6626	Martian_Spider	86-35	NULL
 d07ae303e7e1	TP6P1475	Martin_River	58-18	rises in Martin R. Glacier
+e4194d677ad0	XB0N0003	MartyrDOM	2021-02	NULL
 8c2c133e34a2	TP6H7713	Marulk	68-60	NULL
 f29cf8f0318e	TP7H8037	Marvatten	03-60	NULL
 d67421279404	UP7P2556	Marvel_Girl	10-11	NULL
@@ -3180,6 +3305,7 @@ a212aa3083d9	UP8P3630	Mayrhoven	22-43	NULL
 4b450ec0b5cf	TP8Y5045	Ma_Cha	42-28	NULL
 32b90a69b8ce	TP6Y4383	Ma_Mien	56-10	Chinese gods and mythical heroes
 93d37bdacddc	UP8P3264	Mbira	05-35	NULL
+9af5e6369651	SCUBE025	Little_Andaman	2023-25	NULL
 d30c379c754b	UP6Y4320	Mbombe	60-17	African Gods and Legendary Heroes
 4750d675bb5b	UP6Y4266	Mbombo	53-15	African Gods and Legendary Heroes
 fc385400b72a	UP5Y0146	McLaren_F1	38-05	-
@@ -3208,6 +3334,7 @@ f9b9612c308b	TP7Y4551	Meldii	77-48	NULL
 59e314aaac86	UP8Y5204	Mellensee	35-03	NULL
 8c126035f5af	UL9P6618	Melllvar	86-33	NULL
 1a7d2204c7bc	UP8P3128	Melonhead_Whale	16-51	NULL
+70525c666276	AP5P0425	Melophobia	-	-
 25fe384c7530	TP6P1429	Melozitna_River	48-08	central Alaska; rises NW of Tanana
 5720f4b9723b	AP6P1160	Memphis	76-62	NULL
 f21d9a853f24	UP6P1508	Mendenhall_River	48-23	an Alaskan river north of Juneau
@@ -3215,6 +3342,7 @@ f21d9a853f24	UP6P1508	Mendenhall_River	48-23	an Alaskan river north of Juneau
 f3a080a42410	UP6Y4394	Menes	53-03	Gods of Ancient Egypt
 62b5755986ff	TP5P1005	Meningitis	78-46	-
 cf5b3117f546	UP5Y0148	Mercedes_Benz	49-15	-
+a9cc9bdab2b0	TV4P0039	Mercury	-	-
 391319e31b9a	UP5Y0150	Mercury_Grand_Marquis	71-29	-
 768d471f975b	UL8P6538	Merlin_Metalworks	83-51	NULL
 3b4c932b6664	UP4P0218	Merlot	30-41	-
@@ -3245,12 +3373,14 @@ c5174b1c716a	AP5P0417	Microbiology	40-62	-
 f4610aed678c	TP5P0839	Microphilia	29-10	-
 0daa3dfe9ae3	TP5P0619	Microphobia	67-40	-
 4cc6f806df88	UP7H8038	Midskepps	31-35	NULL
+929270da4fc5	UP5H0188	Midsommarkrausen	-	-
 2661a78c4924	TP6P1903	Midway	53-56	NULL
 83696a6e23a7	TP8P3255	Mighty_Murray_River	09-18	NULL
 744cbbaa0e2c	AP6P1175	Miletus	60-62	NULL
 7c2edca8b2b5	UP8P3194	Milling_Machine	41-45	NULL
 f8fa06113cc7	UP8P3280	Milwaukee_River	26-35	NULL
 a14d6b8460e9	TP7H8123	Mimer	43-36	NULL
+17590f9c91d7	TP5P0547	Mimisish	-	-
 968046fd1bb2	UP6P1212	Mimosa	71-05	A nice flower
 2035ab3451be	UP7P2222	Minas_Anor	12-25	NULL
 9627b654328b	TP7P2237	Minas_Ithil	09-02	NULL
@@ -3259,6 +3389,7 @@ a14d6b8460e9	TP7H8123	Mimer	43-36	NULL
 aa1f60b3a8e5	TP7P2755	Minke_Whale	09-14	NULL
 a20172614e9b	UP5P1026	Minnesota	72-31	-
 d847267cf00e	UP7P2158	Minnie_Mouse	26-17	NULL
+5b8f8235b214	TP5P0545	Minotaurish	-	-
 36264b0a2900	UP8Y5068	Mint	33-09	NULL
 dfb6fa595868	TL9H6019	Mirakelskinn	85-60	NULL
 0577bb2d2e14	TP6Y4263	Miri	60-58	African Gods and Legendary Heroes
@@ -3304,6 +3435,7 @@ e3b7f5c95672	TP4P0219	Mongoose	50-34	-
 8b9f35308e27	TP4P0221	Monkey	21-28	-
 3aaa07e91f5c	TP5P1019	Monkeypox	18-24	-
 34f2fcf56686	TP8P3203	Monkey_Stick	05-54	NULL
+348538238379	SCUBE056	Maap	2023-56	NULL
 5e037d93e204	TP8P3111	Monk_Seal	05-26	NULL
 27e9138f60f2	TP5P0993	Mononucleosis	46-44	-
 60fbc4b4e69e	UP8P3646	Monopoly	01-03	NULL
@@ -3324,6 +3456,7 @@ c2a85c364838	AP8P3037	Montreal_1976	79-63	NULL
 687d4af7bf5d	TL9P6629	Moocher	79-34	NULL
 e6f81d21686d	TP6P1869	Moon_Jelly	44-42	NULL
 1c2cd3e2e645	TP6P1863	Moorea	55-04	NULL
+62f96511ea30	TP4P0223	Moose	-	-
 ff605c7c140b	TL8P6539	Moots	83-46	NULL
 d8127287b6ce	AP6P1154	Mop_Top	45-62	haircut popularized by the Beatles
 325be8fdeb00	UP7Y4486	Moralelastix	20-31	NULL
@@ -3406,6 +3539,7 @@ b695843b1b34	UP7P2348	Mr_October	06-51	NULL
 a7c5b1cbad44	UL9P6600	Muggy	82-55	NULL
 6d781fde60e6	TP6Y4399	Muhongo	18-52	African Gods and Legendary Heroes
 653086b8c193	TP7P2193	Mulan	17-44	NULL
+2b7a43ac42fb	UP4P0118	Mulberry	2021-05	NULL
 55c986ace722	UP6P1506	Mulchatna	48-29	River
 4ffea797bf61	UP8Y5024	Mullite	15-25	NULL
 03908e74f2ec	UP6H7718	Mullvad	68-45	NULL
@@ -3442,6 +3576,7 @@ ed5a3d6e40b5	UP8P3510	Naked_Lady_Shack	08-21	NULL
 be3331313abb	UP6Y4468	Nakula	65-09	Indian Gods and legendary heroes
 c58d0397e2c5	UP6Y4236	Nali	57-13	African Gods and Legendary Heroes
 0923e78e8b10	TP6Y4311	Nandi	65-02	Indian Gods and legendary heroes
+e74ebbcc48ae	UP6P1200	Nandina	-	Hole 17 Par 4   440 yards
 dfae435a6de9	AP7P2003	Nanga_Parbat	33-61	NULL
 8c78fe27060f	AP5P0428	Nanotechnologyish	58-64	-
 9ab0a01c66c5	UP7H8216	Naprapat	08-47	NULL
@@ -3454,6 +3589,7 @@ fc41f96dec71	TP7P2251	Nargothrond	44-44	NULL
 75e00b28e4d1	UP8P3112	Narwhal_Whale	04-15	NULL
 0122bfa1738c	TP7P2229	Narya	26-02	NULL
 ad443f6e62f4	AP6P1136	Nasal_Stop	53-64	a stop
+f1924f918e23	TP5P0517	Nashi	1C-12	NULL
 13ab0a4b7198	TP5P0791	Nashville	64-12	-
 1248d1f7b12b	UP5Y0160	Nash_Special_6	67-31	-
 a653a49260f3	TP7P2761	Natdaw	04-14	NULL
@@ -3476,8 +3612,10 @@ d8db4a3f3e95	TP5P0779	Nemophilia	39-40	-
 9cc6aee6e07f	TP6P1515	Nemuri_Neko	48-20	Sleeping cat, often means peace
 4cbe1d29a32c	TP6P1435	Nenana_River	48-14	S tributary of Tanana R.; rises in central Alaska Range
 bb0aa3c57aeb	TP7P2241	Nenya	26-04	NULL
+49f2e55717d2	TP5P0683	Neopharmaphobia	-	-
 0452a08290bf	TP5P0677	Neophilia	74-60	-
 7a372d7364d9	AP5P0436	Nephology	55-62	-
+4d5b7ee18822	TV4P0030	Neptune	-	-
 fea76575b89f	TL9P6635	Neptunians	81-44	NULL
 c9187e466a09	UP6P1426	Nertz	73-51	A card Game
 e7ec1cef8f48	UP7Y4562	Nervii	60-33	NULL
@@ -3630,6 +3768,7 @@ f4c714b6d55e	TP5P0867	Olympia	59-54	-
 4f6b5706dbc2	AP5P0445	Omphalology	47-63	-
 86a3fd1a9406	TP5P0991	Onchocerciasis	56-16	-
 aa4152bc61f5	TP7P2317	Oneida_Nation	62-50	NULL
+19499bdb7a6a	AP5P0416	Oneirophobia	-	-
 f38e65051e1e	AP6P1139	One_Stop	70-61	a stop
 28a8ef99c234	TP4P0163	Onion	30-14	-
 f6198104eb64	AP5P0448	Ontology	59-61	-
@@ -3641,6 +3780,7 @@ b09314d65662	UP8P3618	Operation	07-51	NULL
 66f33c9ca1e1	TP5P0835	Ophiophilia	64-30	-
 331c8d07f271	AP5P0430	Ophthalmology	38-64	-
 92b6ab035e66	UP5P0622	Opiophobia	71-41	-
+28bded357ae0	TP4P0231	Opossum	-	-
 5c41449b7958	TP7H8217	Optiker	25-50	NULL
 aa4e2dc9524e	TP5P0673	Optophobia	38-20	-
 b7be287e1733	TP4P0091	Orange	30-58	-
@@ -3678,6 +3818,7 @@ bfb81304db28	TP5P0777	Osmophilia	39-44	-
 9ef3fedb9d36	TP5Y0089	Ostbahnhof	29-08	-
 4770282eaf54	AP5P0440	Osteology	50-61	-
 c88a4bad2516	UP6H7596	Ostkaka	52-33	NULL
+1c86507d479a	UP5H0250	Ostkobben	-	-
 890d01f85a74	TP5Y0085	Ostkreuz	49-48	Berlin S-Bahn Stations
 547cf31ff4c8	TP5P0639	Ostraconophobia	29-02	-
 45a550713f62	AP5P0403	Ostria	40-64	-
@@ -3702,6 +3843,7 @@ e639b2abcfe1	TP6Y4241	Oya	55-32	African Gods and Legendary Heroes
 ce8466df84c2	UP5Y0172	Packard_120	38-01	-
 feff969a8204	TP6P1545	PacMan	76-06	a game where you must avoid the ghosts, while eating the fruit
 4f5e427b1f2a	UP8P3200	Paddle_Bit	13-31	NULL
+4ae0c56abf62	UP4Y0054	Paffgen_Koelsch	-	-
 24a6c667c83d	UP5Y0174	Pagani_Zonda_C12	26-55	-
 58681d58fc77	TP5P0579	Pagophobia	63-48	-
 ab52745e702b	TP7H8297	Pajsare	31-28	NULL
@@ -3721,6 +3863,7 @@ ffbfd22f1758	TP6P1217	Pampas	48-54	Hole  7 Par 4   450 yards
 c5ef9b5ba5b5	AP7P2015	Pancreas	20-61	NULL
 dceae1ccfe93	TP4P0243	Panda	74-64	-
 02aeeef35302	UP6Y4430	Pandavas	73-11	Indian Gods and legendary heroes
+83b27b2a7c7b	SCUBE063	Magyi_Kyun	2023-63	NULL
 ddeb37c3acd8	UP7P2102	Paneer	55-09	NULL
 2706114d34df	TP4P0245	Pangolin	40-30	-
 f5c93c392bfa	TP6Y4451	Pangu	47-28	Chinese gods and mythical heroes
@@ -3765,6 +3908,7 @@ e930d664dd9a	UL9H6158	Passare	81-45	NULL
 2859edaf83f1	TP6P1409	Pasur_Card	73-40	A card Game
 8fbd1c6ec6bd	UP6Y4362	Patecatl	48-53	NULL
 7609ba3f65d8	UP7Y4724	Patella	37-51	NULL
+79fafc490417	AP5P0444	Pathology	-	-
 33d33e3e3800	TP8P3639	Patolli	31-02	NULL
 a04df6afdc99	TP7Y4503	Patologix	44-22	NULL
 c307a935a721	TP6P1717	Patton	70-08	Biopic of General Patton in WWII
@@ -3801,6 +3945,7 @@ ae4f54564f00	TP5H0251	Pellekobben	72-26	-
 d847aed67ec7	UP6P1794	Pencil_Urchin	75-31	NULL
 daa99b4d52cd	UP7H8180	Pendeluret	42-01	NULL
 85c3d97e0e0b	TL9H6153	Penna	82-04	NULL
+2a3b7104da64	TP4P0087	Penne	-	-
 e82a9d4efce7	TL8P6571	Pennekamp	83-24	NULL
 99e44c88261d	UL9H6138	Penning	80-35	NULL
 dbd7df7251f2	UP5P0980	Pennsylvania	71-43	-
@@ -3835,6 +3980,7 @@ fa0fa12e3be3	UP6P1408	Phase_10	65-51	A card Game
 a18ef88fb947	TP5P0807	Philophilia	39-34	-
 a23d02ef2d96	UP7Y4814	Philoria_Frosti	28-21	NULL
 08a262d9fbf0	UL9P6712	Phil_Johnson	82-05	NULL
+1158d2b6380c	AP5P0457	Phoenix	-	-
 9eabdc948678	TP5P0549	Phooka	54-12	-
 e6b5b3989f28	UP4P0208	Phosphorus	38-53	-
 1c4e43cc454e	TP5P0809	Photophilia	59-26	-
@@ -3843,6 +3989,7 @@ f985f818e3ec	TP6P1489	PHP	77-54	An interpreted reflective language used for crea
 1848d3974b7c	TP5P0811	Physiology	50-08	-
 bfc26236a121	TP5P0793	Phytophilia	58-63	-
 1432ba636b77	TP8P3215	Piano	05-28	NULL
+27738cd0ed22	SCUBE044	Mannar	2023-44	NULL
 f10da565e28e	UP6P1860	Piave	60-11	NULL
 203e9026afb1	TP5Y0103	Pichelsberg	59-46	-
 77dde13d0ebd	TP9P3811	Picnic_Point	07-22	NULL
@@ -3851,6 +3998,7 @@ bc33f800f113	TP8P3631	Pictionary	01-50	NULL
 6329adbd7c13	UL8P6570	Pictured_Rocks	83-33	NULL
 c6224ecabf6f	UP5Y0180	Pierce_Arrow_80	40-27	-
 a29598735544	TP5P0911	Pierre	67-10	-
+aab8b78c6f00	TP4P0249	Pig	-	-
 ef7fc42aaedd	AP6H7745	Piggvar	27-62	NULL
 5334a99f05bc	TP7P2213	Piglet	62-32	NULL
 74578c1716d2	TP4P0251	Pika	40-54	-
@@ -3870,6 +4018,7 @@ ab53b35d623b	TP8P3297	Pine_Valley	37-32	NULL
 fb388b597810	UP6P1210	Pink_Dogwood	48-17	Hole  2 Par 5   575 yards
 95dee10d663c	TP7P2165	Pinocchio	62-16	NULL
 93094e9a3e4e	UP6P1370	Pinochle	73-23	A card Game
+2aa15d7370fe	TP4P0281	Pinot_blanc	-	-
 0ec9ae11b381	UP4P0250	Pinot_grigio	67-59	-
 f8d252d28d84	UP4P0256	Pinot_noir	46-29	-
 75d4ac6dbaef	TP8Y4973	Pinus_Nigra	23-42	NULL
@@ -3885,6 +4034,7 @@ bef9adaab742	TP8P3175	Pipe_Cutter	13-40	NULL
 15216f0dc666	TP7Y4787	Pipile	37-14	NULL
 c701c8c6b7a7	TP6P1367	Piquet	78-38	A card Game
 d20f25a2e74c	UP8P3484	Pirandello	02-11	NULL
+032aba3d8ffa	TK4P0048	Pisces	-	-
 884bbe2378cf	UP7Y4720	Pisiforme	37-45	NULL
 f12b98f0da03	TL9P6677	Pistache_Tree	86-12	NULL
 81d2b831d129	UP8Y5004	Pistacia_Vera	51-03	NULL
@@ -3896,6 +4046,7 @@ dc02750270c3	TP6H7599	Pitepalt	68-02	NULL
 0c44d090b291	TP6P1577	Pit_Fall	70-26	the best selling game for the Atari 2600; considered the first platformer
 a14b4c140eef	AP6P1109	Pit_Stop	62-62	Hunnnn hunnnnn hunnnnnn
 3aaf6afaf093	UP7H8212	Pizzabagare	25-53	NULL
+0f8bea7ac17e	SCIN0001	Pizza_Margherita	12-65	NULL
 895ffafbf32c	TP6H7671	PJ_Charpentier	45-30	NULL
 84bc51a1fbfc	TP5P0605	Placophobia	46-32	-
 f9c1f208830f	TP7Y4497	Plaindetix	06-32	NULL
@@ -3904,6 +4055,7 @@ f9c1f208830f	TP7Y4497	Plaindetix	06-32	NULL
 04fd8b75603a	TP5P0775	Planktology	49-18	-
 b7f25f056104	TP5Y0081	Planterwald	30-06	-
 33a3237a62b7	UP9P3798	Platform_Nine_e_Three_Quarters	43-53	NULL
+fbdbd436441a	TP4P0253	Platypus	2022-01	NULL
 eb210715f03b	UP6P1334	Pleiades	73-01	The scattered light is blue for the same reason the sky is blue: blue light is scattered more than red light.
 82c929ae1c02	TP5P0995	Pleurisy	58-52	-
 4a75645c4a86	UP7H8306	Pliggar	01-57	NULL
@@ -3914,7 +4066,9 @@ a3e3c04d9329	TP7H8307	Plugg	79-10	NULL
 942a14f4772d	UL9P6674	Plum_Tree	84-45	NULL
 89cd6716bb1e	TP5P0599	Plutophobia	38-32	-
 ea71da9fe554	UP5Y0182	Plymouth_Prowler	30-47	-
+c52576564f65	PSLTst01	PMTTest	-	NULL
 f62ce00520ba	UP7Y4540	Pneumatix	06-13	NULL
+aa8c7775009a	TP5P1003	Pneumonia	-	-
 62ad1feccd4d	UP7P2190	Pocahontas	62-25	NULL
 9486d3ddbece	UP8H8512	Pochera	01-09	NULL
 ccdcaf08b951	TP8Y4969	Podocarpus_Macroph	23-28	NULL
@@ -3964,6 +4118,7 @@ a2e878d8101f	UP4P0144	Potassium	50-55	-
 6eafb088bcce	TP5P0593	Potophobia	69-54	-
 4212834c6c88	TP5Y0131	Potsdamer_Platz	59-56	-
 8d84a21acb2d	TP5Y0117	Potsdam_Hauptbahnhof	40-32	-
+bccbd545b3c1	TP4Y0033	Potts_Landbier	-	-
 5304eb80e13e	UP9P3918	Pouring	14-57	NULL
 5c60ea2afb3c	UP5H0252	Prackharan	72-15	-
 772b22c0e8c2	UP7H8308	Pral	SP-07	NULL
@@ -4033,6 +4188,7 @@ c781e83184aa	TP6P1225	Queenanneslace	46-30	A Flower
 8abb97790eac	UP9P3800	Quibbler	43-39	NULL
 4c57c49fd6b4	TP9P3805	Quiddich_Pitch	79-50	NULL
 3e88673e84bc	TP9P3821	Quinkana	80-48	NULL
+5b1167dc9fa2	TP4P0337	Quoalaish	-	-
 a1c0ed2b66af	TP5P0963	Q_Fever	78-16	-
 f37c017dd786	UP6P1384	Q_Squared_Joe	78-57	A card Game
 2ba475921bff	TP4P0265	Rabbit	38-02	-
@@ -4044,6 +4200,7 @@ b804f6f38a45	TP4Y0053	Radeberger_Pilsener	21-16	-
 643f1bf2fdb9	TP5P0765	Radiology	49-26	-
 96a3a3340712	TP5P0709	Radiophobiaish	73-34	-
 f5e47c4d420c	TP7P2435	Radiotrope_Radio	36-02	NULL
+0f9cff64d691	UP4P0286	Radish	-	-
 12f3a2cbb97c	TP7Y4683	Radius	37-26	NULL
 dcfe3860ac06	TP8P3303	Radrick_Farms	02-14	NULL
 350fc7c41006	UP7H8312	Ragga	15-53	NULL
@@ -4053,6 +4210,7 @@ dcfe3860ac06	TP8P3303	Radrick_Farms	02-14	NULL
 a218a7e0a3a4	AP6P1127	Rag_Top	56-63	convertible car with a cloth roof
 206591ba02a4	UP8P3664	Rail_Baron	01-45	NULL
 44ff5e3a8ab2	UP8P3272	Rainstick	16-39	NULL
+e38786a997f9	SCUBE026	Marettimo	2023-26	NULL
 09da4f3ce405	TP8Y5061	Rain_Flower	51-12	NULL
 9fcd706ca864	TP6H7627	Raketost	54-52	-
 db21e2db154f	UP6Y4414	Raktavija	66-15	Indian Gods and legendary heroes
@@ -4062,6 +4220,7 @@ fce45a8cb7e9	TP6Y4379	Rama	66-14	Indian Gods and legendary heroes
 10342ae1c03b	UP5Y0188	Rambler_American	59-17	-
 6d365de2b25f	UP7P2600	Ramot_Menashe	32-17	NULL
 57336be1677d	UP7Y4822	Rana_Tlaloci	35-29	NULL
+8cc775dded6b	DFLRef01	RanDOM	-	-
 3a52c3fda384	AP8P3000	Ranger	43-61	NULL
 dc21b25786d1	AP5P0424	Ranidaphobia	37-64	-
 20132b8ce95b	AP7P2071	Ranulph_Fiennes	04-64	NULL
@@ -4071,6 +4230,7 @@ a828f2b261fb	UP7P2338	Rapid_Robert	62-59	NULL
 c06a75cd9eb1	UP4P0092	Raspberry	50-57	-
 3096fbff3f93	TP4P0269	Rat	66-44	-
 71dd370f5009	UP8P3244	Ratchet	16-43	NULL
+7b51c59d0524	SCUBE047	Huahine_Iti	2023-47	NULL
 19bbdf2b10b3	TP4Y0019	Ratskrone	38-48	-
 92fc754f9ac4	UP4Y0060	Rats_Koelsch	75-29	-
 7e290bb44cb8	UP7Y4808	Rattus_Montanus	10-57	NULL
@@ -4089,12 +4249,14 @@ eb7cf6dd9271	TP7P2131	Reblochon	55-54	NULL
 d1a99593f78d	UL8P6544	Redwood	83-19	NULL
 41d1df5aea3e	TL9P6687	Redwood_Tree	84-02	NULL
 3a92c3157cf6	TP8P3279	Red_River	19-02	NULL
+91502db125d7	TP6P1339	Red_spider	-	Nebulas
 0150f43b5dd8	TP6P1709	Reef_Octopus	61-38	NULL
 0e7057aac4c7	UP4Y0028	Regenten_Pils	63-43	-
 a613b0156a83	UL9P6724	Reina_Maruyama	84-21	NULL
 ffb9b1b82c88	TP4Y0059	Reissdorf_Koelsch	21-14	-
 9214b45beed6	TP7P2575	Reitschul	31-50	NULL
 f5a6616222dc	TP7H8313	Reko	80-50	NULL
+f316d197344f	IACT0001	Reliant_Robin	00-01	NULL
 62cf42cb247f	UP5Y0202	Reliant_Scimitar	40-45	-
 517f22221269	TP7Y4571	Remi	55-26	NULL
 05f199a75abe	UP7P2394	Remler_Radio	06-15	NULL
@@ -4138,6 +4300,7 @@ c5cb985b8ca8	TP5H0253	Ringkobben	46-50	-
 46e5a4a5f140	UP5H0152	Ripa	57-41	-
 63f16500dc86	UP8P3166	Ripping_Guide	41-39	NULL
 1dc80345be1f	TP8P3183	Riq	13-44	NULL
+fb467e69803d	SCUBE062	Niihau	2023-62	NULL
 88f9c6ed4483	TP8P3629	Risk	01-08	NULL
 d90ae58c2ce7	UP8H8516	Rissolera	79-59	NULL
 63a8835167f9	UL8P6510	Rivendell	83-25	NULL
@@ -4192,6 +4355,7 @@ a214e0008f12	UP5H0126	Roskarl	57-39	-
 f6cce01fe708	UP5P1034	Rotavirus	65-59	-
 5040bcb397a2	UP4P0122	Rotini	74-51	-
 5120e4d9946e	TP8P3231	Rototom	02-36	NULL
+49ef9de2fa14	SCUBE040	No_Name_Key	2023-40	NULL
 b447984564df	TP6P1343	Rotten_Egg	72-54	So name because it contains a lot of sulfur.
 aad80fde300f	TP8P3159	Rouge_Wheel	25-16	NULL
 125325a42b3a	UP8P3174	Router	16-33	NULL
@@ -4242,6 +4406,7 @@ d611fc18c293	UP7Y4760	Sacrum	18-51	NULL
 d33de68b97b6	UP7Y4956	Safir	13-11	NULL
 dd507ae67614	TP6P1509	Sagavanirktok_River	67-58	NE Alaska; rises on N slope of Brooks Range
 0f85fe26ccc3	UP8Y5046	Sage	43-45	NULL
+e7a209857466	TK4P0046	Sagittarius	-	-
 9de91841631b	UP8P3572	Saguaro	35-09	NULL
 358853663d26	UP8P3338	Sahalee	02-57	NULL
 0be6207b223d	UP7Y4816	Saiga_Ratarica	18-29	NULL
@@ -4262,12 +4427,14 @@ fad5219161ab	AP7P2094	Salomon_Andree	09-61	NULL
 7e91341a1ce0	UP7Y4946	Sampex	05-39	NULL
 525769064458	TP8P3143	Sandblaster	13-50	NULL
 de2500633945	TP8P3141	Sanding_Block	25-08	NULL
+e57fd361050c	SCUBE048	Nosy_Be	2023-48	NULL
 f9304891b18b	TP8P3197	Sand_Blocks	80-28	NULL
 c01f026cabf2	UP6P1802	Sand_Dollar	75-39	NULL
 be348fbee90a	TP5P0609	Sand_Man	38-34	-
 47e24118b60d	UP8P3164	Sand_Paper	05-19	NULL
 19cfe62dbbb2	TP7H8235	Saneringsarbetare	08-38	NULL
 ccd220b04e3e	AP5P0401	Santa_Ana	71-64	-
+931e24a072db	TP5P0955	Santa_Fe	2029-02	NULL
 f60fcd0c3326	TP7Y4573	Santones	60-32	NULL
 66bf0d11b1bf	TP5P0909	San_Francisco	46-60	-
 94f46ec747b2	TP8P3247	Sao_Fransisco_River	16-10	NULL
@@ -4280,7 +4447,9 @@ e52bfcdc5713	UP7P2612	Sasa	32-25	NULL
 f301c4df9d40	TP5P0595	Satanophobiaish	78-12	-
 736f471564ab	UP6P1526	Sather	70-23	Eiffel derivative developed at Berkeley also named for a tower
 364bd7e21343	TP6P1733	Saturday_Night_Fever	61-14	Nostalgic look at the Disco Era
+da669e9477d7	TV4P0032	Saturn	-	-
 efae979ed29f	UP5Y0200	Saturn_LS2	40-13	-
+9684a0811006	UP6P1346	Saturn_Nebula	-	The distance to the Saturn nebula is not known very well because there are no reference stars in its neighborhood that have been detected and could be used to accurately gauge its distance.
 1863f33f159b	TP7P2275	Sauron	62-52	NULL
 a00051e7e3b1	TP8H8517	Sautera	79-46	NULL
 39ef240fb8f2	UP7Y4666	Saveliy	06-49	NULL
@@ -4289,6 +4458,8 @@ a00051e7e3b1	TP8H8517	Sautera	79-46	NULL
 be743fecd3d9	UP7P2138	Sbrinz	76-27	NULL
 ba8ae8198d4f	UP5P1068	Scabies	46-21	-
 83e8f6f9b1af	UP6P1228	Scabious	58-47	Scabiosa plants have many small flowers of soft lavender blue, lilac or creamy white colour borne in a single head on a tall stalk Flowers
+10cf5808eced	TP6P1819	Scandinavian_Airlines	-	Denmark national airline
+af1ade5504a7	UP4P0126	Scandium	-	-
 695cd3ff41b0	UP7Y4750	Scaphoideum	11-01	NULL
 06b15d3b5234	UP7Y4728	Scapula	28-55	NULL
 8b5521ee9fb9	TP7P2557	Scarecrow	03-32	NULL
@@ -4301,6 +4472,8 @@ df286e2aecfd	UP8Y5146	Schabziger	42-33	NULL
 bfce23980286	UP6Y4406	Schango	60-55	African Gods and Legendary Heroes
 ec760a0d92a0	TP6Y4445	Sche	66-26	Chinese gods and mythical heroes
 ceb5c63499a5	TP6P1523	Scheme	77-50	minimalist dialect of lisp
+3895a3180647	UP4Y0038	Schloesser_Alt	-	-
+06510aaedeb8	TP4Y0034	Schmucker	-	-
 4255e2b1c79f	TP4Y0013	Schneider_Weisse	21-20	-
 55158f9a1b6e	UP7P2454	Schnorres	05-55	NULL
 9506e6e02f17	TP7P2599	Schnorreswackler	03-34	NULL
@@ -4316,6 +4489,8 @@ d750ad689e1f	UP5Y0204	Scion_Tc	59-41	-
 9feda334450b	TP7Y4943	Scisat	34-28	NULL
 4489b43873ed	TP5P0693	Scoleciphobia	66-20	-
 0d5d042e143b	TP9P3705	Scooter	22-32	NULL
+a5c7a381a5b3	UK4P0051	Scorpio	-	-
+5beec27cbd25	UP4P0164	Scotch_ale	-	-
 ba50472909b4	UP8P3422	Scottish_Blackface	27-43	NULL
 62d6ff9d885e	UP8P3480	Scott_Base	07-07	NULL
 ddeda7573059	UP5P0978	Scott_Smith	45-29	-
@@ -4326,6 +4501,7 @@ ddeda7573059	UP5P0978	Scott_Smith	45-29	-
 47b1d6ead769	TP7P2187	Scrooge_McDuck	45-26	NULL
 1dcae00beda8	TP7P2629	Sde_Boker	32-58	NULL
 f73fe774f315	UP7P2604	Sdot_Yam	32-11	NULL
+3eb23fb17d5f	TP4P0273	Seal	-	-
 b8d10e8f1852	TP6P1619	Sea_Blue	75-08	color
 7759cb45790a	UP8P3134	Sea_Cow	11-31	NULL
 0d6009e5e409	TP6P1857	Sea_Cucumber	53-20	NULL
@@ -4339,6 +4515,7 @@ b4534394ad6f	TP7H8181	Seglet	23-38	NULL
 dccf893c7c34	UP8P3100	Sei_Whale	11-49	NULL
 f1e529311306	TP7H8047	Sejsa	03-48	NULL
 e7b1b9da9980	TP5P0611	Selaphobia	74-10	-
+4cb96ef1c962	TSLRef01	SelDOM	-	-
 4cdc8a709f6c	TP5P0785	Selenology	49-36	-
 ddaef8440bf8	UP7P2320	Seminole_Tribe	16-15	NULL
 2a5a6b7daf3f	TP7Y4825	Semiramide	34-38	NULL
@@ -4355,10 +4532,12 @@ f13782a28bd9	UP8Y5022	Sencha	42-13	NULL
 43369df82757	TL9P6675	Sequoia_Tree	84-44	NULL
 9189427fa6b4	TP8P3423	Serao	37-12	NULL
 c07a90efdaeb	UP6P1592	Sergeant_Knight	70-57	Character from Joseph Hellers catch-22
+4208dd9ec4ff	TP6P1691	Sergeant_Towser	1C-10	NULL
 cc820dca091c	UP7Y4654	Sergiy	28-37	NULL
 b9293b8feb2b	TP5P0813	Serology	49-04	-
 846359d64a27	UL8P6508	Serotta	83-01	NULL
 1713d9af3072	TP4P0275	Serow	67-16	-
+bc6131059a9d	TP4P0277	Serval	-	-
 18b445cafae3	AP6P1151	Set_Top	73-62	something designed to sit on top of a television
 dfe6e7f9ecf1	UP6P1378	Seven_Bridge	64-49	A card Game
 32a89cca7306	UP8P3540	Seven_Cycles	17-35	NULL
@@ -4393,6 +4572,7 @@ baa2f4f4fe85	TL8P6511	Shimano	83-14	NULL
 7829d43058f7	TP5P0919	Shinbei_Inue	39-10	-
 4faed11485e0	TP8P3287	Shinnecock_Hills	27-42	NULL
 025ae17702f7	TP5P0915	Shino_Inuzuka	39-56	-
+251171ded850	TP4P0165	Shiraz	-	-
 451a23f74e38	TP9P3865	Shivas_Beast	32-02	NULL
 937692527f53	TP7P2381	Shoeless_Joe	16-48	NULL
 c5834f795ade	TP7P2685	Shomrat	24-34	NULL
@@ -4411,6 +4591,7 @@ cdea39171681	TL9P6649	Shrimpkind	79-40	NULL
 91de7b106eac	UP6Y4452	Shun	46-19	Chinese gods and mythical heroes
 a7a5f1dcaf0e	UP7P2694	Shuttle_Challenger	31-47	NULL
 3becc3d12103	UP5H0246	Sickla	57-43	-
+792003ffc020	TP5H0215	Sidensvans	-	-
 98ddc3851886	UP8Y5018	Sideromelane	43-49	NULL
 6368b5d0bb78	TP5P0691	Siderophobia	29-22	-
 1821412a7ad7	UP9P3850	Side_Tusked_Pig	79-11	NULL
@@ -4437,11 +4618,13 @@ e167381d1eaf	TP7P2269	Sindar	45-12	NULL
 c598b21849c9	UP7Y4490	Sinfonix	12-03	NULL
 c0f1ad586123	UP5Y0206	Singer_Sedan	30-31	-
 5ecd8dee8e41	TP8P3225	Singing_Bowl	16-46	NULL
+a869ed340826	SCUBE027	Nusa_Lembongan	2023-27	NULL
 ae6d64b34eab	UP7Y4906	Singularity_Sky	13-01	NULL
 207856bee26f	TP5P0695	Sinistrophobia	73-56	-
 aa03539a5403	TP5P0831	Sinophiliaish	58-08	-
 f02665f3a962	UP7P2290	Sioux_Nation	44-27	NULL
 10734fc6023f	UP6P1792	Siphonophore	69-17	NULL
+b641d54f973a	TP5P0509	Sirocco	-	-
 903dafa188de	UL8P6502	Siro_Usagi	79-31	NULL
 f7ab3f6db26b	TL9H6185	Sista	85-12	NULL
 4d40d01bad1c	TP6Y4287	Sita	63-24	Indian Gods and legendary heroes
@@ -4451,6 +4634,7 @@ a1a41c394791	TP7P2707	Sivan	04-08	NULL
 ba0eb19dac6a	TP7H8219	Sjukgymnast	25-42	NULL
 6e151bf689ff	TP6H7727	Sjurygg	68-44	NULL
 61ce4bf0cbaf	TL9H6179	Skalbagge	85-52	NULL
+6bf9e8decee5	AP5H0159	Skanstull	-	-
 5fd665cb810d	UP5H0132	Skata	47-43	-
 f299368f44fb	TP4P0155	Skatole	30-12	-
 13f4064af480	UP6P1386	Skat_Card	78-21	A card Game
@@ -4479,6 +4663,7 @@ ff1cca741c04	UP8P3354	Skokie	27-59	NULL
 89880fb2101c	TP7H8317	Skubba	01-36	NULL
 dd788139c03d	TP8P3375	Skudde	27-38	NULL
 820a3a3a1b1e	UP7H8106	Skuld	12-49	NULL
+d5c401569d47	TP4P0283	Skunk	-	-
 f2cef4faecc8	TP5H0257	Skurhatten	77-30	NULL
 0aa34ece576e	TP6P1459	Skwentna_River	67-46	S Alaska; rises in Mt. Gerdine glacier system
 c395b0f2e5ed	UP7H8152	Skytten	33-27	NULL
@@ -4498,7 +4683,9 @@ a1277bd06a4b	TL9P6601	Sleet	84-08	NULL
 d3e4a1ce503f	TP9P3745	Slimey_the_Worm	14-10	NULL
 ce6f72f0e664	UP6P1810	Slimy_Doris	44-57	NULL
 9d2fb08d04ab	TP6P1859	Slipper_Lobster	70-44	NULL
+1bb88dd3b637	SCUBE028	Otok_Iz	2023-28	NULL
 824f8fac8f1c	TP8P3221	Slit_Drum	25-40	NULL
+98673d176025	TP4P0287	Sloth	-	-
 e003d4bb5d53	TP5P0607	Sluag	29-16	-
 3330aa9e05b4	UP8H8564	Slunga	51-17	NULL
 87a7b9eb12aa	UP5H0202	Slussen	40-15	-
@@ -4513,6 +4700,7 @@ d2f11ad8ec73	TP9P3837	Smilodon	79-02	NULL
 01bda688e447	TP6P1219	Snapdragon	54-48	-
 a5fcd8202ec6	UP6P1790	Snapping_Shrimp	44-59	NULL
 0a508da26b38	UP8P3216	Snare_Drum	05-07	NULL
+1e3f681da77e	SCUBE004	Pellworm	2023-04	NULL
 a55f40461662	TP6P1521	SNOBOL	77-02	StriNg Oriented symBOlic Language
 5a7f91d13741	TP7H8319	Snoka	01-22	NULL
 7184d2aa2470	TP8H8561	Snoppa	01-10	NULL
@@ -4597,12 +4785,14 @@ e36c4ab898a6	UL9H6182	Spindel	84-17	NULL
 209c14870f9a	UP8P3130	Spinner_Dolphin	11-57	NULL
 831abfedd99a	UL9H6172	Spinnmal	81-01	NULL
 d7451b4f537e	TP6P1851	Spiny_Lobster	69-34	NULL
+ac81eee613d4	UP6P1348	Spiral	2029-01	NULL
 cb144a9152b5	UP6P1340	Spirograph	72-43	Gets its name from its resemblance to drawings from the Spirograph cyclical drawing tool.
 0255191bff92	UP9P3894	Spitting	14-51	NULL
 acaa767b7596	AP7P2014	Spleen	28-64	NULL
 29b9ec2f18c6	TP7H8053	Splits	15-10	NULL
 d441522d26b6	UP7P2284	Spokane_Nation	17-13	NULL
 f809ec5f44f6	UP7Y4778	Spongiosa	18-35	NULL
+12e4df159a33	SCUBE029	Rangatira	2023-29	NULL
 9723fa8c6fc0	UP8P3268	Spoons	41-53	NULL
 de3638988fd0	UP6P1402	Spoons_Card	64-45	A card Game
 cb7b2f2d6421	UP8P3196	Spoon_Bit	13-47	NULL
@@ -4625,6 +4815,7 @@ a7cd4c224baf	TP9P3843	Stag_Moose	32-56	NULL
 381daade65c8	TP7P2343	Stan_the_Man	62-58	NULL
 2f1bf2eb131b	TP7Y4765	Stapes	18-04	NULL
 81dc33d54be9	TP6P1563	Starcraft	09-62	the best game real time strategy game
+840dfd62b1f5	DFLRef04	StarDOM	-	-
 31f41f35ef89	AP8P3035	Stardust	79-61	NULL
 c6f641f76637	UP5H0128	Stare	78-47	-
 66805237071b	UP6P1636	Star_Wars	62-47	does npt need a description
@@ -4634,6 +4825,7 @@ e005b22fb90b	UP6P1610	Star_Wars_Battlefront	70-51	a first person shooter where y
 6dc56d2e7493	UP9P3726	Statler	07-27	NULL
 ad167edebc38	UP7Y4888	Steam_House	34-59	NULL
 19a8c9568347	UP8P3270	Steelpan	16-09	NULL
+2055aaaf2eed	SCUBE030	Principe	2023-30	NULL
 8e6dec6f5a50	UP5H0244	Steglits	46-31	-
 6c2f5f210a07	UP8P3410	Steinschaf	02-37	NULL
 c1ab2b390811	TL9H6181	Stekel	85-54	NULL
@@ -4648,6 +4840,7 @@ ae92b55a541f	TP6P1329	Stingray	73-02	The youngest known planetary nebula.
 126af3762ff6	TP7P2189	Stitch	44-58	NULL
 49e675ced52f	AP8P3017	StLouis_1904	14-63	NULL
 9c398e4e9958	TP9P3817	Stoatshead_Hill	07-02	NULL
+8031681afab7	TP4H0039	Stockholm	-	-
 b4e3b22446db	AP8P3020	Stockholm_1912	80-61	NULL
 5a64e0f85c3c	TL9H6159	Stol	82-52	NULL
 5dbfc437aec5	AP7P2016	Stomach	12-61	NULL
@@ -4663,6 +4856,7 @@ d8dea5de183a	UP7P2514	Storm	25-51	NULL
 d7f8f7bfdf5c	UP5H0240	Storskarv	56-13	-
 7ce10459887e	TP4P0131	Stout	40-44	-
 0696638c79c2	TP8P3599	Stowe	07-54	NULL
+a73688b12173	TP5H0219	Strandpipare	-	-
 cc65b64dd8a0	UP8P3114	Straptoothed_Whale	11-05	NULL
 b3a4fbd6f72a	UP7Y4876	Strata	13-55	NULL
 03fb70e4f234	UP8P3632	Stratego	07-01	NULL
@@ -4695,12 +4889,37 @@ eaf3fe2cc0e2	UP8P3582	Sugarbush	07-43	NULL
 1c79e9615e8b	UP8P3594	Sugarloaf	14-59	NULL
 282999640262	TP8Y5021	Sugilite	33-52	NULL
 bab76c8adc72	AP8P3008	Suisei	08-62	NULL
+45d2b6972e9e	PolRef01	Suitcase01	-	-
+cdf3e1a0744d	PolRef02	Suitcase02	-	-
+1363adab2352	PolRef03	Suitcase03	-	-
+eb26dfcaa372	PolRef04	Suitcase04	-	-
+2b63bb1b61a1	PolRef05	Suitcase05	-	-
+37a8536a763a	PolRef06	Suitcase06	-	-
+99b9c2aaff24	PolRef07	Suitcase07	-	-
+25b43d9d3182	PolRef08	Suitcase08	-	-
+af16acf89a7c	PolRef09	Suitcase09	-	-
+a3de8eec7e42	PolRef10	Suitcase10	-	-
+054c68767f93	PolRef11	Suitcase11	-	-
+5d8a143e60d7	PolRef12	Suitcase12	-	-
+395a3ea47b85	PolRef13	Suitcase13	-	-
+ee181aa96db3	PolRef14	Suitcase14	-	-
+2be84473362b	PolRef15	Suitcase15	-	-
+fa36bbfb445c	PolRef16	Suitcase16	-	-
+3f18e8977ec0	PoleRef1	Suitcase17	-	-
+519878944512	PoleRef1	Suitcase18	-	-
+4fe99ff4f686	PoleRef1	Suitcase19	-	-
+3174bb97f242	PoleRef2	Suitcase20	-	-
+2441009e47e8	PoleRef2	Suitcase21	-	-
+dbce4a85b6a4	PoleRef2	Suitcase22	-	-
+9469d2ba519d	PoleRef2	Suitcase23	-	-
+67244da0196f	PoleRef2	Suitcase24	-	-
 6f09700f1757	UL9H6130	Sulfitcellulosa	81-21	NULL
 423ed83846c3	UP4P0214	Sulfur	21-53	-
 e0419439dc31	TP7P2355	Sultan_of_Swat	54-24	NULL
 71ad6bc95fc7	TP9P3925	Sumac_Tree	79-12	NULL
 34f67418fb8b	TP5P0521	Sumatra	59-38	-
 48550f6ea10f	TP8P3361	Sumavska	13-28	NULL
+155729f1d1be	TP4P0285	Summerfest	-	-
 6e6733a279a7	UP4P0192	Summer_ale	21-03	-
 9505b1246168	UP8P3512	Summer_Camp	08-17	NULL
 c196768f6634	UP8Y5196	Sumpfsee	51-23	NULL
@@ -4717,6 +4936,7 @@ eb449790a526	UP4H0042	Sundbyberg	77-05	-
 478446c3adf2	TP6P1727	Superman	75-04	Superhero movie
 d1970de2de9e	UP7P2728	Super_Kamiokande	11-45	NULL
 4ce2a30b80f4	TP6P1553	Super_Smash_Brothers	63-46	a game where eight Nintendo characters beat up on one another
+1a837d6173eb	DFLRef07	SurfDOM	-	-
 cf05625f1904	UP7P2494	Surfing	10-53	NULL
 59b83a4a75c3	UP8P3536	Surly	02-43	NULL
 b7b06dbf08a3	AP8P3007	Surveyor	34-61	NULL
@@ -4767,6 +4987,7 @@ acf3852b67e7	UP4P0254	Syrah	21-29	-
 16e7a544b510	UP7P2686	Tabaung	04-49	NULL
 48258da55845	TP6H7629	Taberg	62-02	NULL
 70c9550d5a67	TP8P3189	Tabla	05-42	NULL
+131a5fb94dae	SCUBE005	Rafa_Barri	2023-05	NULL
 8ea2cb735bb3	TP7P2759	Tabodwe	04-56	NULL
 e077ac13efb1	UP8P3668	Taboo	22-03	NULL
 a2aed1ac2000	AP6P1111	Tab_Stop	72-61	a stop
@@ -4784,6 +5005,7 @@ d85e6f17d28f	TP7H8055	Tagling	17-60	NULL
 4474c83c238d	UP8P3282	Tagus_River	19-05	NULL
 b4144e54f62c	UL9H6046	Taigaskinn	84-09	NULL
 99c4a8188632	TP8P3187	Taiko	05-60	NULL
+66996833f589	SCUBE006	Rakiura	2023-06	NULL
 fe9bb733d00e	UP7H8056	Tajt	15-49	NULL
 2b2fa5e79404	TP7P2785	Taj_Mahal	11-52	NULL
 17a91275c3a3	UL9H6160	Taklampa	85-43	NULL
@@ -4805,6 +5027,7 @@ aa0128186c83	UP7Y4792	Talpa_Streeti	18-41	NULL
 59629488defe	TP8Y5035	Tamaryokucha	51-26	NULL
 9c47976a9376	TP5P0561	Tamawo	39-02	-
 53972374df49	TP8P3223	Tambourine	16-42	NULL
+c36e39f53e7e	SCUBE031	Richel	2023-31	NULL
 8be3636f1264	TP6P1789	TAMELAN_Ecuador	61-60	Ecuador national airline
 39dc9e31f125	UP7P2660	Tammuz	04-13	NULL
 baecf859dd52	TP6P1469	Tanana_River	58-38	river flows to the north of the Wrangell Montains and the Alaska Range
@@ -4823,12 +5046,14 @@ c771169271e5	TP7Y4559	Tarbelli	77-22	NULL
 38d63e6b1263	TP8P3381	Tarim_River	19-42	NULL
 7721cc3d4aad	TP4P0295	Tarsier	54-04	-
 9a23651c157a	UP7P2684	Tarzaungmon	11-11	NULL
+cbaeb044c279	TP4P0297	Tasmanian_Devil	-	-
 61eb976fd9ed	UP8P3578	Tasman_Glacier	22-39	NULL
 d93c12291a6f	TP7P2719	Tasman_Whale	13-24	NULL
 5c9e2f74a86f	UP8P3488	Tasso	02-23	NULL
 ae99e4297c66	UP6H7636	Tattby	52-57	NULL
 b7fe020ae469	UP7Y4670	Tatyana	20-49	NULL
 f2d6f61aa895	TP5P0667	Taurophobia	46-24	-
+d4d92e3464a3	TK4P0054	Taurus	-	-
 4b385e234242	UP6P1808	Taveuni	75-01	NULL
 a1f794b2896c	UP7P2678	Tawthalin	04-39	NULL
 4cd5f78f380f	TP6P1699	Taxi_Driver	69-08	New York Taxi Driver loses his grip with sanity
@@ -4852,6 +5077,7 @@ ee7ef841bfb6	TE8H6001	Teleskop	83-28	NULL
 99f0fa61d389	UP6Y4356	Teliko	55-57	African Gods and Legendary Heroes
 4c4109faff82	UP7P2622	Tel_Yosef	31-29	NULL
 dc669a545471	UP9P3834	Temperature_Inversion	79-53	NULL
+273b372ced14	SCUBE049	Rothschild	2023-49	NULL
 0abc8e305877	UP8P3242	Temple_Blocks	41-57	NULL
 0491472ce359	TP5P0615	Tengu	56-58	-
 d6b14643e836	TP6H7635	Tenhult	68-36	NULL
@@ -4875,12 +5101,14 @@ d337025ec466	TP4P0203	Tetrahydrofuran	21-46	-
 ae912b24cddd	UP8Y5180	Teufelssee	33-23	NULL
 4a8698ddd7d5	UP7P2670	Tevet	11-17	NULL
 add34efd347d	UP5P0936	Texas	26-19	-
+76595d03a633	UP6P1306	Texas_Chainsaw	-	1974 horror film The Texas Chain Saw Massacre.
 6b641b5a7e57	UP8P3406	Texel	02-03	NULL
 a998c59b1f35	TP5P0721	Textophobia	44-38	-
 2b756d7ee007	TP7P2749	Thadingyut	04-18	NULL
 a528dd8e8fab	TP5P0837	Thalassophilia	64-04	-
 173206b4f36c	TP5P0719	Thalassophobia	29-06	-
 c0e532871572	UP8P3220	Thavil	05-05	NULL
+2595785468bf	SCUBE060	Sanak	2023-60	NULL
 90302720fdf2	TP5P0749	Theology	67-18	-
 7c73a163c522	AP5P0410	Theophilia	68-64	-
 5ac4bf7006fd	TP5P0805	Theriology	74-28	-
@@ -4937,6 +5165,7 @@ ee7de4bcda52	TP7P2509	The_Penguin	09-16	NULL
 0def5898edb8	TP7P2357	The_Rocket	45-38	NULL
 71720133f471	UP7P2346	The_Ryan_Express	06-47	NULL
 36043ed0c836	TP7P2345	The_Say_Hey_Kid	62-06	NULL
+801618ccc0a9	TP6P1283	The_Shining	-	1980 film
 867e3cf7cd5f	UP7Y4902	The_Star_Diaries	35-45	NULL
 b9ec64b6a271	UP7P2700	The_Temple_of_Artemis	04-55	NULL
 bd0a92365ecf	TP7P2825	The_Temple_Of_Zeus	04-16	NULL
@@ -4962,13 +5191,16 @@ c22b0237db9b	TP7P2831	Three_Mile_Island	04-24	NULL
 98303792dbb7	TP5P0833	Thrombophilia	71-32	-
 897dfe0a5980	UP7P2214	Thumb	17-53	NULL
 fab22e1981fa	TP6P1713	Thunder_Ball	69-58	James Bond movie with a lot of water
+7a5740dfb0ed	SCUBE050	Sandoy	2023-50	NULL
 e26b3232c31e	TP8P3213	Thunder_Sheet	24-06	NULL
 b163d01f0f49	UP8Y5080	Thyme	43-33	NULL
 93a6a8f49425	AP5H0173	Tibble	55-64	-
 51da1b5a43bf	TP7Y4753	Tibia	18-16	NULL
 afe0af8c87a9	TP6H7637	Tibro	53-48	NULL
 d6b971dc9689	TP6H7639	Tidan	34-20	NULL
+290d9782ee52	TP5Y0099	Tiergarten	-	-
 669dc35dbcdb	UP6P1616	Tie_Fighter	64-23	a first person shooter, only your flying a Tie Fighter!
+789b9a06d28e	TP4P0301	Tiger	-	-
 fed883ea1890	TL9H6047	Tigermussling	86-60	NULL
 97bd1f33fc96	TP8Y5019	Tigers_Eye	08-54	NULL
 ed4e1a9696a3	UP6P1788	Tiger_Cowrie	61-21	NULL
@@ -4982,6 +5214,7 @@ fe9e1a827b77	TP7Y4643	Tikhon	20-40	NULL
 100d5710e313	UP7Y4916	Timed	13-19	NULL
 c3d445981e16	UP7Y4656	Timofey	20-47	NULL
 6188b0256a7c	UP8P3218	Timpani	05-13	NULL
+89d9386b8bf9	SCUBE007	Siberut	2023-07	NULL
 840c09040f35	TP7Y4653	Tim_Lyons	45-28	NULL
 dcdf977fd4b5	UP7P2172	Tinker_Bell	62-35	NULL
 377b1239e26a	UP8P3176	Tin_Snips	41-01	NULL
@@ -4991,6 +5224,7 @@ d2c6b1cc481d	AP6P1149	Tippy_Top	64-63	very highest point
 cfec85c63a06	TP7P2655	Tir	11-54	NULL
 db1e70235dd2	TP7P2693	Tishrei	11-24	NULL
 86fe012ee332	UP7P2702	Titanic	04-23	NULL
+227a98ab9a22	UP4P0152	Titanium	-	-
 0afc35719647	TP7H8085	Tiw	10-14	NULL
 f2a1bcc12405	UP7P2602	Tlalim	31-03	NULL
 4c59eb30ab3d	UP6Y4360	Tlaloc	65-01	NULL
@@ -5004,12 +5238,14 @@ bd1f12330030	UP7Y4616	Toguchin	55-37	NULL
 6e36d2f2af1a	UL9P6634	Toilet_Snail	81-27	NULL
 1857f1ea0f71	UP7H8234	Tolk	34-29	NULL
 9e9d337a14a1	TP8Y5141	Tollensesee	23-14	NULL
+06cfb390ec7c	UP4P0124	Tomato	-	-
 c6b6ad6eee4b	TP8P3523	Tommasini	02-56	NULL
 4bee2bab54fa	UP7P2110	Tomme_De_Savoie	76-17	NULL
 d0d1f175d948	TP5P0635	Tomophobia	66-48	-
 daf4b93d5fca	UP5P0730	Tom_Ham	45-21	-
 1814d9614bc6	TP7P2375	Tom_Terrific	17-32	NULL
 91f8fabbdc1e	TP8P3185	Tom_Tom	05-48	NULL
+5bd9cf7a7bc4	SCUBE008	Qamea	2023-08	NULL
 83a3988d5050	UP6Y4330	Tonatiuh	72-29	NULL
 aec511cfcfb8	TP6H7729	Tonfisk	68-24	NULL
 ee645dfd4f75	TP6P1889	Tongatapu	76-34	NULL
@@ -5065,6 +5301,7 @@ d6ab8075e2fb	TP5H0125	Trast	72-52	-
 ba088ea10a64	TP5P0935	Trenton	71-50	-
 eb88973db616	TP5Y0083	Treptower_Park	18-38	-
 78d13780d12f	UP7H8156	Triangeln	33-11	NULL
+02dcd49582cc	SCUBE032	Tutuila	2023-32	NULL
 04ae0813627f	TP8P3227	Triangle	41-06	NULL
 44f23d7ce700	UP7Y4554	Tricasses	60-31	NULL
 7c31abe464db	TP7Y4587	Tricastini	70-24	NULL
@@ -5072,13 +5309,16 @@ eb88973db616	TP5Y0083	Treptower_Park	18-38	-
 9bc7b6bc3d55	TP5P0743	Trichophilia	65-56	-
 f82b25bb2fff	TP6P1347	Trifid	73-50	Located in Sagittarius. The nebulas name means divided into three lobes.
 8ce4556a93d3	TP6Y4275	Trimurti	66-36	Indian Gods and legendary heroes
+39139103a02f	TP4P0147	Trinitrotoluene	-	-
 fac5284c8165	TP4P0167	Tripel	30-28	-
 7a599f9a8bbe	TP7Y4747	Triquetrum	18-46	NULL
 9ad0af81d290	TL9P6647	Trisolian	80-40	NULL
 acce9a2e9b1e	TP6P1689	Triton	61-20	NULL
 1fd2da895fe8	UP8P3660	Trivial_Pursuit	14-13	NULL
 e4dcd42aa5dc	TP6P1533	Troff	60-28	document processing system developed by ATT
+252712fecb85	TP5P0617	Troll	2021-06	NULL
 558798a250a5	TP5P0727	Tropophilia	39-54	-
+1e2d5852a05d	TP4H0059	Trosa	-	-
 933da7f3740e	UP7P2518	Trottwaar	34-09	NULL
 12b78d1cea33	TP8P3623	Trouble	01-02	NULL
 4aa1f4ea5c2f	TP8P3135	Trowel	41-26	NULL
@@ -5094,11 +5334,13 @@ ba0618025f12	UL8P6500	Tsuki_Usagi	36-51	NULL
 5cdfbc416703	UP6P1722	Tube_Sponge	61-45	NULL
 b91a2f8040a7	AP6P1144	Tube_Top	73-61	womens shoulderless shirt relying on elasticity to stay in place
 197b06a0f8c3	UP8P3266	Tubular_Bells	13-39	NULL
+d2daacf92c3a	SCUBE033	Uepi	2023-33	NULL
 8da452c4f1b0	TP4P0305	Tuco_Tuco	64-02	-
 1c71a5d6034c	TP7H8157	Tukanen	34-54	NULL
 85bef60e26d2	UP6P1268	Tulip	46-27	A Flower
 98a02fd6dbbb	TP5H0183	Tullinge	40-16	-
 ee04fa60a7c2	UP8Y5102	Tulse	08-19	NULL
+5e6049f022e2	UP4H0056	Tumba	-	-
 61c0b1509eb4	TP4H0057	Tungelsta	25-58	-
 7e982f3a20e5	TP6P1847	Tunicate	53-40	NULL
 96ca3b96d5c7	UP8P3390	Tunis	09-31	NULL
@@ -5144,6 +5386,7 @@ e963abdc79dd	TP7Y4681	Ulna	36-20	NULL
 5b486b95e551	UP6H7638	Unbyn	68-37	NULL
 c22032943c3d	TP7Y4583	Unelli	61-48	NULL
 51bd2645e43c	TP8P3417	Ungaretti	02-38	NULL
+01b58e0fbf01	TSLSyn01	UngDOM	-	a chieftain or nobleman in Scandinavia
 d1764ca54212	TP7P2255	Ungoliant	09-28	NULL
 c80b79e1a8b7	AP4P0061	Uni	21-62	-
 770a69b0b93e	TP5P0557	Unicorn	39-42	-
@@ -5156,6 +5399,7 @@ bbc2ff970966	UP6P1852	Upolu	76-41	NULL
 636e5ea73b1d	UP6H7640	Uppland	68-17	NULL
 e81288517643	UP6H7606	Upplandskubb	68-49	NULL
 e5b192b6450b	TP4H0062	Uppsala	37-58	-
+b7e50741d3a0	UV4P0040	Uranus	-	-
 d05b09bcd864	UP7H8104	Urd	80-29	NULL
 ace3174f334d	UP7P2580	Urim	80-55	NULL
 10b1aadbe2c0	TP5P0571	Urisk	72-44	-
@@ -5169,6 +5413,7 @@ c5d2e4ffa6b3	UP6H7642	Urshult	68-47	NULL
 04234103b968	TP7Y4655	Ustinya	51-40	NULL
 ca76eeb18aea	UP5P0960	Utah	66-11	-
 6218fdaeaf4b	TP7P2347	Ute_Nation	52-34	NULL
+647cfac37b23	UP6Y4504	Uthlanga	-	African Gods and Legendary Heroes
 5800693e8dd0	UP6H7720	Utter	17-51	NULL
 7f5ce8a749f0	UP6P1430	Utukok_River	67-05	NW Alaska; rises in Brooks Range
 6956d6948f39	TP5H0191	Uv	35-36	-
@@ -5185,6 +5430,7 @@ b6cf4c4b1210	UP8P3344	Valhalla	27-41	NULL
 b89dc0775d04	UP7P2258	Valimar	16-03	NULL
 4e7d10ac215e	UP7P2250	Valinor	41-35	NULL
 3a67da71d61d	TP8P3605	Val_dIsere	22-12	NULL
+5ef2c27326e9	AP5P0408	Vampire	-	-
 bd5d5c81dbc5	UL9P6642	Vampire_Slug	84-29	NULL
 f85c7530c973	UP4P0158	Vanadium	21-55	-
 de52e2338826	UP7P2724	Vanguard_Rocket	04-31	NULL
@@ -5220,6 +5466,7 @@ eec2bf39c9f1	UP7Y4544	Vellavi	60-19	NULL
 ceecbbd7a22c	UP7P2116	Venaco	76-37	NULL
 0a9efd40d9cf	AP8P3006	Venera	35-63	NULL
 931d139aa65d	UP7P2536	Venom	28-59	NULL
+a97f758a8ec1	TV4P0037	Venus	-	-
 ccaf7c349519	TP7Y4651	Vera	12-38	NULL
 0e461bc1b183	TP8P3571	Verbier	14-40	NULL
 d19c0eb6643f	TP7H8105	Verdandi	10-40	NULL
@@ -5233,6 +5480,7 @@ c1feb3fc3cd2	TP5P0703	Vestiphobia	39-32	-
 f15582288359	TP8Y5043	Vetiver	42-54	NULL
 0b4eb6552345	TP5P0733	Vexillology	54-20	-
 50f051e9f960	UP8P3262	Vibraphone	05-09	NULL
+e8933be1bf50	SCUBE035	Wilhelmoya	2023-35	NULL
 06b10fbbf238	TP8P3115	Vice_Grips	41-50	NULL
 3a3067612ace	TP5P0731	Victimology	50-28	-
 6a8515c05d32	UP7P2412	Victor_Radio	31-31	NULL
@@ -5255,6 +5503,7 @@ f2bcc35034e5	TP6P1605	Violet	69-38	a color
 657f244d0926	TL9H6035	Violgubbe	81-04	NULL
 dffd12fab46c	TP8P3419	Virgilius	19-32	NULL
 a809b636d4c7	UP5P0962	Virginia	70-37	-
+77de625d9682	UK4P0055	Virgo	-	-
 a5bc3d83770a	TP5P0751	Virology	66-02	-
 e9558175b972	UP6Y4412	Vischnu	73-17	Indian Gods and legendary heroes
 2b8c2f0c4ef1	TP8P3147	Vise	05-04	NULL
@@ -5288,12 +5537,14 @@ d2eb99861dd2	UP6P1818	Wallis	55-13	NULL
 895c42df4492	TP5Y0113	Wannsee	46-22	-
 19448961e842	UP7P2300	Wappo_Nation	17-43	NULL
 2205398c3090	UP6P1552	Warcraft	63-37	an addicting massively multiplayer online RPG
+3e75e434c9e0	TP5P0541	Warm_Braw	-	-
 eaaa61c452a8	TP7P2423	Warner_Radio	06-10	NULL
 6432e28f770f	TP5Y0087	Warschauer	38-08	-
 793da237847e	TP4Y0011	Warsteiner	04-60	-
 e2e44c2f3563	TP5Y0159	Wartenberg	40-14	-
 a095b31f89cf	TP4P0315	Warthog	50-38	-
 480bed918b46	TP8P3237	Washboard	13-26	NULL
+939e4b6bc9a9	SCUBE036	Xiushan	2023-36	NULL
 6752a9ff047d	UP5P0952	Washington	46-53	-
 3cd258df0827	AP5P0458	Washington_DC	57-61	-
 bcef5e4c5c4e	UP7P2292	Washoe_Nation	41-55	NULL
@@ -5316,10 +5567,12 @@ af970cedbb53	TP8Y5133	Werbellinsee	51-02	NULL
 499ccc773077	TP5P0627	Werewolf	66-06	-
 46f402ad2d21	TP5Y0151	Westkreuz	72-48	-
 caefbb444060	TP5P0975	West_Nile_Virusish	46-48	-
+ea9bb1dfa7c8	UP5P0870	West_Virginia	-	-
 96d473d46c86	TP9P3903	Wet_Air	79-22	NULL
 a966a879a5d2	TP4P0319	Whale	66-18	-
 2923835433ce	UL9P6606	Whalers_on_the_Moon	81-55	NULL
 f5150d9bf886	UP8P3256	Whip	16-35	NULL
+3ebb6d4524a6	SCUBE037	Yakushima	2023-37	NULL
 dfdb80cfeed8	TP8P3243	Whispering_Springs	27-02	NULL
 8bf5630b3c4d	TP6P1385	Whist	65-46	A card Game
 3f7255207788	TP8P3609	Whistler_Blackcomb	80-14	NULL
@@ -5348,13 +5601,16 @@ a15bc654434b	TP7P2333	Wichita_Nation	52-14	NULL
 676f9982c699	UL9P6640	Windy_Shrimp	81-35	NULL
 ce7c08805d9d	TL8P6563	Wind_Cave	36-52	NULL
 34cdefd6e10f	UP8P3224	Wind_Machine	13-53	NULL
+6937e9af6592	SCUBE058	The_Quintons	2023-58	NULL
 29944e50d8f3	TP8P3455	Wind_Pants	08-10	NULL
+80b0adb4915b	AP5P0400	Wind_Shear	-	-
 17cb8e928775	UP8P3332	Winged_Foot	37-25	NULL
 da2f9db1f2d6	TP7P2309	Winnebago_Nation	52-40	NULL
 b5c962456627	UP7P2168	Winnie_The_Pooh	62-09	NULL
 194a40b01938	UP7Y4948	Wire	33-41	NULL
 7236c55ed15f	TP8P3157	Wire_Brush	13-54	NULL
 27fb549b59ac	UP5P0938	Wisconsin	64-57	-
+60bc9321cd2a	DFLREF02	WisDOM	2022-02	NULL
 94034ed50ac9	TP6P1351	Witch_Head	73-06	Named after its shape, the nature of the dust particles, reflecting blue light better than red.
 e53c98680186	UP4Y0026	Wittinger	21-17	-
 c1473a229a9e	TP4P0321	Wolf	45-48	-
@@ -5367,11 +5623,14 @@ fa03d0b3d21c	UP7P2548	Wonder_Woman	03-05	NULL
 462d9d83807a	UP9P3892	Woodland_Muskox	32-21	NULL
 1f67f4055fd6	UP8Y5106	Woodruff	43-59	NULL
 e2cfec18b536	UP8P3226	Wood_Block	13-29	NULL
+2e86e5a1e3fd	SCUBE057	Gonave	2023-57	NULL
 17fad54ec829	TP8P3131	Wood_Chisel	41-02	NULL
 c5a4400f14b6	UP9P3812	Woolly_Rhinoceros	80-07	NULL
 8fbefe3aaf96	UP8Y5208	Wopacksee	35-11	NULL
+c2160e922002	UP6P1570	Worms	-	a turn based PC games where worms use advanced weaponry to wage war on each other
 3b0bbb9a16aa	TL9P6651	Worms_of_Colon	79-42	NULL
 c4842482e491	UL9P6622	Wormulonian	81-13	NULL
+3eee553b9b6d	UP6P1266	Wormwood	-	A Flower
 e4694a2dac2d	UP7P2440	Worscht	03-07	NULL
 efac97a42ff4	TP7P2567	Worschtsupp	31-38	NULL
 56d081c7ed1b	TP8P3551	Wrangell_St_Elias	08-16	NULL
@@ -5403,8 +5662,10 @@ b155e6b3583e	UP6Y4332	Xolotl	78-41	NULL
 24846cb92e92	TP7Y4905	Xte	15-40	NULL
 44156dd55305	TP5P0757	Xylology	38-38	-
 7119578dde4a	AP5P0426	Xylophobia	46-62	-
+2e1ce8052fe9	SCUBE038	Great_Goat	2023-38	NULL
 91a9424ab552	TP8P3229	Xylophone	25-44	NULL
 3592798f3eb0	TP5P0597	Xyrophobia	71-20	-
+80d74240df08	TP4P0327	Yak	-	-
 c1af79767580	TP7P2329	Yakama_Nation	44-16	NULL
 37da9fdace3c	UP7Y4638	Yakov	12-37	NULL
 02a8a1169150	TP7P2687	Yakum	16-36	NULL
@@ -5465,6 +5726,7 @@ b7e291fdbab1	UP6P1618	Zero_Wing	70-39	a Japanese shoot em up game with poor tran
 6ac715caee62	UP8Y5166	Zeuthener_See	33-03	NULL
 908dad9ddfa5	UP8Y5200	Ziegelsee	23-21	NULL
 b09beab86f0d	TP8P3193	Zil	05-52	NULL
+44b26e29638d	SCUBE016	Marie_Galante	2023-16	NULL
 43a4c479b7ab	UP7Y4652	Zinaida	54-01	NULL
 f65d66d6bfb4	UP4P0160	Zinfandel	53-59	-
 eea7708b7d37	TP7Y4783	Zingel_Asper	18-12	NULL
@@ -5484,104 +5746,3 @@ cdccaec94b8b	TP7P2585	Zuchplakettcher	05-34	NULL
 d8be29c1c0fc	TP8Y5009	Zykaite	09-30	NULL
 3402e6adc65d	TP5P0759	Zymologyish	49-46	Ologies
 1c67337a4b44	AP6P1153	ZZ_Top	56-64	blues rock band known for their long beards and dark sunglasses
-e4194d677ad0	XB0N0003	MartyrDOM	2021-02	NULL
-4ad659054904	UP6P1352	Elephants_Trunk	2021-03	NULL
-91c420c11953	TP4P0093	Apple	2021-04	NULL
-2b7a43ac42fb	UP4P0118	Mulberry	2021-05	NULL
-252712fecb85	TP5P0617	Troll	2021-06	NULL
-ac81eee613d4	UP6P1348	Spiral	2029-01	NULL
-931e24a072db	TP5P0955	Santa_Fe	2029-02	NULL
-a490e191a5a0	UP4P0110	Faralle	2029-03	NULL
-64a8ac5299b1	TP6P1291	Larry_Talbot	2029-04	NULL
-ad1e249c87f7	UP4P0284	IPA	1C-09	NULL
-4208dd9ec4ff	TP6P1691	Sergeant_Towser	1C-10	NULL
-e5c34e1fca8f	UP6P1330	Egg_Nebula	1C-11	NULL
-f1924f918e23	TP5P0517	Nashi	1C-12	NULL
-fbdbd436441a	TP4P0253	Platypus	2022-01	NULL
-60bc9321cd2a	DFLREF02	WisDOM	2022-02	NULL
-8a6763d90eb5	UP5H0158	Alby	2022-03	NULL
-aab8b78c6f00	TP4P0249	Pig	-	-
-39139103a02f	TP4P0147	Trinitrotoluene	-	-
-0f8bea7ac17e	SCIN0001	Pizza_Margherita	12-65	NULL
-c4644ee13484	SCIN0005	Garlic_Naan	2020-05	NULL
-29a2ab1e6a93	SCIN0003	Banana_Pancake	12-66	NULL
-0d654a32652c	SCIN0004	English_Muffin	62-66	NULL
-76333fb8d615	SCIN0002	Grilled_Cheese	62-65	NULL
-d40c5384e223	SCUBE001	Bass_Drum	2023-01	NULL
-6e5c434f9731	SCUBE002	Bodhran	2023-02	NULL
-dcee7e8c9fac	SCUBE003	Bongo	2023-03	NULL
-1e3f681da77e	SCUBE004	Snare_Drum	2023-04	NULL
-131a5fb94dae	SCUBE005	Tabla	2023-05	NULL
-66996833f589	SCUBE006	Taiko	2023-06	NULL
-89d9386b8bf9	SCUBE007	Timpani	2023-07	NULL
-5bd9cf7a7bc4	SCUBE008	Tom_Tom	2023-08	NULL
-305939e1ac83	SCUBE009	Carillone	2023-09	NULL
-f470533203af	SCUBE010	Castanet	2023-10	NULL
-2b813db6dcd9	SCUBE011	Chime	2023-11	NULL
-3270c97e3f5f	SCUBE012	Claves	2023-12	NULL
-25768738effc	SCUBE013	Cowbell	2023-13	NULL
-99e78f577c5f	SCUBE014	Crotales	2023-14	NULL
-ed257dc7af07	SCUBE015	Cymbal	2023-15	NULL
-44b26e29638d	SCUBE016	Zil	2023-16	NULL
-72a8b301512c	SCUBE017	Gamelan	2023-17	NULL
-1c05633d9365	SCUBE018	Glockenspiel	2023-18	NULL
-d0d8d3e451bb	SCUBE019	Gong	2023-19	NULL
-20cfbf709ef1	SCUBE020	Guiro	2023-20	NULL
-d3b6681f3fa6	SCUBE021	Handbell	2023-21	NULL
-ac245af1bd74	SCUBE022	Dunun	2023-22	NULL
-0be80e6de01f	SCUBE023	Maraca	2023-23	NULL
-d04c08372ffa	SCUBE024	Marimba	2023-24	NULL
-9af5e6369651	SCUBE025	Mbira	2023-25	NULL
-e38786a997f9	SCUBE026	Rainstick	2023-26	NULL
-a869ed340826	SCUBE027	Singing_Bowl	2023-27	NULL
-1bb88dd3b637	SCUBE028	Slit_Drum	2023-28	NULL
-12e4df159a33	SCUBE029	Spoons	2023-29	NULL
-2055aaaf2eed	SCUBE030	Steelpan	2023-30	NULL
-c36e39f53e7e	SCUBE031	Tambourine	2023-31	NULL
-02dcd49582cc	SCUBE032	Triangle	2023-32	NULL
-d2daacf92c3a	SCUBE033	Tubular_Bells	2023-33	NULL
-c42c0e20f97e	SCUBE034	Udu	2023-34	NULL
-e8933be1bf50	SCUBE035	Vibraphone	2023-35	NULL
-939e4b6bc9a9	SCUBE036	Washboard	2023-36	NULL
-3ebb6d4524a6	SCUBE037	Whip	2023-37	NULL
-2e1ce8052fe9	SCUBE038	Xylophone	2023-38	NULL
-28abd0fbde52	SCUBE039	Conga	2023-39	NULL
-49ef9de2fa14	SCUBE040	Rototom	2023-40	NULL
-fef6a0b94761	SCUBE041	Bell_Tree	2023-41	NULL
-e3e157390365	SCUBE042	Ipu	2023-42	NULL
-fe98695ac9c5	SCUBE043	Celesta	2023-43	NULL
-27738cd0ed22	SCUBE044	Piano	2023-44	NULL
-ac5125a3767b	SCUBE045	Anvil	2023-45	NULL
-aa09c3d7122d	SCUBE046	Marching_Machine	2023-46	NULL
-7b51c59d0524	SCUBE047	Ratchet	2023-47	NULL
-e57fd361050c	SCUBE048	Sand_Blocks	2023-48	NULL
-273b372ced14	SCUBE049	Temple_Blocks	2023-49	NULL
-7a5740dfb0ed	SCUBE050	Thunder_Sheet	2023-50	NULL
-484657db3e0f	SCUBE051	Djembe	2023-51	NULL
-21b0bf97e9c2	SCUBE052	Jawbone	2023-52	NULL
-ff245ac8fbac	SCUBE053	Atabaque	2023-53	NULL
-9984c001b14c	SCUBE054	Brake_Drum	2023-54	NULL
-4d9e3717241a	SCUBE055	Flexatone	2023-55	NULL
-348538238379	SCUBE056	Monkey_Stick	2023-56	NULL
-2e86e5a1e3fd	SCUBE057	Wood_Block	2023-57	NULL
-6937e9af6592	SCUBE058	Wind_Machine	2023-58	NULL
-42c452d697f6	SCUBE059	Chenda	2023-59	NULL
-2595785468bf	SCUBE060	Thavil	2023-60	NULL
-8345f5622449	SCUBE061	Fangxiang	2023-61	NULL
-fb467e69803d	SCUBE062	Riq	2023-62	NULL
-83b27b2a7c7b	SCUBE063	Pandeiro	2023-63	NULL
-ff2d381f65ab	SCUBE064	Bata	2023-64	NULL
-0f9cff64d691	UP4P0286	Radish	-	-
-5ef2c27326e9	AP5P0408	Vampire	-	-
-519231a39678	UP4P0270	Buffalo	-	-
-bccbd545b3c1	TP4Y0033	Potts_Landbier	-	-
-f316d197344f	IACT0001	Reliant_Robin	00-01	NULL
-eb790ff351bc	UP9P3732	Foo_Foo	07-37	-
-36a1c1fa2101	TP8P3661	Battle_Cry	07-38	-
-b80eef4219e3	UP8P3544	Heavenly	07-39	-
-e52acc7a09ed	TP9P3725	Dead_Tom	07-40	-
-549d926550e2	UP8P3602	Are	07-41	-
-e961eeeff5ba	TP8P3665	Balderdash	07-42	-
-7f7030c309ea	UP9P3728	Pepe_the_King_Prawn	07-45	-
-44e9bf0ebdac	UP9P3862	Wonambi	79-55	-
-9bcf05fe4c28	TP9P3827	Cave_Lion	79-56	-
