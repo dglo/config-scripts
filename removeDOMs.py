@@ -90,17 +90,24 @@ def main():
                     print("Skipping invalid mbid: ", vals[0], file=sys.stderr)
                     continue                
 
+    # Check that renaming options have been specified
     if cfgNewName is None or \
             cfgVersion is None or \
             cfgDomName is None:
-        print("Usage!", file=sys.stderr)
-        print(("Warning if you do not specify -v -n and -c "
-                              "this program will overwrite configuration "
-                              "files (bad)!"), file=sys.stderr)
+        print(("ERROR: if you do not specify -v -n and -c "
+               "this program will overwrite configuration "
+               "files (bad)!"), file=sys.stderr)
         print("-"*60, file=sys.stderr)
         usage()
         sys.exit(-1)
     
+    # Check that new and old names are not the same
+    cfgBase = os.path.splitext(os.path.basename(cfgName))[0]
+    cfgBaseNew = "%s-V%d" % (os.path.splitext(os.path.basename(cfgNewName))[0], cfgVersion)
+    if (cfgBase == cfgBaseNew):
+        print("ERROR: new configuration name cannot be the same as original!", file=sys.stderr)
+        sys.exit(-1)
+
     print("Removing", len(domList), "DOMs from configuration", cfgName)
 
     # Parse the run configuration files
