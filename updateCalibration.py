@@ -315,7 +315,7 @@ def main():
                 isIceTop = (string <= 86) and (dompos > 60) and (dompos < 65)
                 if isIceTop:
                     isLowGain = (dompos % 2 == 0)
-                    isScint = (string <= 86) and (dompos > 64)
+                isScint = (string <= 86) and (dompos > 64)
             else:
                 print("WARNING: no string, position for ", mbid)
                 isIceTop = False
