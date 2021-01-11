@@ -278,6 +278,9 @@ def main():
     except RunConfigException:
         print("WARNING: couldn't parse run configuration; trying old format...")
         rc = RunConfig(cfgName, oldFormat=True)
+    except IOError:
+        print("ERROR: couldn't read configuration file %s, exiting." % cfgName)
+        sys.exit(-1)
         
     # DOM positions, names, etc.
     nicks = nicknames()
@@ -305,12 +308,20 @@ def main():
                 print("WARNING: no calibration results for", mbid, \
                       nicks.getDOMPosition(mbid), nicks.getDOMName(mbid))
                 continue
-            
-            (string, dompos) = nicks.getDOMPosition(mbid)
-            isIceTop = (string <= 86) and (dompos > 60) and (dompos < 65)
-            if isIceTop:
-                isLowGain = (dompos % 2 == 0)
-            isScint = (string <= 86) and (dompos > 64)
+
+            omkey = nicks.getDOMPosition(mbid)
+            if omkey is not None:
+                (string, dompos) = omkey
+                isIceTop = (string <= 86) and (dompos > 60) and (dompos < 65)
+                if isIceTop:
+                    isLowGain = (dompos % 2 == 0)
+                    isScint = (string <= 86) and (dompos > 64)
+            else:
+                print("WARNING: no string, position for ", mbid)
+                isIceTop = False
+                isScint = False
+                (string, dompos) = (0, 0)
+                
             #-----------------------------------------------------
             # Determine new HV setting
             if mbid in gainExc:
